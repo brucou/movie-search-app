@@ -93,8 +93,7 @@ class App extends Component {
 export default App;
 
 // cf. https://frontarm.com/demoboard/?id=0d51aa8a-d5cf-443e-868c-3b8ce106062c
-// cf. https://stackblitz.com/edit/react-qxhxdq?file=src%2Findex.js
-// cf. https://codesandbox.io/s/yjwpx1wn8j
+// cf. https://codesandbox.io/s/5x8lwxw48k
 
 // Before going into the TDD process, we build an app shell, which reflect
 // our first design choices :
