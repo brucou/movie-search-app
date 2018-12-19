@@ -6,6 +6,7 @@ process.env.NODE_ENV = 'development';
 
 module.exports = {
   entry: "./tests/index.js",
+  devtool: 'inline-source-map',
   devServer: {
     contentBase: "./tests",
     hot: true

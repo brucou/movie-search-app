@@ -6,10 +6,9 @@ export const SvcUrl = relativeUrl => relativeUrl
   .replace(/(\?|$)/, '?api_key=bf6b860ab05ac2d94054ba9ca96cf1fa&');
 
 export function runSearchQuery(query) {
-  debugger
+  console.log(SvcUrl(query))
   return superagent.get(SvcUrl(query))
     .then(res => {
-      debugger
       return res.body.results
     })
 }
