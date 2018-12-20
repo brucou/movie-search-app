@@ -26,3 +26,6 @@ export const INITIAL_REQUEST = `https://api.themoviedb.org/3/movie/popular?api_k
 export const PROMPT = 'Search for a Title:'
 export const POPULAR_NOW= 'Popular Now';
 export const LOADING = 'Loading...';
+export const SEARCH_RESULTS_FOR = query => `Search Results for "${query}":`
+export const IMAGE_TMDB_PREFIX = 'http://image.tmdb.org/t/p/w300';
+export const NETWORK_ERROR='Network error';

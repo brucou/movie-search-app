@@ -1,5 +1,6 @@
 import './test-S0'
 import './test-S1'
+import './test-S2'
 QUnit.dump.maxDepth = 20;
 
 
