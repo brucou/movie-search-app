@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import {
-  DISCOVERY_REQUEST, events, IMAGE_TMDB_PREFIX, LOADING, NETWORK_ERROR, POPULAR_NOW, PROMPT, testIds
+  DISCOVERY_REQUEST, events, IMAGE_TMDB_PREFIX, INITIAL_REQUEST, LOADING, NETWORK_ERROR, POPULAR_NOW, PROMPT,
+  SEARCH_RESULTS_FOR, testIds
 } from "./properties"
 import emitonoff from "emitonoff"
 import h from "react-hyperscript";
 import hyperscript from "hyperscript-helpers";
-import { runSearchQuery } from "./helpers"
+import { makeQuerySlug, runSearchQuery } from "./helpers"
 
 const { div, a, ul, li, span, input, h1, h3, legend, img } = hyperscript(h);
 
@@ -43,7 +44,8 @@ const screens = {
               a(".uk-form-icon.uk-form-icon-flip.js-clear", { "uk-icon": "icon:search" }),
               input(".SearchBar__input.uk-input.js-input", {
                 "type": "text",
-                "defaultValue": "",
+                "value":"",
+                "onChange": domEventHandlers[QUERY_CHANGED],
                 "data-testid": QUERY_FIELD_TESTID
               })
             ]),
@@ -64,17 +66,19 @@ const screens = {
             h1([`TMDb UI – Home`]),
             legend(".uk-legend", { "data-testid": PROMPT_TESTID }, [PROMPT]),
             div(".SearchBar.uk-inline.uk-margin-bottom", [
-              a(".uk-form-icon.uk-form-icon-flip.js-clear", { "uk-icon": "icon:search" }),
+              a(".uk-form-icon.uk-form-icon-flip.js-clear", {
+                "uk-icon": query.length > 0 ? "icon:close"  : "icon:search",
+                "onClick": domEventHandlers[QUERY_RESETTED]
+              }),
               input(".SearchBar__input.uk-input.js-input", {
                 "type": "text",
-                "defaultValue": "",
-                // "oninput": "return ${domEventHandlers[QUERY_CHANGED]}(event)",
+                "value": query,
+                "onChange": domEventHandlers[QUERY_CHANGED],
                 "data-testid": QUERY_FIELD_TESTID,
               })
             ]),
             h3(".uk-heading-bullet.uk-margin-remove-top", { "data-testid": RESULTS_HEADER_TESTID }, [
-              // query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
-              POPULAR_NOW
+              query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
             ]),
             div(".ResultsContainer", { "data-testid": RESULTS_CONTAINER_TESTID }, [
               ul(".uk-thumbnav", [
@@ -83,7 +87,6 @@ const screens = {
                     li(".uk-margin-bottom", { "key": result.id, }, [
                       a(".ResultsContainer__result-item.js-result-click", {
                         "href": "#",
-                        // TODO : ev prevent default!!
                         "onClick": () => false,
                         "data-id": result.id,
                       }, [
@@ -107,7 +110,7 @@ const screens = {
       ])
     ])
   ),
-  SEARCH_ERROR_SCREEN: () => (
+  SEARCH_ERROR_SCREEN: (query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
       views.HEADER,
       div(".App__view-container", [
@@ -116,11 +119,14 @@ const screens = {
             h1([`TMDb UI – Home`]),
             legend(".uk-legend", { "data-testid": PROMPT_TESTID }, [PROMPT]),
             div(".SearchBar.uk-inline.uk-margin-bottom", [
-              a(".uk-form-icon.uk-form-icon-flip.js-clear", { "uk-icon": "icon:search" }),
+              a(".uk-form-icon.uk-form-icon-flip.js-clear", {
+                "uk-icon": query.length > 0 ? "icon:close"  : "icon:search",
+                "onClick": domEventHandlers[QUERY_RESETTED]
+              }),
               input(".SearchBar__input.uk-input.js-input", {
                 "type": "text",
-                "defaultValue": "",
-                // "oninput": "return ${domEventHandlers[QUERY_CHANGED]}(event)",
+                "value": query,
+                "onChange": domEventHandlers[QUERY_CHANGED],
                 "data-testid": QUERY_FIELD_TESTID,
               })
             ]),
@@ -135,13 +141,49 @@ const screens = {
       ])
     ])
   ),
+  SEARCH_RESULTS_AND_LOADING_SCREEN: (results, query) =>
+    div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
+      views.HEADER,
+      div(".App__view-container", [
+        div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
+          div(".HomePage", [
+            h1([`TMDb UI – Home`]),
+            legend(".uk-legend", { "data-testid": PROMPT_TESTID }, [PROMPT]),
+            div(".SearchBar.uk-inline.uk-margin-bottom", [
+              a(".uk-form-icon.uk-form-icon-flip.js-clear", {
+                "uk-icon": query.length > 0 ? "icon:close"  : "icon:search",
+                "onClick": domEventHandlers[QUERY_RESETTED]
+              }),
+              input(".SearchBar__input.uk-input.js-input", {
+                "type": "text",
+                "value": query,
+                "onChange": domEventHandlers[QUERY_CHANGED],
+                "data-testid": QUERY_FIELD_TESTID,
+              })
+            ]),
+            h3(".uk-heading-bullet.uk-margin-remove-top", { "data-testid": RESULTS_HEADER_TESTID }, [
+              query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
+            ]),
+            div(".ResultsContainer", { "data-testid": RESULTS_CONTAINER_TESTID }, [
+              <div>Loading...</div>
+            ])
+          ])
+        ])
+      ])
+    ]),
 };
 
 // Now the logic of the app
-const domEventHandlers = {};
+const domEventHandlers = {
+  [QUERY_CHANGED]: function (ev) {
+    eventEmitter.emit(QUERY_CHANGED, ev.target.value)
+  },
+  [QUERY_RESETTED]: function (ev) {eventEmitter.emit(QUERY_CHANGED, '')},
+};
 
 function handleAppEvents(app, event, args) {
-  const { queryFieldHasChanged } = app.state;
+  const { queryFieldHasChanged, currentQuery, results } = app.state;
+
   switch (event) {
     case USER_NAVIGATED_TO_APP :
       app.setState({ screen: screens.LOADING_SCREEN() });
@@ -155,14 +197,45 @@ function handleAppEvents(app, event, args) {
       // state.results = results;
 
       if (queryFieldHasChanged === false) {
-        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(results) });
+        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(results, ''), results });
+      }
+      else if (queryFieldHasChanged === true) {
+        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(results, currentQuery), results });
       }
       break;
 
     case SEARCH_ERROR_RECEIVED:
       const [err] = args;
       if (queryFieldHasChanged === false) {
-        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(err) });
+        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(err, '') });
+      }
+      else if (queryFieldHasChanged === true) {
+        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(err, currentQuery) });
+      }
+      break;
+
+    case QUERY_CHANGED:
+      let [query] = args;
+
+      if (queryFieldHasChanged === false ) {
+        app.setState({
+          screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
+          queryFieldHasChanged: true,
+          currentQuery: query
+        });
+        runSearchQuery(makeQuerySlug(query))
+          .then(res => eventEmitter.emit(SEARCH_RESULTS_RECEIVED, res))
+          .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, err))
+      }
+      else if (queryFieldHasChanged === true ) {
+        app.setState({
+          screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
+          queryFieldHasChanged: true,
+          currentQuery: query
+        });
+        runSearchQuery(makeQuerySlug(query))
+          .then(res => eventEmitter.emit(SEARCH_RESULTS_RECEIVED, res))
+          .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, err))
       }
       break;
 
