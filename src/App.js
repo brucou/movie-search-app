@@ -195,6 +195,5 @@ class App extends Component {
 
 export default App;
 
-// TODO update codesandbox
-// cf. https://frontarm.com/demoboard/?id=0d51aa8a-d5cf-443e-868c-3b8ce106062c
-// cf. https://codesandbox.io/s/5x8lwxw48k
+// cf. https://frontarm.com/demoboard/????? pending bug fixing with superagent
+// cf. https://codesandbox.io/s/qkv1n23464
