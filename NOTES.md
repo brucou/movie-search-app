@@ -58,5 +58,5 @@ and also put a .babelrc
 - S1: loading : https://codesandbox.io/s/vvymn2qn3l
 - S2-3: init results ok : https://codesandbox.io/s/y2yljrzxj1
 - S2-3: init results error : https://codesandbox.io/s/y2yljrzxj1
-
-
+- S4-7 : (NO TEST yet) https://codesandbox.io/s/4j95n6pn04
+- S8-all

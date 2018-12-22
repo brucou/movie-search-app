@@ -604,3 +604,42 @@ export const RESULT_QUERY_a = [
     "release_date": "2018-06-20"
   }
 ];
+export const DETAILS_484247 = {
+  "adult": false,
+  "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+  "belongs_to_collection": null,
+  "budget": 20000000,
+  "genres": [
+    { "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, { "id": 9648, "name": "Mystery" },
+    { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }
+  ],
+  "homepage": "https://asimplefavor.movie/",
+  "id": 484247,
+  "imdb_id": "tt7040874",
+  "original_language": "en",
+  "original_title": "A Simple Favor",
+  "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+  "popularity": 95.446,
+  "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+  "production_companies": [{
+    "id": 61791,
+    "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+    "name": "Feigco Entertainment",
+    "origin_country": "US"
+  }, { "id": 13240, "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png", "name": "Bron Studios", "origin_country": "CA" }
+  ],
+  "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+    "iso_3166_1": "US",
+    "name": "United States of America"
+  }],
+  "release_date": "2018-08-29",
+  "revenue": 94800000,
+  "runtime": 117,
+  "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+  "status": "Released",
+  "tagline": "Can you keep a secret?",
+  "title": "A Simple Favor",
+  "video": false,
+  "vote_average": 6.4,
+  "vote_count": 615
+}

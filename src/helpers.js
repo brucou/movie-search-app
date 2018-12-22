@@ -9,7 +9,7 @@ export function runSearchQuery(query) {
   console.log(SvcUrl(query))
   return superagent.get(SvcUrl(query))
     .then(res => {
-      return res.body.results
+      return res.body
     })
 }
 

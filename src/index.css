@@ -117,8 +117,6 @@ html, body, #root {
   text-decoration: none;
 }
 
-/* MovieDetailsPage.css */
-
 .MovieDetailsPage__img-container {
   float: left;
   min-width: 342px;
@@ -133,3 +131,4 @@ html, body, #root {
 .MovieDetailsPage dd {
   margin-left: 362px;
 }
+
