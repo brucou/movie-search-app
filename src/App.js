@@ -354,7 +354,6 @@ const screens = {
                           img({
                             "src": `${IMAGE_TMDB_PREFIX}${result.backdrop_path}`,
                             "alt": "",
-                            // "onClick": domEventHandlers[MOVIE_SELECTED](result),
                             "data-testid": MOVIE_IMG_SRC_TESTID
                           })
                         ]),
@@ -388,7 +387,7 @@ const domEventHandlers = {
 };
 
 function handleAppEvents(app, event, args) {
-  const { queryFieldHasChanged, currentQuery, results, movieDetails, cast } = app.state;
+  const { queryFieldHasChanged, movieQuery, results, movieDetails, cast } = app.state;
 
   switch (event) {
     case USER_NAVIGATED_TO_APP :
@@ -405,7 +404,7 @@ function handleAppEvents(app, event, args) {
         app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, ''), results: searchResults });
       }
       else if (queryFieldHasChanged === true) {
-        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, currentQuery), results:searchResults });
+        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, movieQuery), results:searchResults });
       }
       break;
 
@@ -414,7 +413,7 @@ function handleAppEvents(app, event, args) {
         app.setState({ screen: screens.SEARCH_ERROR_SCREEN('') });
       }
       else if (queryFieldHasChanged === true) {
-        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(currentQuery) });
+        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(movieQuery) });
       }
       break;
 
@@ -448,7 +447,7 @@ function handleAppEvents(app, event, args) {
       const movieId = movie.id;
 
       app.setState({
-        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, currentQuery, movie),
+        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, movieQuery, movie),
       });
       Promise.all([
         runSearchQuery(`/movie/${movieId}`),
@@ -462,7 +461,7 @@ function handleAppEvents(app, event, args) {
       const [movieDetails, cast] = args;
 
       app.setState({
-        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS(results, currentQuery, movieDetails, cast),
+        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS(results, movieQuery, movieDetails, cast),
         movieDetails,
         cast
       });
@@ -470,16 +469,14 @@ function handleAppEvents(app, event, args) {
 
     case SEARCH_ERROR_MOVIE_RECEIVED :
       app.setState({
-        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR(results, currentQuery, movieDetails, cast),
+        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR(results, movieQuery, movieDetails, cast),
       });
-      debugger
       break;
 
     case MOVIE_DETAILS_DESELECTED :
       app.setState({
-        screen: screens.SEARCH_RESULTS_SCREEN(results, currentQuery),
+        screen: screens.SEARCH_RESULTS_SCREEN(results, movieQuery),
       });
-      debugger
       break;
 
     default :
