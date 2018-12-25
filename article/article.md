@@ -1,121 +1,120 @@
 # Building robust, maintainable user interfaces with state machines
-What can state machines possibly have to do with user interfaces? That link is definitely not 
-obvious on the face of it, and introduced like that it just sounds like a solution in need of a 
-problem. So let's rewind and start with the problem instead.
+So, you just finished a client's project. This were three months of crazy deadlines, and
+constant changes in specifications, and endless streams of bugs, but you did it. Happy as Ulysses 
+on his way back to Ithaka, you are looking forward to the loving arms of Penelope. That, and 
+sitting in the sofa and do some movie-binging as in the old days. For some reasons, unhappy of 
+the time you spent browsing through movies, you decide but of course, Sir confident programmer will 
+make an online interface to the [The Movie Database (TMDb)](https://www.themoviedb.org/?language=en-US).
+It is easy, a query field, a few network requests, displaying results, what can possibly go 
+wrong?
 
-Real, ground-breaking innovations when it comes to web applications are increasing rare. For any 
-perceived user need, there is plethora of applications craving to answer that need, competing  
-for user's attention and money. User interfaces, and the targeted user experience are often a 
-key factor of differentiation for applications which cannot differentiate themselves merely on  
-features (how many truely useful features can you have in a chat application?). In parallel to 
-that, applications are now accessed through an ever increasing range of devices, each having 
-their own characteristics in terms of user experience. What this means is that the complexity of 
-user interfaces that we have to implement is poised to grow faster than, first our ability to 
-mentally represent that complexity, second the tools at our disposal to handle it. 
+So you take the informal specifications in your head, imagine how you would like to use the app, 
+craft detailed specifications, user flows, design your screens, and do the programming. It does 
+not look bad. If it was not for all those bugs...
 
-The challenges of any complex software asides, and ignoring here the difficulty inherent to 
-interface design, as Brad. A Myers noted already in 1994(!), user interfaces **specification and 
-implementation**, are uniquely challenging due to the fact that :
-- F1 : they are hard to specify thoroughly and accurately
-- F2 : they must handle graciously unexpected/malformed inputs
-- F3 : a good user experience is the result of a highly iterative process
-- F4 : user interfaces are concurrent systems (mmmm aybe remove that one, fsm does not help here, 
-well it helps a bit but not the best, due to RunToCompletion model)
+In this article, we are going to use this simple online movie search application to showcase the 
+benefits of using explicit state machines in the modelization and implementation of user 
+interfaces. We start with describing the search application, and end up presenting the state 
+machine formalism. In the process we will reveal the implicit state machine complected in our 
+code and show how state machine modeling leads to robust and maintainable interfaces.
 
-I will try to explain in this article how using state machines as a modelling and 
-implementation tool helps remediate each of the previous pain points. To do so I am going to 
-implement a simple (trivial?) movie search application starting from its informal 
-specification and following a BDD/TDD methodology. I will then contrast the BDD specifications 
-with the state machine modelling, and the TDD implementation with the state-machine-based 
-implementation and its machine-generated testing. In the process, the benefits of the state machine 
-formalism will hopefully become more apparent. Finally I will discuss current options and further 
-steps to include state machine modelling in your workflow.
+[some nice words, we will abundantly use code examples, some concepts may be novel to you, don 
+give up or something like that]
 
 ## The movie search app
-We want to implement a very simple online interface to the [The Movie Database (TMDb)](https://www.themoviedb.org/?language=en-US).
+Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
+different stages of the user flow.
 
-The user should be able to query the database, visualize basic information about a selected subset
- of the matching movies, and click on a specific movie to visualize detailed information about 
- that movie.
-
-In order to scope and guide our implementation, we try to write the specifications of the 
-**interface behaviour** in a more formalized form, taking a page from BDD :
+### Detailed specifications
+In order to scope and guide the implementation, you write the detailed specifications of the 
+**interface behaviour** in a more formalized form, taking a page from BDD[^1] :
  
- ```gherkin
-  - GIVEN some other url
-    - WHEN user navigates to [url], THEN 
-      - display loading screen
-      - query for movies in some default way
-  - GIVEN user navigated to [url] AND query field has not changed 
-    - WHEN default query is successful, THEN display (result screen) 
-  - GIVEN url not [url] AND user navigates to [url] AND query field has not changed 
-    - WHEN default query is not successful, THEN display (error screen)
-  - GIVEN user navigated to [url] AND query field has not changed 
-    - WHEN query field changes AND query field is not empty, THEN 
-      - query for movies containing the content of <query> field
-      - display loading screen
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty
-    - WHEN query is successful, THEN display (result screen)
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty
-    - WHEN query is not successful, THEN display (error screen)
-(note that is error with sarimarton ui!! - he does not display error when search fails)
-  - GIVEN user navigated to [url] AND query field changed
-    - WHEN query field changes AND query field is empty, THEN 
-      - display loading screen
-      - query for movies in some default way
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query was successful 
-    - WHEN user clicks on a movie, THEN 
-      - display movie detail loading screen
-      - query for movie detail screen on top of movie screen 
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-   was successful AND user clicked on a movie  
-    - WHEN movie detail query is successful, THEN 
-      - display movie detail screen
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-   was successful AND user clicked on a movie  
-    - WHEN movie detail query is not successful, THEN 
-      - display movie detail error screen
-  - GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-   was successful AND user clicks on a movie AND movie detail query is successful
-    - WHEN user clicks outside of the movie detail, THEN display (result screen) corresponding to
-     the query
+```gherkin
+1. GIVEN some other url
+ - WHEN user navigates to [url], THEN 
+   - display loading screen
+   - query for movies in some default way
+2. GIVEN user navigated to [url] AND query field has not changed 
+ - WHEN default query is successful, THEN display (result screen) 
+3. GIVEN url not [url] AND user navigates to [url] AND query field has not changed 
+ - WHEN default query is not successful, THEN display (error screen)
+4. GIVEN user navigated to [url] AND query field has not changed 
+ - WHEN query field changes AND query field is not empty, THEN 
+   - query for movies containing the content of <query> field
+   - display loading screen
+5. GIVEN user navigated to [url], AND query field changed AND query field is not empty
+ - WHEN query is successful, THEN display (result screen)
+6. GIVEN user navigated to [url], AND query field changed AND query field is not empty
+ - WHEN query is not successful, THEN display (error screen). 
+7. GIVEN user navigated to [url] AND query field changed
+ - WHEN query field changes AND query field is empty, THEN 
+   - display loading screen
+   - query for movies in some default way
+8. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query 
+was successful 
+ - WHEN user clicks on a movie, THEN 
+   - display movie detail loading screen
+   - query for movie detail screen on top of movie screen 
+9. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
+was successful AND user clicked on a movie  
+ - WHEN movie detail query is successful, THEN 
+   - display movie detail screen
+10. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
+was successful AND user clicked on a movie  
+ - WHEN movie detail query is not successful, THEN 
+   - display movie detail error screen
+11. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
+was successful AND user clicks on a movie AND movie detail query is successful
+ - WHEN user clicks outside of the movie detail, THEN display (result screen) corresponding to
+  the query
 ```
 
-Note that in actual BDD, those 11 `(GIVEN, WHEN, THEN)` triples would be gathered in two or three 
-scenarios, and would have a syntax corresponding to the actual BDD library used. For the sake of 
-this demo, we keep things simple and do not detail the scenarios or pay attention to syntax.
+[^1]: In actual BDD, you would actually consolidate those 11 assertions in two or three scenarios,
+ and adopt whatever syntax of the BDD tool under use. 
 
-The key points here are :
-- we have a much more refined, precise, step-by-step description of our user interface behaviour
-- it can be precised further, as we left room for details which may be parameterized, or not set in 
-stone at the time of specifying, or may be found in another document :
-  - default way of querying the database
-  - which url does the user navigate to, etc.
+In terms of visual design, it would go like this :
 
-The interface design is provided by the designer, as follows :
+![6](./app%20screenshot%20query%20-%20error.png)
 
-**TODO** put an image table here like pure ui, though this will probably be one screen per case
+| Spec#  | Screen  |
+|---|---|
+| 1  |  ![1](./app%20screenshot%20init%20-%20pending.png)|
+| 2  | ![2](./app%20screenshot%20init%20-%20success.png)|
+| 3  | ![3](./app%20screenshot%20init%20-%20error.png) |
+| 4  | ![4](./app%20screenshot%20query%20-%20pending.png) |
+| 5  | ![5](./app%20screenshot%20query%20-%20success.png) |
+| 6  | ![6](./app%20screenshot%20query%20-%20error.png) |
+| 7  |  ![1](./app%20screenshot%20init%20-%20pending.png) |
+| 8  | ![8](./app%20screenshot%20query%20detail%20-%20pending.png) |
+| 9  | ![9](./app%20screenshot%20query%20detail%20-%20success.png) |
+| 10  | ![9](./app%20screenshot%20query%20detail%20-%20error.png) |
+| 11  | ![5](./app%20screenshot%20query%20-%20success.png) |
 
-Armed with those behavioural specifications and visual design, we can start our TDD process. We 
-start with building a shell application. We choose React as a DOM library. Even if you don't know
- React, you should be able to understand the implementation pretty well. To that purpose, we are 
- using hyperscript helpers, which allow to write the screens in a way very similar to html. Apart
-  from the React twist, we use a standard model-view-controller division :
+### Implementation
+The TDD methodology leads to an implementation which can be found here:
+
+TODO : put the branches
+
+| Spec#  | Screen  |
+|---|---|
+| 0  |  ![0](./TODO|
+| 1  |  ![1](https://github.com/brucou/movie-search-app/tree/specs-S1)|
+| 2-3  | ![2-3](https://github.com/brucou/movie-search-app/tree/specs-S2|
+| 4-7  | ![4-7](https://github.com/brucou/movie-search-app/tree/specs-S4 |
+| 8-11  | ![8-11](https://github.com/brucou/movie-search-app/tree/specs-S8|
+
+ React was chosen as a DOM library. Even if you don't know React, you should be able to 
+ understand the implementation pretty well. To that purpose, we are using hyperscript helpers, 
+ which allow to write the screens in a way very similar to html. Apart from the React twist, we 
+ use a standard model-view-controller division :
  - events are propagated to a central controller
  - the controller elicits what actions to do, based on the current value of a model
  - the controller perform those actions, and updates the model
 
-You can follow the different stages of the TDD process through the following branches of the [demo
- repository](TODO) : 
- some table : implementation, and some notes for each, explain the benefits of displaying screen 
- as is from the designer, and refactoring later into components
-
-The key takeaway here is that if the specifications give us the 7 configurations (screens) for the 
-user interface, for which a designer can work its magic. The implementation may be 
-simplified as there is no need, as in a top-bottom approach, to imagine in advance 
-how screens could be divided into components. Instead, components may appear in the TDD refactoring 
-phase, with a view to eliminating repetition. In our demo, we haven't given any thoughts to 
-refactoring.
+The key takeaway from the bottom-up TDD implementation is that there is no need to imagine in 
+advance how screens could be divided into components. Instead, components may appear in the TDD 
+refactoring phase, with a view to eliminating repetition. In our demo, we haven't given any 
+thoughts to refactoring.
 
 ## Refactoring towards state machines
 Did you notice the form of our specifications ? Abstracting over application-specific content, 
@@ -425,11 +424,7 @@ WAY TOO LONG!!!
 cf. https://wordcounter.net/
 ask if 3000 words include the examples too... but way way too long!!
 
-you are assigned to a quick and dirty project ...
-so how would you do it? typically you think about the application, imagining how a user would use
- the app. That gives you a series of user flow, and you matches screen to that user flow. So you 
- come up with the following BDD specifications :
- 
+
  ...
  
  with the following screens designed by the faviourite designer. 

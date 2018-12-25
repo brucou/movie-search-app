@@ -317,7 +317,8 @@ const screens = {
       ])
     ])
   ),
-  SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR: (results, query, details, cast) => (
+  // TODO : to update too in S8-11!!
+  SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR: (results, query, details, title) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
       views.HEADER,
       div(".App__view-container", { onClick: domEventHandlers[MOVIE_DETAILS_DESELECTED] }, [
@@ -369,8 +370,8 @@ const screens = {
         ]),
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "item" }, [
           div([
-            h1([details.title]),
-            div(['Loading...']),
+            h1([title]),
+            div({ "data-testid": NETWORK_ERROR_TESTID }, [NETWORK_ERROR])
           ])
         ])
       ])
@@ -387,7 +388,8 @@ const domEventHandlers = {
 };
 
 function handleAppEvents(app, event, args) {
-  const { queryFieldHasChanged, movieQuery, results, movieDetails, cast } = app.state;
+  // TODO update S8-11 (title)
+  const { queryFieldHasChanged, movieQuery, results, movieTitle, movieDetails, cast } = app.state;
 
   switch (event) {
     case USER_NAVIGATED_TO_APP :
@@ -421,20 +423,22 @@ function handleAppEvents(app, event, args) {
       const [query] = args;
 
       if (queryFieldHasChanged === false) {
+        // TODO update S4-7
         app.setState({
           screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
           queryFieldHasChanged: true,
-          currentQuery: query
+          movieQuery: query
         });
         runSearchQuery(makeQuerySlug(query))
           .then(res => eventEmitter.emit(SEARCH_RESULTS_RECEIVED, res.results))
           .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, err))
       }
       else if (queryFieldHasChanged === true) {
+        // TODO update S4-7
         app.setState({
           screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
           queryFieldHasChanged: true,
-          currentQuery: query
+          movieQuery: query
         });
         runSearchQuery(makeQuerySlug(query))
           .then(res => eventEmitter.emit(SEARCH_RESULTS_RECEIVED, res.results))
@@ -446,8 +450,10 @@ function handleAppEvents(app, event, args) {
       const [movie] = args;
       const movieId = movie.id;
 
+      // TODO update S8-11 (title)
       app.setState({
         screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, movieQuery, movie),
+        movieTitle : movie.title
       });
       Promise.all([
         runSearchQuery(`/movie/${movieId}`),
@@ -469,7 +475,7 @@ function handleAppEvents(app, event, args) {
 
     case SEARCH_ERROR_MOVIE_RECEIVED :
       app.setState({
-        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR(results, movieQuery, movieDetails, cast),
+        screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR(results, movieQuery, movieDetails, movieTitle),
       });
       break;
 
