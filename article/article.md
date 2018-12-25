@@ -74,8 +74,6 @@ was successful AND user clicks on a movie AND movie detail query is successful
 
 In terms of visual design, it would go like this :
 
-![6](./app%20screenshot%20query%20-%20error.png)
-
 | Spec#  | Screen  |
 |---|---|
 | 1  |  ![1](./app%20screenshot%20init%20-%20pending.png)|
