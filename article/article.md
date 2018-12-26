@@ -91,13 +91,13 @@ In terms of visual design, it would go like this :
 ### Implementation
 The TDD methodology leads to an implementation which can be found here:
 
-| Spec#  | Screen  |
+| Spec#  | Branch  |
 |---|---|
 | 0  |  ![0](./TODO)|
-| 1  |  ![1](https://github.com/brucou/movie-search-app/tree/specs-S1)|
-| 2-3  | ![2-3](https://github.com/brucou/movie-search-app/tree/specs-S2)|
-| 4-7  | ![4-7](https://github.com/brucou/movie-search-app/tree/specs-S4) |
-| 8-11  | ![8-11](https://github.com/brucou/movie-search-app/tree/specs-S8)|
+| 1  |  [specs-S1](https://github.com/brucou/movie-search-app/tree/specs-S1)|
+| 2-3  | [specs-S2](https://github.com/brucou/movie-search-app/tree/specs-S2)|
+| 4-7  | [specs-S4](https://github.com/brucou/movie-search-app/tree/specs-S4) |
+| 8-11  | [specs-S8](https://github.com/brucou/movie-search-app/tree/specs-S8)|
 
 Even if you don't know React, the chosen DOM library, you should be able to 
  understand the implementation pretty well. To that purpose, we are using hyperscript helpers, 
