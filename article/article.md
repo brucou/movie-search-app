@@ -18,8 +18,8 @@ interfaces. We start with describing the search application, and end up presenti
 machine formalism. In the process we will reveal the implicit state machine complected in our 
 code and show how state machine modeling leads to robust and maintainable interfaces.
 
-The concept may be novel to some. Do not hesitate to pause and rewind, consult the code, and leave
- your code questions on stack overflow.
+The concept may be novel to some, and this article covers them relatively fast. Do not hesitate to 
+pause and rewind, consult the code, and leave your code questions on stack overflow. 
 
 ## The movie search app
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
@@ -428,11 +428,12 @@ the following libraries exist to integrate with `React`:
 
 | Library | Comment |
 |---|---|
-| [react-state-driven]() | sth |
-| [react-automata]() | sth |
-| [react-xstate]() | sth |
+| [react-state-driven](https://github.com/brucou/react-state-driven) | sth |
+| [react-automata](https://github.com/MicheleBertoli/react-automata) | sth |
+| [react-xstate](https://github.com/nenti/react-xstate) | sth |
+
 
 Interesting articles :
 - [How to visually design state in JavaScript](https://medium.freecodecamp
 .org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
-- 
+- [application process demo](https://github.com/brucou/cycle-state-machine-demo/tree/first-iteration-fix)
