@@ -401,11 +401,11 @@ You can have a look at an implementation (and tests!) of the online interface to
 using dedicated state machine libraries (disclaimer : I wrote those libraries).
 
 ## Conclusion
-Modelling user interfaces' behaviour with explicit state machines produces robust interfaces. 
-That is the reason behind their success in safety-critical software (nuclear plants. aeronautics,
- etc.). Being both formal and easy to understand, it allows to reason easily about complex 
- behaviours. That is why it found success in games of some complexity. The automatic test and 
- code generation can also translate in improved productivity of the development process (less 
+Modelling user interfaces' behaviour with explicit state machines produces robust and 
+maintainable interfaces. That is the reason behind their success in safety-critical software 
+(nuclear plants. aeronautics, etc.). Additionally, it allows to reason easily about complex 
+behaviours. That is why it found success in games of some complexity. The automatic test and 
+code generation can also translate in improved productivity of the development process (less 
  debugging, and less code to write).
 
 While it is a de facto method for modeling complex behaviours in the large, it is also beneficial
