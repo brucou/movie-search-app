@@ -7,5 +7,3 @@ import h from "react-hyperscript";
 
 ReactDOM.render(h(App), document.getElementById('root'));
 
-// Demo : cf. https://codesandbox.io/s/5x8lwxw48k
-// Test : cf. https://codesandbox.io/s/5zjo6vy0xl

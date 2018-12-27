@@ -33,3 +33,11 @@ export const LOADING = 'Loading...';
 export const SEARCH_RESULTS_FOR = query => `Search Results for "${query}":`
 export const IMAGE_TMDB_PREFIX = 'http://image.tmdb.org/t/p/w300';
 export const NETWORK_ERROR='Network error';
+
+// States
+export const MOVIE_QUERYING = 'Movie querying';
+export const MOVIE_SELECTION = 'Movie selection';
+export const MOVIE_SELECTION_ERROR = 'Movie selection error';
+export const MOVIE_DETAIL_SELECTION = 'Movie detail selection';
+export const MOVIE_DETAIL_QUERYING = 'Movie detail querying';
+export const MOVIE_DETAIL_SELECTION_ERROR= 'Movie detail selection error';

@@ -1,11 +1,51 @@
 import React, { Component } from 'react';
+import h from "react-hyperscript"
+import hyperscript from "hyperscript-helpers"
+import { BehaviorSubject, merge, Observable } from 'rxjs';
+import { filter, flatMap, map, shareReplay, startWith } from "rxjs/operators";
+import { Machine } from "react-state-driven"
+import { create_state_machine, INIT_EVENT } from "state-transducer"
+import { applyPatch } from "json-patch-es6";
+import emitonoff from "emitonoff"
 import {
   DISCOVERY_REQUEST, events, IMAGE_TMDB_PREFIX, LOADING, NETWORK_ERROR, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, testIds
 } from "./properties"
-import emitonoff from "emitonoff"
-import h from "react-hyperscript"
-import hyperscript from "hyperscript-helpers"
 import { makeQuerySlug, runSearchQuery } from "./helpers"
+import movieSearchFsmDef from "fsm"
+
+const stateTransducerRxAdapter = {
+  // NOTE : this is start the machine, by sending the INIT_EVENT immediately prior to any other
+  subjectFactory: () => new BehaviorSubject([INIT_EVENT, void 0]),
+  create: fn => Observable.create(fn),
+  merge, startWith, filter, map, flatMap, shareReplay,
+};
+
+/**
+ *
+ * @param {ExtendedState} extendedState
+ * @param {Operation[]} extendedStateUpdateOperations
+ * @returns {ExtendedState}
+ */
+export function applyJSONpatch(extendedState, extendedStateUpdateOperations) {
+  return applyPatch(extendedState, extendedStateUpdateOperations || [], false, false).newDocument;
+}
+
+const fsm = create_state_machine(movieSearchFsmDef, { updateState: applyJSONpatch });
+
+export const App = h(Machine, {
+  // TODO : write it with transducers, and emitonoff emitter, will have to do lots of API surfaceing, and change
+  // emit to next in state-transducer -? new version pass it to master
+  // TODO : mmm but I must have implementation on th 7.1 though, will that not delay me a lot? should not
+  // worse case use rx
+  eventHandler: stateTransducerRxAdapter,
+  // TODO : use simplest preprocessor i.e. identity
+  preprocessor: movieSearchFsmDef.preprocessor,
+  fsm: fsm,
+  commandHandlers: movieSearchFsmDef.commandHandlers,
+  // TODO runSearchQuery to mock
+  effectHandlers: movieSearchFsmDef.effectHandlers,
+}, []);
+
 
 const { div, a, ul, li, span, input, h1, h3, legend, img, dl, dt, dd } = hyperscript(h);
 
@@ -406,7 +446,7 @@ function handleAppEvents(app, event, args) {
         app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, ''), results: searchResults });
       }
       else if (queryFieldHasChanged === true) {
-        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, movieQuery), results:searchResults });
+        app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(searchResults, movieQuery), results: searchResults });
       }
       break;
 
@@ -453,7 +493,7 @@ function handleAppEvents(app, event, args) {
       // TODO update S8-11 (title)
       app.setState({
         screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, movieQuery, movie),
-        movieTitle : movie.title
+        movieTitle: movie.title
       });
       Promise.all([
         runSearchQuery(`/movie/${movieId}`),
