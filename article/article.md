@@ -95,7 +95,6 @@ The TDD methodology leads to an implementation which can be found here:
 
 | Spec#  | Branch  |
 |---|---|
-| 0  |  ![0](./TODO)|
 | 1  |  [specs-S1](https://github.com/brucou/movie-search-app/tree/specs-S1)|
 | 2-3  | [specs-S2](https://github.com/brucou/movie-search-app/tree/specs-S2)|
 | 4-7  | [specs-S4](https://github.com/brucou/movie-search-app/tree/specs-S4) |
@@ -345,10 +344,11 @@ We thus have a testing methodology, but how do we generate those event sequences
  which do not produce any actions or are by construction of the interface impossible (imagine you
  add a button click event in the sequence, while in fact there is no such button in the screen 
   at that moment). That is not completely uninteresting : we also want to test that our machine 
-  **does not do anything** if it receives events for which no actions is specified! However, if 90% of the test sequences goes into checking that, that is a lot of waste.
+  **does not do anything** if it receives events for which no actions are specified! However, if 
+  90% of the test sequences goes into checking that, that is a lot of waste.
 
 The good news is that because our machine is a graph (as you can see from its visualization), we 
-can generate 'interesting' test sequences simply by following the edges (transitions) of that 
+can generate **interesting test sequences** simply by following the edges (transitions) of that 
 graph. This process can be automatized through application of the usual graph traversal algorithms.
 
 Remember that we test for two reasons : to generate confidence in the behaviour of the application,
@@ -445,7 +445,7 @@ Interesting articles :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [application process demo](https://github.com/brucou/cycle-state-machine-demo/tree/first-iteration-fix)
 
-We barely touched the surface of the subject. Other subject of interests I might touch in other 
+We barely touched the surface of the subject. Other subjects of interest I might touch in other 
 articles :
 - state machine, hierarchy, and componentization to fight complexity
 - best practices for state machine modelling
