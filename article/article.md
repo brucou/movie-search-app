@@ -28,7 +28,7 @@ different stages of the user flow.
 
 ### Detailed specifications
 In order to scope and guide the implementation, you write the detailed specifications of the 
-**interface behaviour** in a more formalized form, taking a page from BDD[^1] :
+**interface behaviour** in a more formalized form, taking a chapter from BDD[^1] :
  
 ```gherkin
 1. GIVEN some other url
@@ -70,9 +70,9 @@ was successful AND user clicks on a movie AND movie detail query is successful
   the query
 ```
 
-[^1]: In actual BDD, you would actually consolidate those 11 assertions in two or three 
-scenarios, adopt whatever syntax of the BDD tool under use, and a few other things. Let's not 
-bother with that now.
+[^1]: Well, a small page actually. In actual BDD, you may consolidate those 11 
+assertions in maybe three scenarios, with a more accurate syntax, and a few other things. Let's 
+not bother, shall we.
 
 In terms of visual design, it would go like this :
 
