@@ -360,8 +360,8 @@ Remember that we test for two reasons : to generate confidence in the behaviour 
 
 We did that for our movie search app, and we found yet another bug, which may be pretty difficult
  to identify from the specification or implementation. HINT : it is a concurrency bug (a tough 
- category of bugs I say)[^2]. Can you find it? By generating a **large enough number of test 
- sequences**, we were able to eventually find a reproducing sequence for it.
+ category of bugs this brother says)[^2]. Can you find it? By generating a **large enough number of 
+ test sequences**, we were able to eventually find a reproducing sequence for it.
  
 [^2]: If we type fast enough, we may generate several queries whose results arrive in 
 any order, and the first results arriving get displayed. It should be only the **latest query 
