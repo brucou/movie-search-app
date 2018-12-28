@@ -390,7 +390,7 @@ updated machines :
 | debouncing | ... |
 
 In both cases, we are able to fairly quickly identify the part of the machine impacted by the 
-changes and implement the modification of the behaviour. 
+changes and implement the modification of the behaviour. How would you do the other ones?
 
 ### Document clearly and economically the interface behaviour
 Arguably the state machine for promise we visualized earlier is a useful support to explain 
