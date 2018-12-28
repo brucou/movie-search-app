@@ -443,6 +443,7 @@ the following libraries exist to integrate with `React`:
 
 Interesting articles :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
+- [Pure UI](https://rauchg.com/2015/pure-ui)
 - [application process demo](https://github.com/brucou/cycle-state-machine-demo/tree/first-iteration-fix)
 
 We barely touched the surface of the subject. Other subjects of interest I might touch in other 
