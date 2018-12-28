@@ -448,7 +448,7 @@ Interesting articles :
 
 We barely touched the surface of the subject. Other subjects of interest I might touch in other 
 articles :
-- state machine, hierarchy, and componentization to fight complexity
+- state machine, hierarchization, and componentization against complexity
 - best practices for state machine modelling
 - model-based testing : model coverage and data coverage
 - state machines and concurrency

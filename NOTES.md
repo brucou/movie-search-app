@@ -60,3 +60,60 @@ and also put a .babelrc
 - S2-3: init results error : https://codesandbox.io/s/y2yljrzxj1
 - S4-7 : (NO TEST yet) https://codesandbox.io/s/4j95n6pn04
 - S8-all
+
+# transducer API : https://github.com/jlongster/transducers.js
+- transduce(coll, xform, reducer, init?) — Like reduce, but apply xform to each value before passing to reducer. If init is not specify it will attempt to get it from reducer.
+- transducer (xform) needs a reducer to tell it how to build the result. In other words, it is 
+monoid?
+- xform takes a reducer : xform(reducer) is a function (result, x) which returns a new result. So
+ x is the new value here, and result is the reduced value from the old result value
+- xform (reducer) is a reducer!! i.e. a transducer!!
+- so reducer here is the original reducer, the building reducer!!
+- so coll knows how to iterate, reducer knows how to build results, xform transforms reducers
+- so for observable it is possible to have transduce(obs, xform, subject, init?); subject is 
+also the result
+- so I can do that will callbacks?
+  - subject = event emitter
+  - obs?? something with a subscribe method, so could have a eventEmitter to observable method 
+  that means obs would be an event emitter
+- so transduce(emitter, xform, emitter, init) - just need to work on the API!!
+
+- FAN IN:
+  - easy? at the emitter level, you can have emitter = merge([emitter])
+  - could also have xform = xxform(emitter2, emitter3) and transduce(emitter1, xform...)
+  - or write an overload of transduce : merge([emitter]) = transduce(emitter1, xform...)
+
+- FAN OUT
+  - we return an event emitter so just add as many listeners to that as necessary
+
+- combination of FAN IN and FAN OUT
+  - transducer always return whatever the build reducer returns meaning an emitter 
+  - so transduce(merge([emitter]), xform, emitter, init) mmm cannot fan out? has to do in several
+   steps
+   - transduce(merge([fan in emitter]), xform, emitter, init)
+   - then emitter.listen([fan out emitter])
+   - That could easily be made into something visualizable with metadata
+   - everything xform could have a name, or should it be the emitter? to think about
+
+# http://lucasmreis.github.io/blog/contents/
+- explain to him that he is doing state machine really in his react patterns
+
+# DSL for state machines
+- I can use state litterals!!! pass action functions in ${} it works!!! incredible
+
+Guards:
+---
+function xxx()
+---
+
+Actions :
+---
+function xxx(){}
+test if closure can be used this is evaluated so probably ??
+---
+Given ST1, When EV And guard THEN xxx
+or 
+ST1 => ST2 when EV AND guard
+ST1 => ST2 on EV if guard
+
+amazing world
