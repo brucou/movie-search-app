@@ -393,19 +393,18 @@ In both cases, we are able to fairly quickly identify the part of the machine im
 changes and implement the modification of the behaviour. 
 
 ### Document clearly and economically the interface behaviour
-State machines can be visualized in different ways, emphasizing on different pieces of 
-information. To discuss with designers, it is possible to focus the visualization on the 
-control states and transitions. To discuss with developers, it may be preferred to include 
+Arguably the state machine for promise we visualized earlier is a useful support to explain 
+ promise behaviour to a profane crows. State machines can be visualized in different ways, 
+ emphasizing on different pieces of information. To discuss with designers, it is possible to 
+ focus the visualization on the control states and transitions. To discuss with developers, it may be preferred to include 
 technical details such as internal state updates, and other relevant notes. For quality assurance
- purposes, some paths in the state machine can be emphasized (core path, error paths, etc.).
-
-In any case, state machines can be instrumented into a documentation source, facilitating the
- team work between stakeholders of an user interface implementation project : developers, 
- designers, scrum master, project manager, etc.
-
+ purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
+ 
 ### Example state machine implementation
 You can have a look at an implementation (and tests!) of the online interface to the movie database 
 using dedicated state machine libraries (disclaimer : I wrote those libraries).
+
+<TODO : add demoboard playground of implementation>
 
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
@@ -453,4 +452,3 @@ articles :
 - model-based testing : model coverage and data coverage
 - state machines and concurrency
 - how to use state machines in your favorite framework
-
