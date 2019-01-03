@@ -1,7 +1,14 @@
 ! redo the app with react-state-driven and state-transducer
   - exactly same as implementation
   - test that and find the concurrency bugs
-  - don't use preprocessor (maybe should have a no proprocessor thing to avoid rxjs or have a 
-  dummy implementation of the interface)
 - then app with full and correct specs (no design bugs)
   - NO, not necessary
+- when finished, update state transducer to remove the event handler library of options! cf code 
+TODOs
+  - actually might even have meta data in observe and subject interface (give it a name for 
+  tracing?)
+  - if no eventHandler passed, then use internal event handling library which is just 
+  eventEmitter and listeners. Then leave transducers out
+  - make preprocessor an object :
+    - {rawEvent : (rawEventData, ref) => ...}
+  - if not a function then use the object format
