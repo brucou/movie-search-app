@@ -1,6 +1,7 @@
-import './test-S0'
-import './test-S1'
-import './test-S2'
+// import './test-S0'
+// import './test-S1'
+// import './test-S2'
+import "./test-generation.specs"
 QUnit.dump.maxDepth = 20;
 
 

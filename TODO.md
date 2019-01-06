@@ -12,3 +12,5 @@ TODOs
   - make preprocessor an object :
     - {rawEvent : (rawEventData, ref) => ...}
   - if not a function then use the object format
+- put in the article
+  - To improve is to change; to be perfect is to change often. — Churchill

@@ -7,7 +7,7 @@
     "emitonoff": "^0.1.1",
     "superagent": "^4.0.0",
     "json-patch-es6": "^2.0.6",
-    "state-transducer": "^0.9.5",
+    "state-transducer": "^0.9.6",
     "react-state-driven": "^0.4.8",
     "rxjs": "6.3.3"
   },
@@ -55,7 +55,9 @@
     "react-hyperscript": "3.2.0",
     "hyperscript-helpers": "3.0.3",
     "qunitjs": "^2.4.1",
-    "sinon": "^7.2.2"
+    "sinon": "^7.2.2",
+    "fp-rosetree": "^0.6.2",
+    "ramda": "^0.26.1"
   },
   "scripts": {
     "start": "node scripts/start.js",

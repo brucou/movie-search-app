@@ -2,15 +2,14 @@ import { INIT_EVENT, INIT_STATE, NO_OUTPUT, NO_STATE_UPDATE } from "state-transd
 import {
   COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, IMAGE_TMDB_PREFIX, LOADING,
   MOVIE_DETAIL_QUERYING, MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR, MOVIE_QUERYING, MOVIE_SELECTION,
-  MOVIE_SELECTION_ERROR, NETWORK_ERROR, NO_INTENT, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, START, testIds
+  MOVIE_SELECTION_ERROR, NETWORK_ERROR, NO_INTENT, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, START, testIds, screens as screenIds
 } from "./properties"
 import h from "react-hyperscript"
 import hyperscript from "hyperscript-helpers"
 import { COMMAND_RENDER, getStateTransducerRxAdapter } from "react-state-driven"
 import { Subject } from "rxjs"
 import { filter, map, startWith } from "rxjs/operators"
-import { destructureEvent, runMovieDetailQuery, runMovieSearchQuery } from "./helpers"
-import React  from 'react';
+import { destructureEvent, makeQuerySlug, runMovieDetailQuery, runMovieSearchQuery } from "./helpers"
 
 const { div, a, ul, li, input, h1, h3, legend, img, dl, dt, dd } = hyperscript(h);
 const stateTransducerRxAdapter = getStateTransducerRxAdapter({ Subject, filter, map })
@@ -33,6 +32,7 @@ const states = {
   [MOVIE_DETAIL_SELECTION_ERROR]: ""
 };
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
+const {LOADING_SCREEN, SEARCH_ERROR_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR,} = screenIds;
 const transitions = [
   { from: INIT_STATE, event: INIT_EVENT, to: START, action: NO_ACTIONS },
   { from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
@@ -42,7 +42,7 @@ const transitions = [
     to: MOVIE_SELECTION,
     action: displayMovieSearchResultsScreen
   },
-  { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb2 },
+  { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
   {
     from: MOVIE_QUERYING,
     event: SEARCH_ERROR_RECEIVED,
@@ -71,7 +71,7 @@ const transitions = [
     from: MOVIE_DETAIL_SELECTION,
     event: MOVIE_DETAILS_DESELECTED,
     to: MOVIE_SELECTION,
-    action: displayMovieSearchResultsScreen
+    action: displayMovieSearchResultsScreen2
   },
 ];
 const preprocessor = rawEventSource => rawEventSource.pipe(
@@ -92,13 +92,13 @@ const preprocessor = rawEventSource => rawEventSource.pipe(
       return { QUERY_CHANGED: '' }
     }
     else if (rawEventName === QUERY_CHANGED) {
-      const query = e;
+      // NOTE : react trick : avoiding issues with synthetic event reuse by caching the value
+      const query = e.target.value;
       return { QUERY_CHANGED: query }
     }
     else if (rawEventName === MOVIE_SELECTED) {
-      const movie = e;
-      const results = ref;
-      return { MOVIE_SELECTED: { movie, results } }
+      const movie = ref;
+      return { MOVIE_SELECTED: { movie } }
     }
     else if (rawEventName === SEARCH_RESULTS_MOVIE_RECEIVED) {
       const [movieDetails, cast] = e;
@@ -123,7 +123,7 @@ const {
   LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
 } = testIds;
 const screens = trigger => ({
-  LOADING_SCREEN: () =>
+  [LOADING_SCREEN]: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -147,7 +147,7 @@ const screens = trigger => ({
         ])
       ])
     ]),
-  SEARCH_RESULTS_SCREEN: (results, query) => (
+  [SEARCH_RESULTS_SCREEN]: (results, query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -199,7 +199,7 @@ const screens = trigger => ({
       ])
     ])
   ),
-  SEARCH_ERROR_SCREEN: (query) => (
+  [SEARCH_ERROR_SCREEN]: (query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -229,7 +229,7 @@ const screens = trigger => ({
       ])
     ])
   ),
-  SEARCH_RESULTS_AND_LOADING_SCREEN: (results, query) =>
+  [SEARCH_RESULTS_AND_LOADING_SCREEN]: (results, query) =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -252,13 +252,13 @@ const screens = trigger => ({
               query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
             ]),
             div(".ResultsContainer", { "data-testid": RESULTS_CONTAINER_TESTID }, [
-              <div>Loading...</div>
+              div([`Loading...`])
             ])
           ])
         ])
       ])
     ]),
-  SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN: (results, query, movieDetail) => (
+  [SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN]: (results, query, movieDetail) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -316,7 +316,7 @@ const screens = trigger => ({
         ])
       ])
     ])),
-  SEARCH_RESULTS_WITH_MOVIE_DETAILS: (results, query, details, cast) => (
+  [SEARCH_RESULTS_WITH_MOVIE_DETAILS]: (results, query, details, cast) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
       div(".App__view-container", { onClick: trigger(MOVIE_DETAILS_DESELECTED) }, [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -400,7 +400,7 @@ const screens = trigger => ({
       ])
     ])
   ),
-  SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR: (results, query, details, title) => (
+  [SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR]: (results, query, title) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
       div(".App__view-container", { onClick: trigger(MOVIE_DETAILS_DESELECTED) }, [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
@@ -481,6 +481,12 @@ const effectHandlers = {
   runMovieDetailQuery: runMovieDetailQuery
 };
 
+function AppScreen(props){
+  const {screen, trigger, args} = props;
+
+  return screens(trigger)[screen](...args)
+}
+
 function displayLoadingScreenAndQueryDb(extendedState, eventData, fsmSettings) {
   const searchCommand = {
     command: COMMAND_MOVIE_SEARCH,
@@ -488,7 +494,7 @@ function displayLoadingScreenAndQueryDb(extendedState, eventData, fsmSettings) {
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).LOADING_SCREEN()
+    params: trigger => h(AppScreen, {trigger, screen : LOADING_SCREEN, args : []})
   };
   return {
     updates: NO_STATE_UPDATE,
@@ -496,16 +502,16 @@ function displayLoadingScreenAndQueryDb(extendedState, eventData, fsmSettings) {
   }
 }
 
-function displayLoadingScreenAndQueryDb2(extendedState, eventData, fsmSettings) {
+function displayLoadingScreenAndQueryNonEmpty(extendedState, eventData, fsmSettings) {
   const { queryFieldHasChanged, movieQuery, results, movieTitle } = extendedState;
   const query = eventData;
   const searchCommand = {
     command: COMMAND_MOVIE_SEARCH,
-    params: DISCOVERY_REQUEST
+    params: makeQuerySlug(query)
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).SEARCH_RESULTS_AND_LOADING_SCREEN(results, query)
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_AND_LOADING_SCREEN, args : [results, query]})
   };
   return {
     updates: [
@@ -518,9 +524,10 @@ function displayLoadingScreenAndQueryDb2(extendedState, eventData, fsmSettings) 
 
 function displayMovieSearchResultsScreen(extendedState, eventData, fsmSettings) {
   const searchResults = eventData;
+  const {movieQuery} = extendedState;
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).SEARCH_RESULTS_SCREEN(searchResults, '')
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_SCREEN, args : [searchResults, movieQuery || '']})
   };
 
   return {
@@ -529,11 +536,24 @@ function displayMovieSearchResultsScreen(extendedState, eventData, fsmSettings) 
   }
 }
 
+function displayMovieSearchResultsScreen2(extendedState, eventData, fsmSettings) {
+  const {movieQuery, results} = extendedState;
+  const renderCommand = {
+    command: COMMAND_RENDER,
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_SCREEN, args : [results, movieQuery || '']})
+  };
+
+  return {
+    updates: NO_STATE_UPDATE,
+    outputs: [renderCommand]
+  }
+}
+
 function displayMovieSearchErrorScreen(extendedState, eventData, fsmSettings) {
   const { queryFieldHasChanged, movieQuery, results, movieTitle } = extendedState;
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).SEARCH_ERROR_SCREEN(queryFieldHasChanged ? movieQuery : '')
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_ERROR_SCREEN, args : [queryFieldHasChanged ? movieQuery : '']})
   };
 
   return {
@@ -543,9 +563,9 @@ function displayMovieSearchErrorScreen(extendedState, eventData, fsmSettings) {
 }
 
 function displayDetailsLoadingScreenAndQueryDetailsDb(extendedState, eventData, fsmSettings) {
-  const { movie, results } = eventData;
+  const { movie } = eventData;
   const movieId = movie.id;
-  const { movieQuery } = extendedState;
+  const { movieQuery, results } = extendedState;
 
   const searchCommand = {
     command: COMMAND_MOVIE_DETAILS_SEARCH,
@@ -553,7 +573,7 @@ function displayDetailsLoadingScreenAndQueryDetailsDb(extendedState, eventData, 
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, movieQuery, movie)
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, args : [results, movieQuery, movie]})
   };
 
   return {
@@ -568,7 +588,7 @@ function displayMovieDetailsSearchResultsScreen(extendedState, eventData, fsmSet
 
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => screens(trigger).SEARCH_RESULTS_WITH_MOVIE_DETAILS(results, movieQuery, movieDetails, cast)
+    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS, args : [results, movieQuery, movieDetails, cast]})
   };
 
   return {
@@ -581,13 +601,12 @@ function displayMovieDetailsSearchResultsScreen(extendedState, eventData, fsmSet
 }
 
 function displayMovieDetailsSearchErrorScreen(extendedState, eventData, fsmSettings) {
-  const [movieDetails, cast] = eventData;
   const { queryFieldHasChanged, movieQuery, results, movieTitle } = extendedState;
 
   const renderCommand = {
     command: COMMAND_RENDER,
     params:
-      trigger => screens(trigger).SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR(results, movieQuery, movieDetails, movieTitle)
+      trigger =>  h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, args : [results, movieQuery, movieTitle]})
   };
 
   return {
@@ -608,3 +627,4 @@ const movieSearchFsmDef = {
 };
 
 export { movieSearchFsmDef }
+

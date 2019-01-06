@@ -60,3 +60,9 @@ and also put a .babelrc
 - S2-3: init results error : https://codesandbox.io/s/y2yljrzxj1
 - S4-7 : (NO TEST yet) https://codesandbox.io/s/4j95n6pn04
 - S8-all
+
+# Testing strategy
+We may have concurrency issues with the movie query field, but NOT with the querying of 
+the movie details. There is no way to click on another movie, WHILE the movie results are fetched
+ and displayed. We have modal behaviour. This simplifies a lot our testing.
+Good practice : keep note of concurrency, and deal with it specially  
