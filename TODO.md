@@ -14,3 +14,7 @@ TODOs
   - if not a function then use the object format
 - put in the article
   - To improve is to change; to be perfect is to change often. — Churchill
+  - that when testing and looking at input sequences we discovered an error in the model
+  - then after correction we found the concurrency bug
+- beware I do not have the latest article...
+  - merge the changes here to the change in all branch and then count the words
