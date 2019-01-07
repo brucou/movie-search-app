@@ -16,20 +16,6 @@ const {
 const { QUERY_RESETTED, USER_NAVIGATED_TO_APP, SEARCH_REQUESTED, SEARCH_ERROR_RECEIVED, SEARCH_RESULTS_RECEIVED, QUERY_CHANGED } = events;
 const eventEmitter = emitonoff();
 
-const views = {
-  HEADER:
-    div(".App__header.uk-width-1-1", [
-      ul(".uk-breadcrumb.uk-width-1-1", [
-        li(".uk-width-1-1", [
-          a(".js-home.uk-width-1-1.uk-padding-small", [
-            span(".uk-margin-small-right.uk-icon", { "uk-icon": "icon:chevron-left" }, [
-              `Back`
-            ])
-          ])
-        ])
-      ])
-    ]),
-}
 const screens = {
   LOADING_SCREEN: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
