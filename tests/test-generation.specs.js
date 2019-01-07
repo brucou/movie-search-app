@@ -142,7 +142,7 @@ QUnit.module("Testing test sequences generation", {});
 
 // TODO : move the test generation specs to a stackblitz
 // TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
-// TODO : so like testFsm(fsmDef, generators, updateState, strategy, oracle, format)
+// TODO : so like testFsm(testAPI, fsmDef, generators, updateState, strategy, oracle, format)
 // format : format input, and output, and expected output
 // oracle : generate expected output sequences
 // strategy : search criteria and algorithm
