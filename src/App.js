@@ -33,7 +33,6 @@ const views = {
 const screens = {
   LOADING_SCREEN: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -57,7 +56,6 @@ const screens = {
     ]),
   SEARCH_RESULTS_SCREEN: (results, query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -109,7 +107,6 @@ const screens = {
   ),
   SEARCH_ERROR_SCREEN: () => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -194,6 +191,3 @@ class App extends Component {
 }
 
 export default App;
-
-// cf. https://frontarm.com/demoboard/????? pending bug fixing with superagent
-// cf. https://codesandbox.io/s/qkv1n23464
