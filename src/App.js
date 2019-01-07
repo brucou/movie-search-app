@@ -17,17 +17,6 @@ const eventEmitter = emitonoff();
 const screens = {
   LOADING_SCREEN: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      div(".App__header.uk-width-1-1", [
-        ul(".uk-breadcrumb.uk-width-1-1", [
-          li(".uk-width-1-1", [
-            a(".js-home.uk-width-1-1.uk-padding-small", [
-              span(".uk-margin-small-right.uk-icon", { "uk-icon": "icon:chevron-left" }, [
-                `Back`
-              ])
-            ])
-          ])
-        ])
-      ]),
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
