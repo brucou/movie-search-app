@@ -7,13 +7,13 @@ import h from "react-hyperscript";
 import hyperscript from "hyperscript-helpers";
 import { runSearchQuery } from "./helpers"
 
-const { div, a, ul, li, span, input, h1, h3, legend, img } = hyperscript(h);
+const { div, a, ul, li, input, h1, h3, legend, img } = hyperscript(h);
 
 const {
   PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-  LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
+  MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
 } = testIds;
-const { QUERY_RESETTED, USER_NAVIGATED_TO_APP, SEARCH_REQUESTED, SEARCH_ERROR_RECEIVED, SEARCH_RESULTS_RECEIVED, QUERY_CHANGED } = events;
+const { USER_NAVIGATED_TO_APP, SEARCH_ERROR_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
 const eventEmitter = emitonoff();
 
 const screens = {
@@ -131,7 +131,6 @@ function handleAppEvents(app, event, args) {
 
     case SEARCH_RESULTS_RECEIVED :
       const [results] = args;
-      // state.results = results;
 
       if (queryFieldHasChanged === false) {
         app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(results) });
@@ -157,7 +156,6 @@ class App extends Component {
     app.state = {
       screen: screens.LOADING_SCREEN(),
       queryFieldHasChanged: false,
-      // currentQuery: null
     };
     Object.keys(events).forEach(ev => eventEmitter.on(ev, (...args) => handleAppEvents(app, ev, args)));
   }
