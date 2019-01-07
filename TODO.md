@@ -1,20 +1,4 @@
-! redo the app with react-state-driven and state-transducer
-  - exactly same as implementation
-  - test that and find the concurrency bugs
 - then app with full and correct specs (no design bugs)
   - NO, not necessary
-- when finished, update state transducer to remove the event handler library of options! cf code 
-TODOs
-  - actually might even have meta data in observe and subject interface (give it a name for 
-  tracing?)
-  - if no eventHandler passed, then use internal event handling library which is just 
-  eventEmitter and listeners. Then leave transducers out
-  - make preprocessor an object :
-    - {rawEvent : (rawEventData, ref) => ...}
-  - if not a function then use the object format
-- put in the article
-  - To improve is to change; to be perfect is to change often. — Churchill
-  - that when testing and looking at input sequences we discovered an error in the model
-  - then after correction we found the concurrency bug
-- beware I do not have the latest article...
-  - merge the changes here to the change in all branch and then count the words
+- correct the branch S1-S8? should test again
+- add tests also for each branch

@@ -301,9 +301,6 @@ QUnit.test("With search concurrency", function exec_test(assert) {
   const strategy = ALL_n_TRANSITIONS_WITH_REPEATED_TARGET({ maxNumberOfTraversals: 3, targetVertex: MOVIE_SELECTION });
   const settings = { updateState: applyJSONpatch, strategy };
   const results = generateTestsFromFSM(fsmDef, generators, settings);
-
-  console.log(`Generated input test sequences`, formatOutputSequence(results));
-
   const inputSequences = results.map(result => result.inputSequence);
   const outputsSequences = results.map(x => x.outputSequence);
   const spyTrigger = function spyTrigger(eventName) {
