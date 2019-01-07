@@ -12,7 +12,7 @@ import {
   MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, screens,
   START
 } from "../src/properties"
-import { MOVIE_SEARCH_RESULTS } from "./fixtures"
+import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS } from "./fixtures"
 import { mapOverObj } from "fp-rosetree";
 import { makeQuerySlug } from "../src/helpers"
 
@@ -33,20 +33,25 @@ export function constGen(input, generatorState) {
   };
 }
 
-// TODO : I must not only keep the props but also the name of the react component displayed!!!!
-// NTH : should also take care of case : fragment, not react component? no name?
-export function formatOutputSequence(results) {
+/**
+ * Format results from automated test generation.
+ * CONTRACT : React is used for DOM rendering.
+ * NOTE : unclear if that works with React fragment. Probably, if `renderToStaticMarkup` works with it
+ * @param results
+ * @returns {*}
+ */
+export function reactFormatOutputSequence(results) {
   const fakeTrigger = eventName => function fakeEventHandler() {};
   console.log('results', results)
 
-  return results.map(result => {
+  const formattedResults = results.map(result => {
     const { inputSequence, outputSequence, controlStateSequence } = result;
     return {
       inputSequence,
       controlStateSequence,
       outputSequence: tryCatch(
         outputSequence => outputSequence.map(outputs => {
-          return outputs.map(output => {
+          return (outputs||[]).map(output => {
             if (output === null) return output
             const { command, params } = output;
             if (command !== 'render') return output
@@ -63,7 +68,10 @@ export function formatOutputSequence(results) {
         }
       )(outputSequence)
     }
-  })
+  });
+
+  console.log('formatted results', formattedResults);
+  return formattedResults
 }
 
 function isFunction(obj) {
@@ -126,8 +134,6 @@ const { SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, SEARCH_RESULTS_WITH_MOVIE_DETAI
 QUnit.module("Testing test sequences generation", {});
 
 // TODO : move the test generation specs to a stackblitz
-// TODO : wrong state machine... I can still have QUERY_CHANGED while it is loading
-// TODO:  update state machine in article! and in the code! and in the test! genfsm!
 // TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
 // TODO : so like testFsm(fsmDef, generators, updateState, strategy, oracle, format)
 // format : format input, and output, and expected output
@@ -146,11 +152,11 @@ QUnit.test("With search concurrency", function exec_test(assert) {
     transitions: [
       {
         from: INIT_STATE, event: INIT_EVENT, to: START,
-        gen: constGen(void 0, { pending: [], done: [], current: null, keysPressed: 0 })
+        gen: constGen(void 0, { pending: [], done: [], keysPressed: 0 })
       },
       {
         from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING,
-        gen: constGen(void 0, { pending: [DISCOVERY_REQUEST], done: [], current: null, keysPressed: 0 })
+        gen: constGen(void 0, { pending: [DISCOVERY_REQUEST], done: [], keysPressed: 0 })
       },
       {
         from: MOVIE_QUERYING,
@@ -162,18 +168,43 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           const { pending, done, keysPressed } = genS;
           const hasPendingQueries = pending.length !== 0;
           let query = pending.slice(0, 1)[0];
-          // Hack because DISCOVERY_REQUEST for some reason fails as a key for MOVIE_SEARCH_DETAIL_RESULTS
-          if (query === DISCOVERY_REQUEST) query = `_`;
 
           if (hasPendingQueries) {
             return {
               hasGeneratedInput: true,
-              input: MOVIE_SEARCH_RESULTS[query],
-              generatorState: { pending: query, done: done.concat(pending.slice(0, 1)), keysPressed }
+              input: MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query],
+              generatorState: { pending: pending.slice(1), done: done.concat(pending.slice(0, 1)), keysPressed }
             }
           }
           else {
             return { hasGeneratedInput: false, input: void 0, generatorState: genS }
+          }
+        }
+      },
+      {
+        from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING,
+        gen: (extS, genS) => {
+          // Here we have two choices we want to test against : another key, and back to empty field
+          const { keysPressed, pending, done } = genS;
+          const keys = ['a', 'b', null];
+          if (keysPressed > 2) {
+            return { hasGeneratedInput: false, input: '', generatorState: genS }
+          }
+          else if (keysPressed === 2) {
+            const input = DISCOVERY_REQUEST;
+            return {
+              hasGeneratedInput: true,
+              input,
+              generatorState: { pending:pending.concat([input]), done, keysPressed: keysPressed + 1 }
+            }
+          }
+          else {
+            const input = keys.slice(0, keysPressed+1).join('');
+            return {
+              hasGeneratedInput: true,
+              input,
+              generatorState: { pending:pending.concat([input]), done, keysPressed: keysPressed + 1 }
+            }
           }
         }
       },
@@ -187,17 +218,19 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             return { hasGeneratedInput: false, input: '', generatorState: genS }
           }
           else if (keysPressed === 2) {
+            const input = DISCOVERY_REQUEST;
             return {
               hasGeneratedInput: true,
-              input: '',
-              generatorState: { pending, done, keysPressed: keysPressed + 1 }
+              input,
+              generatorState: { pending:pending.concat([input]), done, keysPressed: keysPressed + 1 }
             }
           }
           else {
+            const input = keys.slice(0, keysPressed+1).join('');
             return {
               hasGeneratedInput: true,
-              input: keys.slice(0, keysPressed+1).join(''),
-              generatorState: { pending, done, keysPressed: keysPressed + 1 }
+              input,
+              generatorState: { pending:pending.concat([input]), done, keysPressed: keysPressed + 1 }
             }
           }
         }
@@ -220,10 +253,8 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           const { keysPressed, pending, done } = genS;
           // The latest done is the one whose results are displayed
           let query = done.slice(-1)[0];
-          // Hack because DISCOVERY_REQUEST for some reason fails as a key for MOVIE_SEARCH_DETAIL_RESULTS
-          if (query === DISCOVERY_REQUEST) query = `_`;
           // For this test we always pick the first movie
-          const movie = MOVIE_SEARCH_RESULTS[query][0];
+          const movie = MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query][0];
           if (!movie) return { hasGeneratedInput: false, input: void 0, generatorState: genS }
           else {
             return { hasGeneratedInput: true, input: { movie }, generatorState: genS }
@@ -236,10 +267,8 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           const { keysPressed, pending, done } = genS;
           // The latest done is the one whose results are displayed
           let query = done.slice(-1)[0];
-          // Hack because DISCOVERY_REQUEST for some reason fails as a key for MOVIE_SEARCH_DETAIL_RESULTS
-          if (query === DISCOVERY_REQUEST) query = `_`;
           // For this test we always pick the first movie
-          return { hasGeneratedInput: true, input: MOVIE_SEARCH_RESULTS[query], generatorState: genS }
+          return { hasGeneratedInput: true, input: MOVIE_SEARCH_DETAIL_RESULTS[query === DISCOVERY_REQUEST ? '_' : query], generatorState: genS }
         }
       },
       {
@@ -295,9 +324,10 @@ QUnit.test("With search concurrency", function exec_test(assert) {
 
             const { command, params } = output;
             if (command === COMMAND_RENDER) {
+              const reactRenderParams =  params(spyTrigger);
               return {
                 command: command,
-                params: params(spyTrigger).props
+                params: {props : reactRenderParams.props, component: reactRenderParams.type.displayName || '<anonymous>'}
               }
             }
             else {
@@ -309,20 +339,16 @@ QUnit.test("With search concurrency", function exec_test(assert) {
     });
 
   const expectedOutputSequences = inputSequences
-    .map(inputSequence => {
+    .map((inputSequence, testIndex) => {
       return inputSequence.reduce((acc, input, index) => {
         const assign = Object.assign.bind(Object);
-        const setProps = props => assign({}, defaultProps, props);
+        const setProps = props => ({props: assign({}, defaultProps, props), component:'AppScreen'});
         const defaultProps = { screen: void 0, trigger: spyTrigger.name };
         const { outputSeq, state } = acc;
         const event = Object.keys(input)[0];
         const eventData = input[event];
 
         switch (event) {
-          case INIT_EVENT :
-            debugger
-            // Should be generated systematically, just ignore it
-            return acc
           case USER_NAVIGATED_TO_APP: {
             const searchCommand = {
               command: COMMAND_MOVIE_SEARCH,

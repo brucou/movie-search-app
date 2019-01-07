@@ -18,7 +18,7 @@ const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 
 const initialExtendedState = {
   queryFieldHasChanged: false,
-  movieQuery: null,
+  movieQuery: '',
   results: null,
   movieTitle: null,
 };
@@ -42,6 +42,7 @@ const transitions = [
     to: MOVIE_SELECTION,
     action: displayMovieSearchResultsScreen
   },
+  { from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
   { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
   {
     from: MOVIE_QUERYING,
