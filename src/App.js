@@ -52,12 +52,10 @@ const screens = {
               input(".SearchBar__input.uk-input.js-input", {
                 "type": "text",
                 "defaultValue": "",
-                // "oninput": "return ${domEventHandlers[QUERY_CHANGED]}(event)",
                 "data-testid": QUERY_FIELD_TESTID,
               })
             ]),
             h3(".uk-heading-bullet.uk-margin-remove-top", { "data-testid": RESULTS_HEADER_TESTID }, [
-              // query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
               POPULAR_NOW
             ]),
             div(".ResultsContainer", { "data-testid": RESULTS_CONTAINER_TESTID }, [
@@ -67,7 +65,6 @@ const screens = {
                     li(".uk-margin-bottom", { "key": result.id, }, [
                       a(".ResultsContainer__result-item.js-result-click", {
                         "href": "#",
-                        // TODO : ev prevent default!!
                         "onClick": () => false,
                         "data-id": result.id,
                       }, [
@@ -103,7 +100,6 @@ const screens = {
               input(".SearchBar__input.uk-input.js-input", {
                 "type": "text",
                 "defaultValue": "",
-                // "oninput": "return ${domEventHandlers[QUERY_CHANGED]}(event)",
                 "data-testid": QUERY_FIELD_TESTID,
               })
             ]),
