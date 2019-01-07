@@ -1,6 +1,6 @@
 import sinon from "sinon"
 import superagent from "superagent"
-import { events, IMAGE_TMDB_PREFIX, INITIAL_REQUEST, POPULAR_NOW, PROMPT, testIds } from "../src/properties"
+import { IMAGE_TMDB_PREFIX, INITIAL_REQUEST, POPULAR_NOW, PROMPT, testIds } from "../src/properties"
 import ReactDOM from "react-dom"
 import h from "react-hyperscript"
 import App from "../src/App"
@@ -28,10 +28,9 @@ QUnit.module("Specification S2", {
 QUnit.test("GIVEN user navigated to [url] AND query field has not changed", function exec_test(assert) {
   const done = assert.async(1);
   const stubbedGet = this.stubbedGet;
-  const { SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_CHANGED, USER_NAVIGATED_TO_APP } = events;
   const {
     PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-    LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
+    MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID
   } = testIds;
 
   stubbedGet.withArgs(INITIAL_REQUEST)
