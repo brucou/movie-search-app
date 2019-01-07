@@ -1,0 +1,3 @@
+- check that all tests are passing for all branches specially TDD
+- copy the final code in master
+- have a special README introducing the branches
