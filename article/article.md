@@ -416,8 +416,7 @@ technical details such as internal state updates, and other relevant notes. For 
  purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
 
 ### Example state machine implementation
-You can have a look at an implementation (and tests!) of the online interface to the movie database 
-using dedicated state machine libraries (disclaimer : I wrote those libraries).
+You can have a look at an [implementation (and tests!)](https://github.com/brucou/movie-search-app/tree/with-state-library) of the online interface to the movie database using dedicated state machine libraries (disclaimer : I wrote those libraries).
 
 <TODO : add demoboard https://frontarm.com/demoboard/?id=3178de8d-fe66-49de-92ba-e7063725a732>
 
