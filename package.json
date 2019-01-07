@@ -7,7 +7,7 @@
     "emitonoff": "^0.1.1",
     "superagent": "^4.0.0",
     "json-patch-es6": "^2.0.6",
-    "state-transducer": "^0.9.6",
+    "state-transducer": "^0.9.7",
     "react-state-driven": "^0.4.8",
     "rxjs": "6.3.3"
   },
