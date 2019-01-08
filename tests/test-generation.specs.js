@@ -8,13 +8,12 @@ import { applyPatch } from "json-patch-es6/lib/duplex"
 import { merge as merge$, of, Subject } from "rxjs";
 import { movieSearchFsmDef } from "../src/fsm"
 import {
-  COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, MOVIE_DETAIL_QUERYING,
+  COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, events, MOVIE_DETAIL_QUERYING,
   MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, screens,
   START
 } from "../src/properties"
 import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS } from "./fixtures"
 import { mapOverObj } from "fp-rosetree";
-import { makeQuerySlug } from "../src/helpers"
 
 export function tryCatch(fn, err) {
   return function (...args) {
@@ -209,7 +208,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             return { hasGeneratedInput: false, input: '', generatorState: genS }
           }
           else if (keysPressed === 2) {
-            const input = DISCOVERY_REQUEST;
+            const input = '';
             return {
               hasGeneratedInput: true,
               input,
@@ -488,6 +487,8 @@ QUnit.test("With search concurrency", function exec_test(assert) {
       }, { outputSeq: [], state: { pendingQuery: '', results: null, movieTitle: '' } })
     })
     .map(x => x.outputSeq);
+
+  console.log(`test sequences`, inputSequences)
 
   // NOTE: I am testing the application here, with the assumption that the test generation is already tested
   // So no need to test the input sequence (neither the control state sequence actually
