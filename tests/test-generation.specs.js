@@ -489,8 +489,6 @@ QUnit.test("With search concurrency", function exec_test(assert) {
     })
     .map(x => x.outputSeq);
 
-  console.log(`test sequences`, inputSequences);
-
   // NOTE: I am testing the application here, with the assumption that the test generation is already tested
   // So no need to test the input sequence (neither the control state sequence actually
   // What we have to test is that the (actual) ouptutSequence correspond to what we would compute otherwise
