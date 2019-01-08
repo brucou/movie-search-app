@@ -140,18 +140,6 @@ const { SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, SEARCH_RESULTS_WITH_MOVIE_DETAI
 
 QUnit.module("Testing test sequences generation", {});
 
-// TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
-// TODO : so like testFsm(testAPI, fsmDef, generators, updateState, strategy, oracle, format)
-// format : format input, and output, and expected output
-// oracle : generate expected output sequences
-// strategy : search criteria and algorithm
-// TODO : make some checks that the generators has the same shape than the machine!!
-// TODO : manage errors : only errors which should transcur are :
-// - exceptions while generating the input sequnces : error in the test making
-// TODO : article reflect on test :
-// - generating expected output uses state but should be easy : only state born from input
-// - generating input sequence uses state but born from what we want to test
-// - we should not duplicate or reuse code from the implementation!!
 QUnit.test("With search concurrency", function exec_test(assert) {
   const fsmDef = movieSearchFsmDef;
   const genFsmDef = {
