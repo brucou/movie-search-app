@@ -24,15 +24,13 @@ QUnit.module("Specification S1", {
 QUnit.test("WHEN user navigates to [url]", function exec_test(assert) {
   const done = assert.async(1);
   const stubbedGet = this.stubbedGet;
-  const { SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_CHANGED, USER_NAVIGATED_TO_APP } = events;
   const {
     PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-    LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
   } = testIds;
 
   stubbedGet.withArgs(INITIAL_REQUEST)
     .returns(new Promise(function (resolve, reject) {
-      const delay = Math.random() * 1000;
+      const delay = 100;
       setTimeout(function () {resolve({ body: { results: {} } })}, delay);
     }));
 
@@ -40,7 +38,7 @@ QUnit.test("WHEN user navigates to [url]", function exec_test(assert) {
   ReactDOM.render(h(App), document.getElementById('root'));
 
   // Wait for the results to appear
-  wait(()=> !!getByTestId(root, RESULTS_CONTAINER_TESTID), {timeout:1000})
+  waitForElement(()=> !!getByTestId(root, RESULTS_CONTAINER_TESTID), {timeout:1000})
     .then(() => {
       const promptContract = {
         dataTestId: PROMPT_TESTID,

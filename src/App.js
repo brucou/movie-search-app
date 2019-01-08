@@ -176,7 +176,6 @@ function handleAppEvents(app, event, args) {
 
     case SEARCH_RESULTS_RECEIVED :
       const [results] = args;
-      // state.results = results;
 
       if (queryFieldHasChanged === false) {
         app.setState({ screen: screens.SEARCH_RESULTS_SCREEN(results, ''), results });
@@ -189,10 +188,10 @@ function handleAppEvents(app, event, args) {
     case SEARCH_ERROR_RECEIVED:
       const [err] = args;
       if (queryFieldHasChanged === false) {
-        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(err, '') });
+        app.setState({ screen: screens.SEARCH_ERROR_SCREEN('') });
       }
       else if (queryFieldHasChanged === true) {
-        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(err, currentQuery) });
+        app.setState({ screen: screens.SEARCH_ERROR_SCREEN(currentQuery) });
       }
       break;
 
