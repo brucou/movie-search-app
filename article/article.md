@@ -430,7 +430,13 @@ complex behaviours. That is why the technique is popular in modelization of the 
 
 While state machine modelling is a de facto method for modeling complex behaviours in the 
 large, it is also beneficial in the small. Even our apparently simple user interface was tricky 
-to get right[^3]. Did I manage to excite your curiosity or did I loose you somewhere along the 
+to get right[^3]: 
+
+| Before | After |
+|---|---|
+|![](movie%20search%20TDD%20fsm%20actual.png)|![](movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis%20switchMap.png)|
+
+Did I manage to excite your curiosity or did I loose you somewhere along the 
 way? If quality, and maintainability of user interfaces matters is important in what you do, give
  the technique a look. You know, it is just a function!
 
