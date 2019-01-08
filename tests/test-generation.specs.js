@@ -128,11 +128,8 @@ const default_settings = {
 };
 const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 
-function getQueryAlias(query){
-  return (query === DISCOVERY_REQUEST) ? '_' : query
-}
-function getQueryString(query){
-  return (query === DISCOVERY_REQUEST) ? '' : query
+function getQueryAlias(query) {
+  return query ? query : '_'
 }
 
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
@@ -150,7 +147,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
       },
       {
         from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING,
-        gen: constGen(void 0, { pending: [DISCOVERY_REQUEST], done: [], keysPressed: 0 })
+        gen: constGen(void 0, { pending: [''], done: [], keysPressed: 0 })
       },
       {
         from: MOVIE_QUERYING,
@@ -166,7 +163,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           if (hasPendingQueries) {
             return {
               hasGeneratedInput: true,
-              input: MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query],
+              input: { results: MOVIE_SEARCH_RESULTS[getQueryAlias(query)], query },
               generatorState: { pending: pending.slice(1), done: done.concat(pending.slice(0, 1)), keysPressed }
             }
           }
@@ -185,7 +182,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             return { hasGeneratedInput: false, input: '', generatorState: genS }
           }
           else if (keysPressed === 2) {
-            const input = DISCOVERY_REQUEST;
+            const input = '';
             return {
               hasGeneratedInput: true,
               input,
@@ -248,7 +245,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           // The latest done is the one whose results are displayed
           let query = done.slice(-1)[0];
           // For this test we always pick the first movie
-          const movie = MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query][0];
+          const movie = MOVIE_SEARCH_RESULTS[getQueryAlias(query )][0];
           if (!movie) return { hasGeneratedInput: false, input: void 0, generatorState: genS }
           else {
             return { hasGeneratedInput: true, input: { movie }, generatorState: genS }
@@ -264,7 +261,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           // For this test we always pick the first movie
           return {
             hasGeneratedInput: true,
-            input: MOVIE_SEARCH_DETAIL_RESULTS[query === DISCOVERY_REQUEST ? '_' : query],
+            input: MOVIE_SEARCH_DETAIL_RESULTS[getQueryAlias(query)],
             generatorState: genS
           }
         }
@@ -335,7 +332,6 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           .map(formatResult)
       })
     });
-
   const expectedOutputSequences = inputSequences
     .map((inputSequence, testIndex) => {
       return inputSequence.reduce((acc, input, index) => {
@@ -350,7 +346,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           case USER_NAVIGATED_TO_APP: {
             const searchCommand = {
               command: COMMAND_MOVIE_SEARCH,
-              params: DISCOVERY_REQUEST
+              params: ''
             };
             const renderCommand = { command: COMMAND_RENDER, params: setProps({ screen: LOADING_SCREEN, args: [] }) };
 
@@ -358,17 +354,17 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               outputSeq: outputSeq.concat([
                 [renderCommand, searchCommand]
               ]),
-              state: { ...state, pendingQuery: DISCOVERY_REQUEST }
+              state: { ...state, pendingQuery: '' }
             }
           }
           case SEARCH_RESULTS_RECEIVED : {
-            const searchResults = eventData;
+            const {results : searchResults }= eventData;
             let { pendingQuery } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_SCREEN,
-                args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], getQueryString(pendingQuery)]
+                args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], pendingQuery]
               })
             };
 
@@ -383,7 +379,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             const { pendingQuery } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [getQueryString(pendingQuery)] })
+              params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [pendingQuery] })
             };
 
             return {
@@ -398,7 +394,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             const { results } = state;
             const searchCommand = {
               command: COMMAND_MOVIE_SEARCH,
-              params: makeQuerySlug(query)
+              params: query
             };
             const renderCommand = {
               command: COMMAND_RENDER,
@@ -425,7 +421,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN,
-                args: [results, getQueryString(pendingQuery), movie]
+                args: [results, pendingQuery, movie]
               })
             };
 
@@ -443,7 +439,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS,
-                args: [results, getQueryString(pendingQuery)]
+                args: [results, pendingQuery]
                   .concat(MOVIE_SEARCH_DETAIL_RESULTS[getQueryAlias(pendingQuery)])
               })
             };
@@ -476,7 +472,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             const { pendingQuery, results } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, getQueryString(pendingQuery)] })
+              params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, pendingQuery] })
             };
 
             return {
@@ -492,6 +488,8 @@ QUnit.test("With search concurrency", function exec_test(assert) {
       }, { outputSeq: [], state: { pendingQuery: '', results: null, movieTitle: '' } })
     })
     .map(x => x.outputSeq);
+
+  console.log(`test sequences`, inputSequences);
 
   // NOTE: I am testing the application here, with the assumption that the test generation is already tested
   // So no need to test the input sequence (neither the control state sequence actually
