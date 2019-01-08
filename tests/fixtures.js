@@ -108,7 +108,17 @@ export const INITIAL_REQUEST_RESULTS = [
   // accidentally triggers the universe's most lethal hunters' return to Earth, only a ragtag crew of ex-soldiers and a
   // disgruntled female scientist can prevent the end of the human race.", "release_date": "2018-09-05" }, {
   // "vote_count": 988, "id": 369972, "video": false, "vote_average": 7.1, "title": "First Man", "popularity": 145.115,
-  // "poster_path": "/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg", "original_language": "en", "original_title": "First Man", "genre_ids": [36, 18], "backdrop_path": "/z1FkoHO7bz40S4JiptWHSYoPpxq.jpg", "adult": false, "overview": "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.", "release_date": "2018-10-11" }, { "vote_count": 2629, "id": 353081, "video": false, "vote_average": 7.2, "title": "Mission: Impossible - Fallout", "popularity": 131.137, "poster_path": "/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg", "original_language": "en", "original_title": "Mission: Impossible - Fallout", "genre_ids": [28, 53, 12], "backdrop_path": "/aw4FOsWr2FY373nKSxbpNi3fz4F.jpg", "adult": false, "overview": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.", "release_date": "2018-07-13" }, { "vote_count": 9907, "id": 299536, "video": false, "vote_average": 8.3, "title": "Avengers: Infinity War", "popularity": 128.043, "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", "original_language": "en", "original_title": "Avengers: Infinity War", "genre_ids": [12, 28, 14], "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg", "adult": false, "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", "release_date": "2018-04-25" }, { "vote_count": 420, "id": 360920, "video": false, "vote_average": 6.3, "title": "The Grinch", "popularity": 115.806, "poster_path": "/lCfKAAFyANPFn04xOPqazd8jwnc.jpg", "original_language": "en", "original_title": "The Grinch", "genre_ids": [16, 10751, 35, 14], "backdrop_path": "/juc9wt7Eh2IarLL5S1yQ1a21O1A.jpg", "adult": false, "overview": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.", "release_date": "2018-11-08" }, { "vote_count": 339, "id": 454293, "video": false, "vote_average": 6.1, "title": "Night School", "popularity": 113.973, "poster_path": "/xjsJTVWZYxeP89fwH17rsVvhPAe.jpg", "original_language": "en", "original_title": "Night School", "genre_ids": [35], "backdrop_path": "/eiUO8svuxMv16wvZsxubNLb5wNL.jpg", "adult": false, "overview": "Teddy Walker is a successful salesman whose life takes an unexpected turn when he accidentally blows up his place of employment. Forced to attend night school to get his GED, Teddy soon finds himself dealing with a group of misfit students, his former high school nemesis and a feisty teacher who doesn't think he's too bright.", "release_date": "2018-09-27" }, { "vote_count": 1280, "id": 345887, "video": false, "vote_average": 6.3, "title": "The Equalizer 2", "popularity": 113.784, "poster_path": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg", "original_language": "en", "original_title": "The Equalizer 2", "genre_ids": [53, 28, 80], "backdrop_path": "/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg", "adult": false, "overview": "Robert McCall, who serves an unflinching justice for the exploited and oppressed, embarks on a relentless, globe-trotting quest for vengeance when a long-time girl friend is murdered.", "release_date": "2018-07-19" }, { "vote_count": 531, "id": 484247, "video": false, "vote_average": 6.4, "title": "A Simple Favor", "popularity": 107.968, "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg", "original_language": "en", "original_title": "A Simple Favor", "genre_ids": [53, 80, 9648, 35, 18], "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg", "adult": false, "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.", "release_date": "2018-08-29" }, { "vote_count": 2514, "id": 424694, "video": false, "vote_average": 8.2, "title": "Bohemian Rhapsody", "popularity": 103.542, "poster_path": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg", "original_language": "en", "original_title": "Bohemian Rhapsody", "genre_ids": [18, 10402], "backdrop_path": "/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg", "adult": false, "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.", "release_date": "2018-10-24" }, { "vote_count": 44, "id": 438808, "video": false, "vote_average": 5.7, "title": "White Boy Rick", "popularity": 102.07, "poster_path": "/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg", "original_language": "en", "original_title": "White Boy Rick", "genre_ids": [18, 80], "backdrop_path": "/iphqiuA8HJg15Haw4Hkk2iyhWRo.jpg", "adult": false, "overview": "The story of teenager, Richard Wershe Jr., who became an undercover informant for the police during the 1980s and was ultimately arrested for drug-trafficking and sentenced to life in prison.", "release_date": "2018-09-14" }
+  // "poster_path": "/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg", "original_language": "en", "original_title": "First Man",
+  // "genre_ids": [36, 18], "backdrop_path": "/z1FkoHO7bz40S4JiptWHSYoPpxq.jpg", "adult": false, "overview": "A look at
+  // the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to
+  // walk on the Moon on July 20, 1969.", "release_date": "2018-10-11" }, { "vote_count": 2629, "id": 353081, "video":
+  // false, "vote_average": 7.2, "title": "Mission: Impossible - Fallout", "popularity": 131.137, "poster_path":
+  // "/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg", "original_language": "en", "original_title": "Mission: Impossible - Fallout",
+  // "genre_ids": [28, 53, 12], "backdrop_path": "/aw4FOsWr2FY373nKSxbpNi3fz4F.jpg", "adult": false, "overview": "When
+  // an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to
+  // fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves
+  // in a race against time, hunted by assassins while trying to prevent a global catastrophe.", "release_date":
+  // "2018-07-13" }, { "vote_count": 9907, "id": 299536, "video": false, "vote_average": 8.3, "title": "Avengers: Infinity War", "popularity": 128.043, "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", "original_language": "en", "original_title": "Avengers: Infinity War", "genre_ids": [12, 28, 14], "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg", "adult": false, "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", "release_date": "2018-04-25" }, { "vote_count": 420, "id": 360920, "video": false, "vote_average": 6.3, "title": "The Grinch", "popularity": 115.806, "poster_path": "/lCfKAAFyANPFn04xOPqazd8jwnc.jpg", "original_language": "en", "original_title": "The Grinch", "genre_ids": [16, 10751, 35, 14], "backdrop_path": "/juc9wt7Eh2IarLL5S1yQ1a21O1A.jpg", "adult": false, "overview": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.", "release_date": "2018-11-08" }, { "vote_count": 339, "id": 454293, "video": false, "vote_average": 6.1, "title": "Night School", "popularity": 113.973, "poster_path": "/xjsJTVWZYxeP89fwH17rsVvhPAe.jpg", "original_language": "en", "original_title": "Night School", "genre_ids": [35], "backdrop_path": "/eiUO8svuxMv16wvZsxubNLb5wNL.jpg", "adult": false, "overview": "Teddy Walker is a successful salesman whose life takes an unexpected turn when he accidentally blows up his place of employment. Forced to attend night school to get his GED, Teddy soon finds himself dealing with a group of misfit students, his former high school nemesis and a feisty teacher who doesn't think he's too bright.", "release_date": "2018-09-27" }, { "vote_count": 1280, "id": 345887, "video": false, "vote_average": 6.3, "title": "The Equalizer 2", "popularity": 113.784, "poster_path": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg", "original_language": "en", "original_title": "The Equalizer 2", "genre_ids": [53, 28, 80], "backdrop_path": "/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg", "adult": false, "overview": "Robert McCall, who serves an unflinching justice for the exploited and oppressed, embarks on a relentless, globe-trotting quest for vengeance when a long-time girl friend is murdered.", "release_date": "2018-07-19" }, { "vote_count": 531, "id": 484247, "video": false, "vote_average": 6.4, "title": "A Simple Favor", "popularity": 107.968, "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg", "original_language": "en", "original_title": "A Simple Favor", "genre_ids": [53, 80, 9648, 35, 18], "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg", "adult": false, "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.", "release_date": "2018-08-29" }, { "vote_count": 2514, "id": 424694, "video": false, "vote_average": 8.2, "title": "Bohemian Rhapsody", "popularity": 103.542, "poster_path": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg", "original_language": "en", "original_title": "Bohemian Rhapsody", "genre_ids": [18, 10402], "backdrop_path": "/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg", "adult": false, "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.", "release_date": "2018-10-24" }, { "vote_count": 44, "id": 438808, "video": false, "vote_average": 5.7, "title": "White Boy Rick", "popularity": 102.07, "poster_path": "/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg", "original_language": "en", "original_title": "White Boy Rick", "genre_ids": [18, 80], "backdrop_path": "/iphqiuA8HJg15Haw4Hkk2iyhWRo.jpg", "adult": false, "overview": "The story of teenager, Richard Wershe Jr., who became an undercover informant for the police during the 1980s and was ultimately arrested for drug-trafficking and sentenced to life in prison.", "release_date": "2018-09-14" }
 ];
 export const MOVIE_SEARCH_RESULTS = {
   _: INITIAL_REQUEST_RESULTS,
@@ -218,7 +228,17 @@ export const MOVIE_SEARCH_RESULTS = {
     // attempt to restore the proper spirit with a forlorn little fir Christmas tree fails, he needs Linus' help to
     // learn the meaning of Christmas.", //   "release_date": "1965-12-09" // }, { //   "vote_count": 3562, //   "id":
     // 37735, //   "video": false, //   "vote_average": 6.8, //   "title": "Easy A", //   "popularity": 8.875, //
-    // "poster_path": "/1pgPO3OfSm2inpODMqg2RNmLW90.jpg", //   "original_language": "en", //   "original_title": "Easy A", //   "genre_ids": [35], //   "backdrop_path": "/wu4tawMznxUvqP21lUH6RKrv3LQ.jpg", //   "adult": false, //   "overview": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all.", //   "release_date": "2010-09-16" // }, { //   "vote_count": 803, //   "id": 431530, //   "video": false, //   "vote_average": 6.2, //   "title": "A Bad Moms Christmas", //   "popularity": 18.881, //   "poster_path": "/gPNHolu7AGnrB7r5kvJRRTfwMFR.jpg", //   "original_language": "en", //   "original_title": "A Bad Moms Christmas", //   "genre_ids": [35], //   "backdrop_path": "/aIF2xRhE7iGxQd6ITGNrwYdGB9e.jpg", //   "adult": false, //   "overview": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.", //   "release_date": "2017-11-01" // }, { //   "vote_count": 282, //   "id": 11257, //   "video": false, //   "vote_average": 7.1, //   "title": "A Room with a View", //   "popularity": 8.633, //   "poster_path": "/fS4mDKBIHeTmWXPGgz64d2dMyJG.jpg", //   "original_language": "en", //   "original_title": "A Room with a View", //   "genre_ids": [18, 10749], //   "backdrop_path": "/8fAXEcTr8AlHsZl6kXKMBXKeqs0.jpg", //   "adult": false, //   "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?", //   "release_date": "1985-12-13" // }, { //   "vote_count": 8, //   "id": 488067, //   "video": false, //   "vote_average": 5.2, //   "title": "A Royal Christmas Ball", //   "popularity": 17.282, //   "poster_path": "/3WyIHLtUPSpVFAiWMEc7GKU3Qc3.jpg", //   "original_language": "en", //   "original_title": "A Royal Christmas Ball", //   "genre_ids": [10770, 10749], //   "backdrop_path": "/6VR6jdrlif2vAP0G57Zzy8OmOPK.jpg", //   "adult": false, //   "overview": "Dateless for the Christmas ball, 39-year-old bachelor, King Charles of Baltania, tracks down his American college sweetheart, only to discover Allison has never been married, yet raised a 17-year-old daughter, Lily, who mathematically might be Charles' biological princess.", //   "release_date": "2017-12-10" // }, { //   "vote_count": 1736, //   "id": 1585, //   "video": false, //   "vote_average": 8.2, //   "title": "It's a Wonderful Life", //   "popularity": 30.228, //   "poster_path": "/rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg", //   "original_language": "en", //   "original_title": "It's a Wonderful Life", //   "genre_ids": [18, 10751, 14], //   "backdrop_path": "/nMomMy1sD3SN2QsKop3zBXCJfDJ.jpg", //   "adult": false, //   "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.", //   "release_date": "1946-12-20" // }, { //   "vote_count": 4265, //   "id": 9487, //   "video": false, //   "vote_average": 6.9, //   "title": "A Bug's Life", //   "popularity": 12.445, //   "poster_path": "/u9qGMRwcPwP0WETxulS5hKUsEum.jpg", //   "original_language": "en", //   "original_title": "A Bug's Life", //   "genre_ids": [12, 16, 35, 10751], //   "backdrop_path": "/bHMHpXNjeKRxcjWcpbIAD5f0aIK.jpg", //   "adult": false, //   "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.", //   "release_date": "1998-11-25" // }, { //   "vote_count": 5770, //   "id": 185, //   "video": false, //   "vote_average": 8.2, //   "title": "A Clockwork Orange", //   "popularity": 16.411, //   "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg", //   "original_language": "en", //   "original_title": "A Clockwork Orange", //   "genre_ids": [878, 18], //   "backdrop_path": "/unMc1jEyqCnzba976GviSFKGagt.jpg", //   "adult": false, //   "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.", //   "release_date": "1971-12-18" // }, { //   "vote_count": 91, //   "id": 448776, //   "video": false, //   "vote_average": 6.6, //   "title": "A Prayer Before Dawn", //   "popularity": 16.124, //   "poster_path": "/73KrcLh1DpnBP3HwGpqoUUwKWF4.jpg", //   "original_language": "en", //   "original_title": "A Prayer Before Dawn", //   "genre_ids": [18, 28, 80], //   "backdrop_path": "/tyaVwOLIpAzZFP0qmXm2VZhYkxZ.jpg", //   "adult": false, //   "overview": "The true story of Billy Moore, an English boxer incarcerated in Thailand's most notorious prison. Thrown into a world of drugs and violence, he finds his best chance to escape is to fight his way out in Muay Thai tournaments.", //   "release_date": "2018-06-20" // }
+    // "poster_path": "/1pgPO3OfSm2inpODMqg2RNmLW90.jpg", //   "original_language": "en", //   "original_title": "Easy
+    // A", //   "genre_ids": [35], //   "backdrop_path": "/wu4tawMznxUvqP21lUH6RKrv3LQ.jpg", //   "adult": false, //
+    // "overview": "Olive, an average high school student, sees her below-the-radar existence turn around overnight
+    // once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are
+    // turning against her and the school board is becoming concerned, including her favorite teacher and the
+    // distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from
+    // a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for
+    // all.", //   "release_date": "2010-09-16" // }, { //   "vote_count": 803, //   "id": 431530, //   "video": false,
+    // //   "vote_average": 6.2, //   "title": "A Bad Moms Christmas", //   "popularity": 18.881, //   "poster_path":
+    // "/gPNHolu7AGnrB7r5kvJRRTfwMFR.jpg", //   "original_language": "en", //   "original_title": "A Bad Moms
+    // Christmas", //   "genre_ids": [35], //   "backdrop_path": "/aIF2xRhE7iGxQd6ITGNrwYdGB9e.jpg", //   "adult": false, //   "overview": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.", //   "release_date": "2017-11-01" // }, { //   "vote_count": 282, //   "id": 11257, //   "video": false, //   "vote_average": 7.1, //   "title": "A Room with a View", //   "popularity": 8.633, //   "poster_path": "/fS4mDKBIHeTmWXPGgz64d2dMyJG.jpg", //   "original_language": "en", //   "original_title": "A Room with a View", //   "genre_ids": [18, 10749], //   "backdrop_path": "/8fAXEcTr8AlHsZl6kXKMBXKeqs0.jpg", //   "adult": false, //   "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?", //   "release_date": "1985-12-13" // }, { //   "vote_count": 8, //   "id": 488067, //   "video": false, //   "vote_average": 5.2, //   "title": "A Royal Christmas Ball", //   "popularity": 17.282, //   "poster_path": "/3WyIHLtUPSpVFAiWMEc7GKU3Qc3.jpg", //   "original_language": "en", //   "original_title": "A Royal Christmas Ball", //   "genre_ids": [10770, 10749], //   "backdrop_path": "/6VR6jdrlif2vAP0G57Zzy8OmOPK.jpg", //   "adult": false, //   "overview": "Dateless for the Christmas ball, 39-year-old bachelor, King Charles of Baltania, tracks down his American college sweetheart, only to discover Allison has never been married, yet raised a 17-year-old daughter, Lily, who mathematically might be Charles' biological princess.", //   "release_date": "2017-12-10" // }, { //   "vote_count": 1736, //   "id": 1585, //   "video": false, //   "vote_average": 8.2, //   "title": "It's a Wonderful Life", //   "popularity": 30.228, //   "poster_path": "/rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg", //   "original_language": "en", //   "original_title": "It's a Wonderful Life", //   "genre_ids": [18, 10751, 14], //   "backdrop_path": "/nMomMy1sD3SN2QsKop3zBXCJfDJ.jpg", //   "adult": false, //   "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.", //   "release_date": "1946-12-20" // }, { //   "vote_count": 4265, //   "id": 9487, //   "video": false, //   "vote_average": 6.9, //   "title": "A Bug's Life", //   "popularity": 12.445, //   "poster_path": "/u9qGMRwcPwP0WETxulS5hKUsEum.jpg", //   "original_language": "en", //   "original_title": "A Bug's Life", //   "genre_ids": [12, 16, 35, 10751], //   "backdrop_path": "/bHMHpXNjeKRxcjWcpbIAD5f0aIK.jpg", //   "adult": false, //   "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.", //   "release_date": "1998-11-25" // }, { //   "vote_count": 5770, //   "id": 185, //   "video": false, //   "vote_average": 8.2, //   "title": "A Clockwork Orange", //   "popularity": 16.411, //   "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg", //   "original_language": "en", //   "original_title": "A Clockwork Orange", //   "genre_ids": [878, 18], //   "backdrop_path": "/unMc1jEyqCnzba976GviSFKGagt.jpg", //   "adult": false, //   "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.", //   "release_date": "1971-12-18" // }, { //   "vote_count": 91, //   "id": 448776, //   "video": false, //   "vote_average": 6.6, //   "title": "A Prayer Before Dawn", //   "popularity": 16.124, //   "poster_path": "/73KrcLh1DpnBP3HwGpqoUUwKWF4.jpg", //   "original_language": "en", //   "original_title": "A Prayer Before Dawn", //   "genre_ids": [18, 28, 80], //   "backdrop_path": "/tyaVwOLIpAzZFP0qmXm2VZhYkxZ.jpg", //   "adult": false, //   "overview": "The true story of Billy Moore, an English boxer incarcerated in Thailand's most notorious prison. Thrown into a world of drugs and violence, he finds his best chance to escape is to fight his way out in Muay Thai tournaments.", //   "release_date": "2018-06-20" // }
   ],
   b: [
     {
@@ -326,7 +346,17 @@ export const MOVIE_SEARCH_RESULTS = {
     // planted by the Apollo XI astronauts during man's historic moon landing, the countdown to a spectacular adventure
     // begins! Mike, teamed with his grandfather, best friends Amy and Marty, and a clever chameleon, blasts off on an
     // incredible moon-bound mission, determined to thwart the billionaire's evil plan, capture the flag, and reunite
-    // his family.", "release_date": "2015-08-28" }, { "vote_count": 104, "id": 483980, "video": false, "vote_average": 7.1, "title": "Z-O-M-B-I-E-S", "popularity": 9.598, "poster_path": "/okTdaEgs0qdwHvqzAYOuHkmdwyI.jpg", "original_language": "en", "original_title": "Z-O-M-B-I-E-S", "genre_ids": [35, 10749, 10770, 14], "backdrop_path": "/qF1xJzdLOzwhizgOngwRI4sSrN7.jpg", "adult": false, "overview": "Students from Zombietown are transferred to a high school in a suburban town preoccupied with uniformity, traditions and pep rallies.", "release_date": "2018-02-16" }, { "vote_count": 74, "id": 426230, "video": false, "vote_average": 6.5, "title": "Band Aid", "popularity": 3.595, "poster_path": "/lcxx0vN0hhQi7KFpRaJlxAaLLhR.jpg", "original_language": "en", "original_title": "Band Aid", "genre_ids": [35, 18, 10402], "backdrop_path": "/q7MjtWWThDW1XvwA3wiVpa7poWW.jpg", "adult": false, "overview": "A couple who can't stop fighting embark on a last-ditch effort to save their marriage: turning their fights into songs and starting a band.", "release_date": "2017-06-02" }, { "vote_count": 41, "id": 44282, "video": false, "vote_average": 7.3, "title": "Plan B", "popularity": 2.022, "poster_path": "/pxuHgOyU5Tytlbo4q0t7dS23syu.jpg", "original_language": "es", "original_title": "Plan B", "genre_ids": [35, 18, 10749], "backdrop_path": "/gUnwK0WeRdAPD5EtCINvL59Wkdp.jpg", "adult": false, "overview": "Bruno's plan to win back his ex-girlfriend hits a snag when he becomes attracted to her boyfriend.", "release_date": "2009-03-27" }, { "vote_count": 974, "id": 8274, "video": false, "vote_average": 5.3, "title": "American Pie Presents: Band Camp", "popularity": 10.561, "poster_path": "/hwWwljYkvWebTb9xPvzJdhLtS8R.jpg", "original_language": "en", "original_title": "American Pie Presents: Band Camp", "genre_ids": [35], "backdrop_path": "/Ai7WaZDlqyrOZZ6FT5NrsTCaUi4.jpg", "adult": false, "overview": "The original American Pie characters have moved on, except for Sherman and Jim Levenstein's still understanding dad. Steve Stifler's little brother Matt wants to join his brother's business (the hit it big Girls Gone Wild) and after everything Matt has heard from Jim's band-geek wife Michelle, he plans to go back to band camp and make a video of his own: Bandies Gone Wild!", "release_date": "2005-10-30" }, { "vote_count": 215, "id": 13933, "video": false, "vote_average": 7.3, "title": "One Man Band", "popularity": 5.88, "poster_path": "/nBBl8gWJvVppKqyY4ugdm3znZ9G.jpg", "original_language": "en", "original_title": "One Man Band", "genre_ids": [16, 10751], "backdrop_path": "/aOTHQzosgV17iY9ygjD91J1JpgD.jpg", "adult": false, "overview": "With one coin to make a wish at the piazza fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the one-man-bands.", "release_date": "2005-06-21" }, { "vote_count": 288, "id": 11006, "video": false, "vote_average": 6.8, "title": "Smokey and the Bandit", "popularity": 8.85, "poster_path": "/5uTIEUSBVzmEZ8TnFEZbCCOVHPj.jpg", "original_language": "en", "original_title": "Smokey and the Bandit", "genre_ids": [28, 12, 35], "backdrop_path": "/hzjX8eA4u7tGz4d4kjTnsW4RNWK.jpg", "adult": false, "overview": "A race car driver tries to transport an illegal beer shipment from Texas to Atlanta in under 28 hours, picking up a reluctant bride-to-be on the way.", "release_date": "1977-05-26" }, { "vote_count": 154, "id": 266082, "video": false, "vote_average": 6.4, "title": "Girlhood", "popularity": 5.215, "poster_path": "/towsWW8B5U8wRXSI2RULoOFohP5.jpg", "original_language": "fr", "original_title": "Bande de filles", "genre_ids": [18], "backdrop_path": "/4nA5ent1wLWlpQvRSbFQCfQuzmc.jpg", "adult": false, "overview": "Oppressed by her family setting, dead-end school prospects and the boys law in the neighborhood, Marieme starts a new life after meeting a group of three free-spirited girls. She changes her name, her dress code, and quits school to be accepted in the gang, hoping that this will be a way to freedom.", "release_date": "2014-06-27" }, { "vote_count": 0, "id": 504957, "video": false, "vote_average": 0, "title": "Alma Bandida", "popularity": 2.406, "poster_path": "/qAFHoZLMkKV0iETh9YgOljv5a3d.jpg", "original_language": "pt", "original_title": "Alma Bandida", "genre_ids": [18], "backdrop_path": null, "adult": false, "overview": "Love in a Brazilian town on the edge of the jungle: he loves her, and she says she loves him too. She deserves a gift, one that makes an impression. He wants to marry her and can’t wait any longer. So he heads out into the jungle armed with a pickaxe, since there is no app to find what he has in mind for her: gemstones. Gemstones are the path to freedom, his way out of the dreary small town – with her at his side.", "release_date": "2018-02-16" }
+    // his family.", "release_date": "2015-08-28" }, { "vote_count": 104, "id": 483980, "video": false, "vote_average":
+    // 7.1, "title": "Z-O-M-B-I-E-S", "popularity": 9.598, "poster_path": "/okTdaEgs0qdwHvqzAYOuHkmdwyI.jpg",
+    // "original_language": "en", "original_title": "Z-O-M-B-I-E-S", "genre_ids": [35, 10749, 10770, 14],
+    // "backdrop_path": "/qF1xJzdLOzwhizgOngwRI4sSrN7.jpg", "adult": false, "overview": "Students from Zombietown are
+    // transferred to a high school in a suburban town preoccupied with uniformity, traditions and pep rallies.",
+    // "release_date": "2018-02-16" }, { "vote_count": 74, "id": 426230, "video": false, "vote_average": 6.5, "title":
+    // "Band Aid", "popularity": 3.595, "poster_path": "/lcxx0vN0hhQi7KFpRaJlxAaLLhR.jpg", "original_language": "en",
+    // "original_title": "Band Aid", "genre_ids": [35, 18, 10402], "backdrop_path": "/q7MjtWWThDW1XvwA3wiVpa7poWW.jpg",
+    // "adult": false, "overview": "A couple who can't stop fighting embark on a last-ditch effort to save their
+    // marriage: turning their fights into songs and starting a band.", "release_date": "2017-06-02" }, { "vote_count":
+    // 41, "id": 44282, "video": false, "vote_average": 7.3, "title": "Plan B", "popularity": 2.022, "poster_path": "/pxuHgOyU5Tytlbo4q0t7dS23syu.jpg", "original_language": "es", "original_title": "Plan B", "genre_ids": [35, 18, 10749], "backdrop_path": "/gUnwK0WeRdAPD5EtCINvL59Wkdp.jpg", "adult": false, "overview": "Bruno's plan to win back his ex-girlfriend hits a snag when he becomes attracted to her boyfriend.", "release_date": "2009-03-27" }, { "vote_count": 974, "id": 8274, "video": false, "vote_average": 5.3, "title": "American Pie Presents: Band Camp", "popularity": 10.561, "poster_path": "/hwWwljYkvWebTb9xPvzJdhLtS8R.jpg", "original_language": "en", "original_title": "American Pie Presents: Band Camp", "genre_ids": [35], "backdrop_path": "/Ai7WaZDlqyrOZZ6FT5NrsTCaUi4.jpg", "adult": false, "overview": "The original American Pie characters have moved on, except for Sherman and Jim Levenstein's still understanding dad. Steve Stifler's little brother Matt wants to join his brother's business (the hit it big Girls Gone Wild) and after everything Matt has heard from Jim's band-geek wife Michelle, he plans to go back to band camp and make a video of his own: Bandies Gone Wild!", "release_date": "2005-10-30" }, { "vote_count": 215, "id": 13933, "video": false, "vote_average": 7.3, "title": "One Man Band", "popularity": 5.88, "poster_path": "/nBBl8gWJvVppKqyY4ugdm3znZ9G.jpg", "original_language": "en", "original_title": "One Man Band", "genre_ids": [16, 10751], "backdrop_path": "/aOTHQzosgV17iY9ygjD91J1JpgD.jpg", "adult": false, "overview": "With one coin to make a wish at the piazza fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the one-man-bands.", "release_date": "2005-06-21" }, { "vote_count": 288, "id": 11006, "video": false, "vote_average": 6.8, "title": "Smokey and the Bandit", "popularity": 8.85, "poster_path": "/5uTIEUSBVzmEZ8TnFEZbCCOVHPj.jpg", "original_language": "en", "original_title": "Smokey and the Bandit", "genre_ids": [28, 12, 35], "backdrop_path": "/hzjX8eA4u7tGz4d4kjTnsW4RNWK.jpg", "adult": false, "overview": "A race car driver tries to transport an illegal beer shipment from Texas to Atlanta in under 28 hours, picking up a reluctant bride-to-be on the way.", "release_date": "1977-05-26" }, { "vote_count": 154, "id": 266082, "video": false, "vote_average": 6.4, "title": "Girlhood", "popularity": 5.215, "poster_path": "/towsWW8B5U8wRXSI2RULoOFohP5.jpg", "original_language": "fr", "original_title": "Bande de filles", "genre_ids": [18], "backdrop_path": "/4nA5ent1wLWlpQvRSbFQCfQuzmc.jpg", "adult": false, "overview": "Oppressed by her family setting, dead-end school prospects and the boys law in the neighborhood, Marieme starts a new life after meeting a group of three free-spirited girls. She changes her name, her dress code, and quits school to be accepted in the gang, hoping that this will be a way to freedom.", "release_date": "2014-06-27" }, { "vote_count": 0, "id": 504957, "video": false, "vote_average": 0, "title": "Alma Bandida", "popularity": 2.406, "poster_path": "/qAFHoZLMkKV0iETh9YgOljv5a3d.jpg", "original_language": "pt", "original_title": "Alma Bandida", "genre_ids": [18], "backdrop_path": null, "adult": false, "overview": "Love in a Brazilian town on the edge of the jungle: he loves her, and she says she loves him too. She deserves a gift, one that makes an impression. He wants to marry her and can’t wait any longer. So he heads out into the jungle armed with a pickaxe, since there is no app to find what he has in mind for her: gemstones. Gemstones are the path to freedom, his way out of the dreary small town – with her at his side.", "release_date": "2018-02-16" }
   ],
   ab: [
     {
@@ -434,7 +464,17 @@ export const MOVIE_SEARCH_RESULTS = {
     // "hi", "original_title": "Ab Tumhare Hawale Watan Saathiyo", "genre_ids": [], "backdrop_path": null, "adult":
     // false, "overview": "Major General Amarjeet Singh (Amitabh Bachchan) is a dedicated officer for the Indian army.
     // His son Lieutenant Commander Vikramjeet Singh (Bobby Deol) follows in his footsteps and joins the army. Amarjeet
-    // is extremely proud of Vikramjeet but tragedy strikes when Vikramjeet is killed in action. Many years pass, Vikramjeet's son Captain Kunal Singh (Bobby Deol) joins the army but has no intentions of remaining there. He instead plans to leave, settle abroad and earn lots of money. Amarjeet is disappointed with Kunal as he hopes his grandson would do something to honour his deceased father. Kunal comes across a desert party and sees Shweta Bhansali (Divya Khosla). It is love at first sight for him but she totally ignores him and does everything to avoid him. However she is doing this for a reason- she was once married. Shweta fell in love and married Major Rajeev Singh (Akshay Kumar), unfortunately he was deployed for action on his wedding day and he had to leave his newly wed bride.", "release_date": "2004-12-24" }, { "vote_count": 0, "id": 440406, "video": false, "vote_average": 0, "title": "Hats Off", "popularity": 0.84, "poster_path": "/41rZKPm4snfzMGElERdmVRplA7B.jpg", "original_language": "de", "original_title": "Hats Off", "genre_ids": [], "backdrop_path": "/fi6ZehAlhfLAtNptLdkhSRxJRsv.jpg", "adult": false, "overview": "", "release_date": "1927-11-05" }, { "vote_count": 7, "id": 46360, "video": false, "vote_average": 5.4, "title": "Guns", "popularity": 2.038, "poster_path": "/iTn2WXeBJV2s4HZcM4vu1GJmNYP.jpg", "original_language": "en", "original_title": "Guns", "genre_ids": [28, 80], "backdrop_path": "/hTIkn1699cgElSqBTpQBmZ82PB9.jpg", "adult": false, "overview": "A South American gunrunner uses an island in Hawaii as his base of operations. A squad of beautiful government agents is sent to put him out of business.", "release_date": "1990-11-09" }, { "vote_count": 6, "id": 98289, "video": false, "vote_average": 8.2, "title": "Abandon Ship", "popularity": 1.603, "poster_path": "/lN44JeakuDpEtpy6OuetbedH4Hy.jpg", "original_language": "en", "original_title": "Abandon Ship", "genre_ids": [18, 12], "backdrop_path": "/cLKcXeHJjitzKi2twm8OFLomI8K.jpg", "adult": false, "overview": "Ship's officer finds himself in command of a lifeboat full of survivors of a sunken luxury liner.", "release_date": "1957-04-17" }, { "vote_count": 20, "id": 193645, "video": false, "vote_average": 6.7, "title": "Seduced and Abandoned", "popularity": 2.151, "poster_path": "/mLYWDTniE62LQNMEhifiMbFFKWS.jpg", "original_language": "en", "original_title": "Seduced and Abandoned", "genre_ids": [99], "backdrop_path": "/aE7rUxqvCgQRQzMZa5LAFseW2bg.jpg", "adult": false, "overview": "SEDUCED AND ABANDONED combines acting legend Alec Baldwin with director James Toback as they lead us on a troublesome and often hilarious journey of raising financing for their next feature film. Moving from director to financier to star actor, the two players provide us with a unique look behind the curtain at the world's biggest and most glamourous film festival, shining a light on the bitter-sweet relationship filmmakers have with Cannes and the film business. Featuring insights from directors Martin Scorsese, 'Bernando Bertolucci' and Roman Polanski; actors Ryan Gosling and Jessica Chastain and a host of film distribution luminaries.", "release_date": "2013-05-20" }, { "vote_count": 0, "id": 512598, "video": false, "vote_average": 0, "title": "Zimmer mit Stall - Ab in die Berge", "popularity": 2.412, "poster_path": "/zSc568uVPgVpaZok9kjcvbf2jdV.jpg", "original_language": "de", "original_title": "Zimmer mit Stall - Ab in die Berge", "genre_ids": [], "backdrop_path": "/5WhAf6jfL27mokKTtzehzgvRxj4.jpg", "adult": false, "overview": "", "release_date": "2018-03-16" }, { "vote_count": 5585, "id": 49530, "video": false, "vote_average": 6.8, "title": "In Time", "popularity": 18.91, "poster_path": "/lnYuAr3QOPzvuEFlzpsRUq41IEy.jpg", "original_language": "en", "original_title": "In Time", "genre_ids": [28, 53, 878], "backdrop_path": "/rY1TfKvvxk5Cw3qDYR2Akryw5e3.jpg", "adult": false, "overview": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.", "release_date": "2011-10-27" }, { "vote_count": 10, "id": 75253, "video": false, "vote_average": 5, "title": "Aa ab Laut Chalen", "popularity": 1.09, "poster_path": "/5wT0KbuQAh2NUUDgGNqXur3I6P9.jpg", "original_language": "hi", "original_title": "आ अब लौट चलें", "genre_ids": [18, 10749], "backdrop_path": "/l27qsL0Ol6relxQ8ftDZCKCQUiX.jpg", "adult": false, "overview": "Rohan is a jobless graduate living in the Delhi-based Khanna family with his widowed mother and grandfather. His father Balraj was killed in an accident many years ago. Rohan leaves Delhi for USA at the request of his friend to improve his life. Upon arrival in New York he finds shelter with Iqbal and Sardar. Rohan becomes a taxi-driver. One of his rides is a young woman named Pooja who has no one to call her own. He brings her to his home, and Pooja falls in love with Rohan but Rohan wants to make money and hence wants to marry a richer girl like Loveleen a spoiled rich girl, whom Rohan decides marry. When his friends oppose his decision, Rohan leaves their home, decides to live with Pooja - and a life full of uncertainties.", "release_date": "1999-01-22" }
+    // is extremely proud of Vikramjeet but tragedy strikes when Vikramjeet is killed in action. Many years pass,
+    // Vikramjeet's son Captain Kunal Singh (Bobby Deol) joins the army but has no intentions of remaining there. He
+    // instead plans to leave, settle abroad and earn lots of money. Amarjeet is disappointed with Kunal as he hopes
+    // his grandson would do something to honour his deceased father. Kunal comes across a desert party and sees Shweta
+    // Bhansali (Divya Khosla). It is love at first sight for him but she totally ignores him and does everything to
+    // avoid him. However she is doing this for a reason- she was once married. Shweta fell in love and married Major
+    // Rajeev Singh (Akshay Kumar), unfortunately he was deployed for action on his wedding day and he had to leave his
+    // newly wed bride.", "release_date": "2004-12-24" }, { "vote_count": 0, "id": 440406, "video": false,
+    // "vote_average": 0, "title": "Hats Off", "popularity": 0.84, "poster_path": "/41rZKPm4snfzMGElERdmVRplA7B.jpg",
+    // "original_language": "de", "original_title": "Hats Off", "genre_ids": [], "backdrop_path":
+    // "/fi6ZehAlhfLAtNptLdkhSRxJRsv.jpg", "adult": false, "overview": "", "release_date": "1927-11-05" }, { "vote_count": 7, "id": 46360, "video": false, "vote_average": 5.4, "title": "Guns", "popularity": 2.038, "poster_path": "/iTn2WXeBJV2s4HZcM4vu1GJmNYP.jpg", "original_language": "en", "original_title": "Guns", "genre_ids": [28, 80], "backdrop_path": "/hTIkn1699cgElSqBTpQBmZ82PB9.jpg", "adult": false, "overview": "A South American gunrunner uses an island in Hawaii as his base of operations. A squad of beautiful government agents is sent to put him out of business.", "release_date": "1990-11-09" }, { "vote_count": 6, "id": 98289, "video": false, "vote_average": 8.2, "title": "Abandon Ship", "popularity": 1.603, "poster_path": "/lN44JeakuDpEtpy6OuetbedH4Hy.jpg", "original_language": "en", "original_title": "Abandon Ship", "genre_ids": [18, 12], "backdrop_path": "/cLKcXeHJjitzKi2twm8OFLomI8K.jpg", "adult": false, "overview": "Ship's officer finds himself in command of a lifeboat full of survivors of a sunken luxury liner.", "release_date": "1957-04-17" }, { "vote_count": 20, "id": 193645, "video": false, "vote_average": 6.7, "title": "Seduced and Abandoned", "popularity": 2.151, "poster_path": "/mLYWDTniE62LQNMEhifiMbFFKWS.jpg", "original_language": "en", "original_title": "Seduced and Abandoned", "genre_ids": [99], "backdrop_path": "/aE7rUxqvCgQRQzMZa5LAFseW2bg.jpg", "adult": false, "overview": "SEDUCED AND ABANDONED combines acting legend Alec Baldwin with director James Toback as they lead us on a troublesome and often hilarious journey of raising financing for their next feature film. Moving from director to financier to star actor, the two players provide us with a unique look behind the curtain at the world's biggest and most glamourous film festival, shining a light on the bitter-sweet relationship filmmakers have with Cannes and the film business. Featuring insights from directors Martin Scorsese, 'Bernando Bertolucci' and Roman Polanski; actors Ryan Gosling and Jessica Chastain and a host of film distribution luminaries.", "release_date": "2013-05-20" }, { "vote_count": 0, "id": 512598, "video": false, "vote_average": 0, "title": "Zimmer mit Stall - Ab in die Berge", "popularity": 2.412, "poster_path": "/zSc568uVPgVpaZok9kjcvbf2jdV.jpg", "original_language": "de", "original_title": "Zimmer mit Stall - Ab in die Berge", "genre_ids": [], "backdrop_path": "/5WhAf6jfL27mokKTtzehzgvRxj4.jpg", "adult": false, "overview": "", "release_date": "2018-03-16" }, { "vote_count": 5585, "id": 49530, "video": false, "vote_average": 6.8, "title": "In Time", "popularity": 18.91, "poster_path": "/lnYuAr3QOPzvuEFlzpsRUq41IEy.jpg", "original_language": "en", "original_title": "In Time", "genre_ids": [28, 53, 878], "backdrop_path": "/rY1TfKvvxk5Cw3qDYR2Akryw5e3.jpg", "adult": false, "overview": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.", "release_date": "2011-10-27" }, { "vote_count": 10, "id": 75253, "video": false, "vote_average": 5, "title": "Aa ab Laut Chalen", "popularity": 1.09, "poster_path": "/5wT0KbuQAh2NUUDgGNqXur3I6P9.jpg", "original_language": "hi", "original_title": "आ अब लौट चलें", "genre_ids": [18, 10749], "backdrop_path": "/l27qsL0Ol6relxQ8ftDZCKCQUiX.jpg", "adult": false, "overview": "Rohan is a jobless graduate living in the Delhi-based Khanna family with his widowed mother and grandfather. His father Balraj was killed in an accident many years ago. Rohan leaves Delhi for USA at the request of his friend to improve his life. Upon arrival in New York he finds shelter with Iqbal and Sardar. Rohan becomes a taxi-driver. One of his rides is a young woman named Pooja who has no one to call her own. He brings her to his home, and Pooja falls in love with Rohan but Rohan wants to make money and hence wants to marry a richer girl like Loveleen a spoiled rich girl, whom Rohan decides marry. When his friends oppose his decision, Rohan leaves their home, decides to live with Pooja - and a life full of uncertainties.", "release_date": "1999-01-22" }
   ],
   abc: [
     {
@@ -5451,4 +5491,11330 @@ export const MOVIE_SEARCH_DETAIL_RESULTS = {
   ],
 };
 // These are the 46 test sequences generated by previous tests in the branch git-with-state-library
-export const testSequences = void 0
+export const testSequences = [
+  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 },
+    {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  },
+    { "QUERY_CHANGED": "a" },
+    {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  },
+    { "QUERY_CHANGED": "ab" },
+    { "QUERY_CHANGED": "" },
+    {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }
+  ],
+  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }],
+  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }],
+  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 70,
+        "id": 15992,
+        "video": false,
+        "vote_average": 4.6,
+        "title": "Abandon",
+        "popularity": 3.721,
+        "poster_path": "/boUVtx1o57qsy9rkdXxI4ExHLnP.jpg",
+        "original_language": "en",
+        "original_title": "Abandon",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/zFEbZNUAtbmdT9Pc2VUeFdnelQJ.jpg",
+        "adult": false,
+        "overview": "A psychological thriller about a senior at one of America's most prestigious universities. Under enormous pressure to complete her thesis and earn a top job at one of the world's most competitive consulting firms, Katie is still coping with the sudden unexplained disappearance of her first love two years prior. As the investigation continues, Katie is forced to choose between past passions and new possibilities, even as new facts are uncovered.",
+        "release_date": "2002-10-14"
+      }, {
+        "vote_count": 60,
+        "id": 43642,
+        "video": false,
+        "vote_average": 4.8,
+        "title": "Abandoned",
+        "popularity": 3.266,
+        "poster_path": "/ynSiN0xFSZNHIW3j9pdjP3hBEhA.jpg",
+        "original_language": "en",
+        "original_title": "Abandoned",
+        "genre_ids": [18, 9648, 53],
+        "backdrop_path": "/A47dOlYStIlXIEUp50hogq4gnPl.jpg",
+        "adult": false,
+        "overview": "Mary Walsh delivers boyfriend Kevin to a hospital for routine outpatient surgery. But when Mary returns to take him home, he's mysteriously vanished.",
+        "release_date": "2010-08-24"
+      }], "query": "ab"
+    }
+  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }, {
+        "vote_count": 2152,
+        "id": 332562,
+        "video": false,
+        "vote_average": 7.4,
+        "title": "A Star Is Born",
+        "popularity": 51.118,
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "original_language": "en",
+        "original_title": "A Star Is Born",
+        "genre_ids": [18, 10402, 10749],
+        "backdrop_path": "/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg",
+        "adult": false,
+        "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "release_date": "2018-10-03"
+      }], "query": "a"
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 543,
+        "id": 484247,
+        "video": false,
+        "vote_average": 6.4,
+        "title": "A Simple Favor",
+        "popularity": 98.505,
+        "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+        "original_language": "en",
+        "original_title": "A Simple Favor",
+        "genre_ids": [53, 80, 9648, 35, 18],
+        "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+        "adult": false,
+        "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.",
+        "release_date": "2018-08-29"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [{ "id": 53, "name": "Thriller" }, { "id": 80, "name": "Crime" }, {
+        "id": 9648,
+        "name": "Mystery"
+      }, { "id": 35, "name": "Comedy" }, { "id": 18, "name": "Drama" }],
+      "homepage": "https://asimplefavor.movie/",
+      "id": 484247,
+      "imdb_id": "tt7040874",
+      "original_language": "en",
+      "original_title": "A Simple Favor",
+      "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Emily undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "popularity": 77.805,
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "production_companies": [{
+        "id": 61791,
+        "logo_path": "/xyiy5wZdmnxVViRa8oRMXQQvT6F.png",
+        "name": "Feigco Entertainment",
+        "origin_country": "US"
+      }, {
+        "id": 13240,
+        "logo_path": "/aTc07YaNHo8WNgkQSnvLmG6w4nW.png",
+        "name": "Bron Studios",
+        "origin_country": "CA"
+      }],
+      "production_countries": [{ "iso_3166_1": "CA", "name": "Canada" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-08-29",
+      "revenue": 94800000,
+      "runtime": 117,
+      "spoken_languages": [{ "iso_639_1": "es", "name": "Español" }, { "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Can you keep a secret?",
+      "title": "A Simple Favor",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 914
+    }, {
+      "id": 484247,
+      "cast": [{
+        "cast_id": 3,
+        "character": "Stephanie Smothers",
+        "credit_id": "59f7097192514142c902f4be",
+        "gender": 1,
+        "id": 84223,
+        "name": "Anna Kendrick",
+        "order": 0,
+        "profile_path": "/ar6UZyD8QgnHYIUDey0muDcIG8W.jpg"
+      }, {
+        "cast_id": 4,
+        "character": "Emily Nelson",
+        "credit_id": "59f7097fc3a3682df402b9c0",
+        "gender": 1,
+        "id": 59175,
+        "name": "Blake Lively",
+        "order": 1,
+        "profile_path": "/6se81Ga8zgloNJfb33kZyadzCqi.jpg"
+      }],
+      "crew": [{
+        "credit_id": "59f7094a92514142aa030829",
+        "department": "Directing",
+        "gender": 2,
+        "id": 116805,
+        "job": "Director",
+        "name": "Paul Feig",
+        "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
+    "SEARCH_RESULTS_RECEIVED": {
+      "results": [{
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }, {
+        "vote_count": 101,
+        "id": 418970,
+        "video": false,
+        "vote_average": 6.5,
+        "title": "Just to Be Sure",
+        "popularity": 358.88,
+        "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
+      }], "query": ""
+    }
+  }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, {
+    "MOVIE_SELECTED": {
+      "movie": {
+        "vote_count": 267,
+        "id": 297802,
+        "video": false,
+        "vote_average": 7,
+        "title": "Aquaman",
+        "popularity": 528.904,
+        "poster_path": "/ydUpl3QkVUCHCq1VWvo2rW4Sf7y.jpg"
+      }
+    }
+  }, {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+      "adult": false,
+      "backdrop_path": "/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg",
+      "belongs_to_collection": null,
+      "budget": 160000000,
+      "genres": [{ "id": 28, "name": "Action" }, { "id": 14, "name": "Fantasy" }, {
+        "id": 878,
+        "name": "Science Fiction"
+      }, { "id": 12, "name": "Adventure" }],
+      "homepage": "http://www.aquamanmovie.com",
+      "id": 297802,
+      "imdb_id": "tt1477834",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "overview": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+      "popularity": 646.819,
+      "poster_path": "/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+      "production_companies": [{
+        "id": 429,
+        "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+        "name": "DC Comics",
+        "origin_country": "US"
+      }],
+      "production_countries": [{ "iso_3166_1": "AU", "name": "Australia" }, {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }],
+      "release_date": "2018-12-07",
+      "revenue": 846317079,
+      "runtime": 143,
+      "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+      "status": "Released",
+      "tagline": "Protector of the Deep",
+      "title": "Aquaman",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1880
+    }, {
+      "id": 297802,
+      "cast": [{
+        "cast_id": 0,
+        "character": "Arthur Curry / Aquaman 2",
+        "credit_id": "545b5fbcc3a368535300121a",
+        "gender": 2,
+        "id": 117642,
+        "name": "Jason Momoa",
+        "order": 0,
+        "profile_path": "/pG1Faei9M8ObR4bOD2ljiSVuaDm.jpg"
+      }],
+      "crew": [{
+        "credit_id": "55ef67979251412c32005012",
+        "department": "Directing",
+        "gender": 2,
+        "id": 2127,
+        "job": "Director",
+        "name": "James Wan",
+        "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
+      }]
+    }]
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }]
+]

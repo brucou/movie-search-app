@@ -5,12 +5,9 @@ import { range } from "ramda"
 import { applyPatch } from "json-patch-es6/lib/duplex"
 import { merge as merge$, of, Subject } from "rxjs";
 import { movieSearchFsmDef } from "../src/fsm"
-import {
-  COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, screens
-} from "../src/properties"
+import { COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, events, screens } from "../src/properties"
 import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS, testSequences } from "./fixtures"
 import { mapOverObj } from "fp-rosetree";
-import { makeQuerySlug } from "../src/helpers"
 
 export function tryCatch(fn, err) {
   return function (...args) {
@@ -125,11 +122,7 @@ const default_settings = {
 const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 
 function getQueryAlias(query) {
-  return (query === DISCOVERY_REQUEST) ? '_' : query
-}
-
-function getQueryString(query) {
-  return (query === DISCOVERY_REQUEST) ? '' : query
+  return (query === '') ? '_' : query
 }
 
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
@@ -158,7 +151,9 @@ QUnit.test("With search concurrency", function exec_test(assert) {
   const inputSequences = testSequences;
   const outputsSequences = inputSequences.map(testSequence => {
       const fsm = create_state_machine(fsmDef, default_settings);
-      return testSequence.map(fsm.yield)
+      const output = testSequence.map(fsm.yield);
+      console.debug('outputSequence', output)
+      return output
     }
   );
   const spyTrigger = function spyTrigger(eventName) {
@@ -210,7 +205,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
           case USER_NAVIGATED_TO_APP: {
             const searchCommand = {
               command: COMMAND_MOVIE_SEARCH,
-              params: DISCOVERY_REQUEST
+              params: ''
             };
             const renderCommand = { command: COMMAND_RENDER, params: setProps({ screen: LOADING_SCREEN, args: [] }) };
 
@@ -218,32 +213,32 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               outputSeq: outputSeq.concat([
                 [renderCommand, searchCommand]
               ]),
-              state: { ...state, pendingQuery: DISCOVERY_REQUEST }
+              state: { ...state, pendingQuery: '' }
             }
           }
           case SEARCH_RESULTS_RECEIVED : {
-            const searchResults = eventData;
+            const { results: searchResults, query } = eventData;
             let { pendingQuery } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_SCREEN,
-                args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], getQueryString(pendingQuery)]
+                args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], pendingQuery]
               })
             };
 
             return {
-              outputSeq: outputSeq.concat([
-                [renderCommand]
-              ]),
-              state: { ...state, results: searchResults, pendingQuery }
+              outputSeq: pendingQuery === query
+                ? outputSeq.concat([[renderCommand]])
+                : outputSeq,
+              state: pendingQuery === query ? { ...state, results: searchResults, pendingQuery } : state
             }
           }
           case SEARCH_ERROR_RECEIVED : {
             const { pendingQuery } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [getQueryString(pendingQuery)] })
+              params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [pendingQuery] })
             };
 
             return {
@@ -258,7 +253,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             const { results } = state;
             const searchCommand = {
               command: COMMAND_MOVIE_SEARCH,
-              params: makeQuerySlug(query)
+              params: query
             };
             const renderCommand = {
               command: COMMAND_RENDER,
@@ -285,7 +280,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN,
-                args: [results, getQueryString(pendingQuery), movie]
+                args: [results, pendingQuery, movie]
               })
             };
 
@@ -303,7 +298,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               command: COMMAND_RENDER,
               params: setProps({
                 screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS,
-                args: [results, getQueryString(pendingQuery)]
+                args: [results, pendingQuery]
                   .concat(MOVIE_SEARCH_DETAIL_RESULTS[getQueryAlias(pendingQuery)])
               })
             };
@@ -336,7 +331,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             const { pendingQuery, results } = state;
             const renderCommand = {
               command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, getQueryString(pendingQuery)] })
+              params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, pendingQuery] })
             };
 
             return {
