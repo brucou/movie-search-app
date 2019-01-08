@@ -16,24 +16,9 @@ const {
 const { QUERY_RESETTED, USER_NAVIGATED_TO_APP, SEARCH_REQUESTED, SEARCH_ERROR_RECEIVED, SEARCH_RESULTS_RECEIVED, QUERY_CHANGED, MOVIE_SELECTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_ERROR_MOVIE_RECEIVED, MOVIE_DETAILS_DESELECTED } = events;
 const eventEmitter = emitonoff();
 
-const views = {
-  HEADER:
-    div(".App__header.uk-width-1-1", [
-      // ul(".uk-breadcrumb.uk-width-1-1", [
-      //   li(".uk-width-1-1", [
-      //     a(".js-home.uk-width-1-1.uk-padding-small", [
-      //       span(".uk-margin-small-right.uk-icon", { "uk-icon": "icon:chevron-left" }, [
-      //         `Back`
-      //       ])
-      //     ])
-      //   ])
-      // ])
-    ]),
-}
 const screens = {
   LOADING_SCREEN: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -58,7 +43,6 @@ const screens = {
     ]),
   SEARCH_RESULTS_SCREEN: (results, query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -93,7 +77,6 @@ const screens = {
                           img({
                             "src": `${IMAGE_TMDB_PREFIX}${result.backdrop_path}`,
                             "alt": "",
-                            // "onClick": domEventHandlers[MOVIE_SELECTED](result),
                             "data-testid": MOVIE_IMG_SRC_TESTID
                           })
                         ]),
@@ -112,7 +95,6 @@ const screens = {
   ),
   SEARCH_ERROR_SCREEN: (query) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -143,7 +125,6 @@ const screens = {
   ),
   SEARCH_RESULTS_AND_LOADING_SCREEN: (results, query) =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -173,7 +154,6 @@ const screens = {
     ]),
   SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN: (results, query, movieDetail) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
-      views.HEADER,
       div(".App__view-container", [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -203,7 +183,6 @@ const screens = {
                     }, [
                       a(".ResultsContainer__result-item.js-result-click", {
                         "href": null,
-                        // "onClick": () => false,
                         "data-id": result.id,
                       }, [
                         div(".ResultsContainer__thumbnail-holder", [
@@ -233,7 +212,6 @@ const screens = {
     ])),
   SEARCH_RESULTS_WITH_MOVIE_DETAILS: (results, query, details, cast) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
-      views.HEADER,
       div(".App__view-container", { onClick: domEventHandlers[MOVIE_DETAILS_DESELECTED] }, [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -268,7 +246,6 @@ const screens = {
                           img({
                             "src": `${IMAGE_TMDB_PREFIX}${result.backdrop_path}`,
                             "alt": "",
-                            // "onClick": domEventHandlers[MOVIE_SELECTED](result),
                             "data-testid": MOVIE_IMG_SRC_TESTID
                           })
                         ]),
@@ -317,10 +294,8 @@ const screens = {
       ])
     ])
   ),
-  // TODO : to update too in S8-11!!
   SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR: (results, query, details, title) => (
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "item" }, [
-      views.HEADER,
       div(".App__view-container", { onClick: domEventHandlers[MOVIE_DETAILS_DESELECTED] }, [
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "home" }, [
           div(".HomePage", [
@@ -388,7 +363,6 @@ const domEventHandlers = {
 };
 
 function handleAppEvents(app, event, args) {
-  // TODO update S8-11 (title)
   const { queryFieldHasChanged, movieQuery, results, movieTitle, movieDetails, cast } = app.state;
 
   switch (event) {
@@ -423,7 +397,6 @@ function handleAppEvents(app, event, args) {
       const [query] = args;
 
       if (queryFieldHasChanged === false) {
-        // TODO update S4-7
         app.setState({
           screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
           queryFieldHasChanged: true,
@@ -434,7 +407,6 @@ function handleAppEvents(app, event, args) {
           .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, err))
       }
       else if (queryFieldHasChanged === true) {
-        // TODO update S4-7
         app.setState({
           screen: screens.SEARCH_RESULTS_AND_LOADING_SCREEN(results, query),
           queryFieldHasChanged: true,
@@ -450,7 +422,6 @@ function handleAppEvents(app, event, args) {
       const [movie] = args;
       const movieId = movie.id;
 
-      // TODO update S8-11 (title)
       app.setState({
         screen: screens.SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN(results, movieQuery, movie),
         movieTitle : movie.title
@@ -497,7 +468,6 @@ class App extends Component {
     app.state = {
       screen: screens.LOADING_SCREEN(),
       queryFieldHasChanged: false,
-      // currentQuery: null
     };
     Object.keys(events).forEach(ev => eventEmitter.on(ev, (...args) => handleAppEvents(app, ev, args)));
   }
@@ -513,5 +483,3 @@ class App extends Component {
 }
 
 export default App;
-
-// cf. https://codesandbox.io/s/jj4vrzq3wy

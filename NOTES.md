@@ -1,10 +1,3 @@
-- we will use innerHtml on the app element of the html
-- this creates and destroys dom elements, so there is no need to keep track of listeners
-- now fast this is, that is a good question... we will see
-- to optimize it is always possible to split the app element html into slow and fast part, and 
-check for the slow part changes. If changes then redraw, if no changes, then leave as is. That 
-requires anchors for the slow and fast parts
-
 # Learnt
 - CATCH ERRORS in promises and systematically LOG THEM
   - a lot of the time I spent with the issues below are due to error swallowing
@@ -32,6 +25,22 @@ signalling most of the time
   - make a specific test id to discriminate!
 - using innerHTML for rendering means that I loose focus on input fields
   - generally i loose the DOM state by recreating the DOM!!!
+- TESTS with dom-library : 
+  - use waiForElement rather than wait by default (when waiting for element to appear)
+- transducers API
+  - transducers are pipe transformers. So it is not possible to do a startWith. startWith is a 
+  producer transformer!
+  - same goes for merge, which is also a producer transformer. Reason is transformer kick in when
+   a value is already emitted. So any merging logic would have to wait for a value to come in and
+    activate the transducer!! 
+    - transduce(coll, xform, reducer, init?) — Like reduce, but apply xform to each value before passing to reducer. If init is not specify it will attempt to get it from reducer.
+    - transducer (xform) needs a reducer to tell it how to build the result. In other words, it is 
+    monoid?
+    - xform takes a reducer : xform(reducer) is a function (result, x) which returns a new result. So
+     x is the new value here, and result is the reduced value from the old result value
+    - xform (reducer) is a reducer!! i.e. a transducer!!
+    - so reducer here is the original reducer, the building reducer!!
+    - so coll knows how to iterate, reducer knows how to build results, xform transforms reducers
 
 # Learnt Config
 - qunit better included in the html if webpack (the import works, but the function QUnit.module 
@@ -49,10 +58,6 @@ and also put a .babelrc
 }
 ```
 
-# State machines benefits
-- original implementation does not show anything in case of network error on initial load!!
-- we don't do debounce in vanilla js implementation for now, or maybe we should
-
 # progression
 - S0: shell : https://codesandbox.io/s/yjwpx1wn8j
 - S1: loading : https://codesandbox.io/s/vvymn2qn3l
@@ -60,40 +65,6 @@ and also put a .babelrc
 - S2-3: init results error : https://codesandbox.io/s/y2yljrzxj1
 - S4-7 : (NO TEST yet) https://codesandbox.io/s/4j95n6pn04
 - S8-all
-
-# transducer API : https://github.com/jlongster/transducers.js
-- transduce(coll, xform, reducer, init?) — Like reduce, but apply xform to each value before passing to reducer. If init is not specify it will attempt to get it from reducer.
-- transducer (xform) needs a reducer to tell it how to build the result. In other words, it is 
-monoid?
-- xform takes a reducer : xform(reducer) is a function (result, x) which returns a new result. So
- x is the new value here, and result is the reduced value from the old result value
-- xform (reducer) is a reducer!! i.e. a transducer!!
-- so reducer here is the original reducer, the building reducer!!
-- so coll knows how to iterate, reducer knows how to build results, xform transforms reducers
-- so for observable it is possible to have transduce(obs, xform, subject, init?); subject is 
-also the result
-- so I can do that will callbacks?
-  - subject = event emitter
-  - obs?? something with a subscribe method, so could have a eventEmitter to observable method 
-  that means obs would be an event emitter
-- so transduce(emitter, xform, emitter, init) - just need to work on the API!!
-
-- FAN IN:
-  - easy? at the emitter level, you can have emitter = merge([emitter])
-  - could also have xform = xxform(emitter2, emitter3) and transduce(emitter1, xform...)
-  - or write an overload of transduce : merge([emitter]) = transduce(emitter1, xform...)
-
-- FAN OUT
-  - we return an event emitter so just add as many listeners to that as necessary
-
-- combination of FAN IN and FAN OUT
-  - transducer always return whatever the build reducer returns meaning an emitter 
-  - so transduce(merge([emitter]), xform, emitter, init) mmm cannot fan out? has to do in several
-   steps
-   - transduce(merge([fan in emitter]), xform, emitter, init)
-   - then emitter.listen([fan out emitter])
-   - That could easily be made into something visualizable with metadata
-   - everything xform could have a name, or should it be the emitter? to think about
 
 # http://lucasmreis.github.io/blog/contents/
 - explain to him that he is doing state machine really in his react patterns
