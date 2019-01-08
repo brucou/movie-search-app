@@ -140,7 +140,6 @@ const { SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, SEARCH_RESULTS_WITH_MOVIE_DETAI
 
 QUnit.module("Testing test sequences generation", {});
 
-// TODO : move the test generation specs to a stackblitz
 // TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
 // TODO : so like testFsm(testAPI, fsmDef, generators, updateState, strategy, oracle, format)
 // format : format input, and output, and expected output
