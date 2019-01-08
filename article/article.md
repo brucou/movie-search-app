@@ -392,7 +392,7 @@ updated machines :
 
 | feature | machine |
 |---|---|
-| back button | ![fsm model corrected with back button](movie%20search%20good%20fsm%20corrected%20flowchart.png) |
+| back button | ![fsm model corrected with back button](movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis.png)|
 | debouncing | ![fsm model corrected with debounce](movie%20search%20good%20fsm%20corrected%20flowchart%20with%20back%20button%20and%20debounce.png) |
 
 The first case is easy. Clicking on the `Back` link will generate the same event as clicking 
