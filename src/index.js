@@ -1,5 +1,3 @@
-// cf. https://frontarm.com/demoboard/?id=3178de8d-fe66-49de-92ba-e7063725a732
-// cf.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './uikit.css';
