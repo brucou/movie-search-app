@@ -152,6 +152,10 @@ QUnit.module("Testing test sequences generation", {});
 // - generating expected output uses state but should be easy : only state born from input
 // - generating input sequence uses state but born from what we want to test
 // - we should not duplicate or reuse code from the implementation!!
+// TODO : update tests for new fsm
+// so new gen fsm
+// beware that now the query for the command is a text
+// beware that search movie results now is {results, query}
 QUnit.test("With search concurrency", function exec_test(assert) {
   const fsmDef = movieSearchFsmDef;
   const genFsmDef = {
