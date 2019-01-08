@@ -118,7 +118,27 @@ export const INITIAL_REQUEST_RESULTS = [
   // an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to
   // fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves
   // in a race against time, hunted by assassins while trying to prevent a global catastrophe.", "release_date":
-  // "2018-07-13" }, { "vote_count": 9907, "id": 299536, "video": false, "vote_average": 8.3, "title": "Avengers: Infinity War", "popularity": 128.043, "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", "original_language": "en", "original_title": "Avengers: Infinity War", "genre_ids": [12, 28, 14], "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg", "adult": false, "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", "release_date": "2018-04-25" }, { "vote_count": 420, "id": 360920, "video": false, "vote_average": 6.3, "title": "The Grinch", "popularity": 115.806, "poster_path": "/lCfKAAFyANPFn04xOPqazd8jwnc.jpg", "original_language": "en", "original_title": "The Grinch", "genre_ids": [16, 10751, 35, 14], "backdrop_path": "/juc9wt7Eh2IarLL5S1yQ1a21O1A.jpg", "adult": false, "overview": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.", "release_date": "2018-11-08" }, { "vote_count": 339, "id": 454293, "video": false, "vote_average": 6.1, "title": "Night School", "popularity": 113.973, "poster_path": "/xjsJTVWZYxeP89fwH17rsVvhPAe.jpg", "original_language": "en", "original_title": "Night School", "genre_ids": [35], "backdrop_path": "/eiUO8svuxMv16wvZsxubNLb5wNL.jpg", "adult": false, "overview": "Teddy Walker is a successful salesman whose life takes an unexpected turn when he accidentally blows up his place of employment. Forced to attend night school to get his GED, Teddy soon finds himself dealing with a group of misfit students, his former high school nemesis and a feisty teacher who doesn't think he's too bright.", "release_date": "2018-09-27" }, { "vote_count": 1280, "id": 345887, "video": false, "vote_average": 6.3, "title": "The Equalizer 2", "popularity": 113.784, "poster_path": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg", "original_language": "en", "original_title": "The Equalizer 2", "genre_ids": [53, 28, 80], "backdrop_path": "/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg", "adult": false, "overview": "Robert McCall, who serves an unflinching justice for the exploited and oppressed, embarks on a relentless, globe-trotting quest for vengeance when a long-time girl friend is murdered.", "release_date": "2018-07-19" }, { "vote_count": 531, "id": 484247, "video": false, "vote_average": 6.4, "title": "A Simple Favor", "popularity": 107.968, "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg", "original_language": "en", "original_title": "A Simple Favor", "genre_ids": [53, 80, 9648, 35, 18], "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg", "adult": false, "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.", "release_date": "2018-08-29" }, { "vote_count": 2514, "id": 424694, "video": false, "vote_average": 8.2, "title": "Bohemian Rhapsody", "popularity": 103.542, "poster_path": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg", "original_language": "en", "original_title": "Bohemian Rhapsody", "genre_ids": [18, 10402], "backdrop_path": "/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg", "adult": false, "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.", "release_date": "2018-10-24" }, { "vote_count": 44, "id": 438808, "video": false, "vote_average": 5.7, "title": "White Boy Rick", "popularity": 102.07, "poster_path": "/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg", "original_language": "en", "original_title": "White Boy Rick", "genre_ids": [18, 80], "backdrop_path": "/iphqiuA8HJg15Haw4Hkk2iyhWRo.jpg", "adult": false, "overview": "The story of teenager, Richard Wershe Jr., who became an undercover informant for the police during the 1980s and was ultimately arrested for drug-trafficking and sentenced to life in prison.", "release_date": "2018-09-14" }
+  // "2018-07-13" }, { "vote_count": 9907, "id": 299536, "video": false, "vote_average": 8.3, "title": "Avengers:
+  // Infinity War", "popularity": 128.043, "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", "original_language":
+  // "en", "original_title": "Avengers: Infinity War", "genre_ids": [12, 28, 14], "backdrop_path":
+  // "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg", "adult": false, "overview": "As the Avengers and their allies have continued
+  // to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic
+  // shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of
+  // unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have
+  // fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+  // "release_date": "2018-04-25" }, { "vote_count": 420, "id": 360920, "video": false, "vote_average": 6.3, "title":
+  // "The Grinch", "popularity": 115.806, "poster_path": "/lCfKAAFyANPFn04xOPqazd8jwnc.jpg", "original_language": "en",
+  // "original_title": "The Grinch", "genre_ids": [16, 10751, 35, 14], "backdrop_path":
+  // "/juc9wt7Eh2IarLL5S1yQ1a21O1A.jpg", "adult": false, "overview": "The Grinch hatches a scheme to ruin Christmas
+  // when the residents of Whoville plan their annual holiday celebration.", "release_date": "2018-11-08" }, {
+  // "vote_count": 339, "id": 454293, "video": false, "vote_average": 6.1, "title": "Night School", "popularity":
+  // 113.973, "poster_path": "/xjsJTVWZYxeP89fwH17rsVvhPAe.jpg", "original_language": "en", "original_title": "Night
+  // School", "genre_ids": [35], "backdrop_path": "/eiUO8svuxMv16wvZsxubNLb5wNL.jpg", "adult": false, "overview":
+  // "Teddy Walker is a successful salesman whose life takes an unexpected turn when he accidentally blows up his place
+  // of employment. Forced to attend night school to get his GED, Teddy soon finds himself dealing with a group of
+  // misfit students, his former high school nemesis and a feisty teacher who doesn't think he's too bright.",
+  // "release_date": "2018-09-27" }, { "vote_count": 1280, "id": 345887, "video": false, "vote_average": 6.3, "title":
+  // "The Equalizer 2", "popularity": 113.784, "poster_path": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg", "original_language": "en", "original_title": "The Equalizer 2", "genre_ids": [53, 28, 80], "backdrop_path": "/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg", "adult": false, "overview": "Robert McCall, who serves an unflinching justice for the exploited and oppressed, embarks on a relentless, globe-trotting quest for vengeance when a long-time girl friend is murdered.", "release_date": "2018-07-19" }, { "vote_count": 531, "id": 484247, "video": false, "vote_average": 6.4, "title": "A Simple Favor", "popularity": 107.968, "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg", "original_language": "en", "original_title": "A Simple Favor", "genre_ids": [53, 80, 9648, 35, 18], "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg", "adult": false, "overview": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school than Miles, Stephanie's son. When Emily asks her to pick up Nicky from school and then disappears, Emily wonders what has happened to her friend, so she undertakes an investigation which will dive her deep in Emily's cloudy past.", "release_date": "2018-08-29" }, { "vote_count": 2514, "id": 424694, "video": false, "vote_average": 8.2, "title": "Bohemian Rhapsody", "popularity": 103.542, "poster_path": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg", "original_language": "en", "original_title": "Bohemian Rhapsody", "genre_ids": [18, 10402], "backdrop_path": "/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg", "adult": false, "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.", "release_date": "2018-10-24" }, { "vote_count": 44, "id": 438808, "video": false, "vote_average": 5.7, "title": "White Boy Rick", "popularity": 102.07, "poster_path": "/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg", "original_language": "en", "original_title": "White Boy Rick", "genre_ids": [18, 80], "backdrop_path": "/iphqiuA8HJg15Haw4Hkk2iyhWRo.jpg", "adult": false, "overview": "The story of teenager, Richard Wershe Jr., who became an undercover informant for the police during the 1980s and was ultimately arrested for drug-trafficking and sentenced to life in prison.", "release_date": "2018-09-14" }
 ];
 export const MOVIE_SEARCH_RESULTS = {
   _: INITIAL_REQUEST_RESULTS,
@@ -238,7 +258,27 @@ export const MOVIE_SEARCH_RESULTS = {
     // all.", //   "release_date": "2010-09-16" // }, { //   "vote_count": 803, //   "id": 431530, //   "video": false,
     // //   "vote_average": 6.2, //   "title": "A Bad Moms Christmas", //   "popularity": 18.881, //   "poster_path":
     // "/gPNHolu7AGnrB7r5kvJRRTfwMFR.jpg", //   "original_language": "en", //   "original_title": "A Bad Moms
-    // Christmas", //   "genre_ids": [35], //   "backdrop_path": "/aIF2xRhE7iGxQd6ITGNrwYdGB9e.jpg", //   "adult": false, //   "overview": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.", //   "release_date": "2017-11-01" // }, { //   "vote_count": 282, //   "id": 11257, //   "video": false, //   "vote_average": 7.1, //   "title": "A Room with a View", //   "popularity": 8.633, //   "poster_path": "/fS4mDKBIHeTmWXPGgz64d2dMyJG.jpg", //   "original_language": "en", //   "original_title": "A Room with a View", //   "genre_ids": [18, 10749], //   "backdrop_path": "/8fAXEcTr8AlHsZl6kXKMBXKeqs0.jpg", //   "adult": false, //   "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?", //   "release_date": "1985-12-13" // }, { //   "vote_count": 8, //   "id": 488067, //   "video": false, //   "vote_average": 5.2, //   "title": "A Royal Christmas Ball", //   "popularity": 17.282, //   "poster_path": "/3WyIHLtUPSpVFAiWMEc7GKU3Qc3.jpg", //   "original_language": "en", //   "original_title": "A Royal Christmas Ball", //   "genre_ids": [10770, 10749], //   "backdrop_path": "/6VR6jdrlif2vAP0G57Zzy8OmOPK.jpg", //   "adult": false, //   "overview": "Dateless for the Christmas ball, 39-year-old bachelor, King Charles of Baltania, tracks down his American college sweetheart, only to discover Allison has never been married, yet raised a 17-year-old daughter, Lily, who mathematically might be Charles' biological princess.", //   "release_date": "2017-12-10" // }, { //   "vote_count": 1736, //   "id": 1585, //   "video": false, //   "vote_average": 8.2, //   "title": "It's a Wonderful Life", //   "popularity": 30.228, //   "poster_path": "/rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg", //   "original_language": "en", //   "original_title": "It's a Wonderful Life", //   "genre_ids": [18, 10751, 14], //   "backdrop_path": "/nMomMy1sD3SN2QsKop3zBXCJfDJ.jpg", //   "adult": false, //   "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.", //   "release_date": "1946-12-20" // }, { //   "vote_count": 4265, //   "id": 9487, //   "video": false, //   "vote_average": 6.9, //   "title": "A Bug's Life", //   "popularity": 12.445, //   "poster_path": "/u9qGMRwcPwP0WETxulS5hKUsEum.jpg", //   "original_language": "en", //   "original_title": "A Bug's Life", //   "genre_ids": [12, 16, 35, 10751], //   "backdrop_path": "/bHMHpXNjeKRxcjWcpbIAD5f0aIK.jpg", //   "adult": false, //   "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.", //   "release_date": "1998-11-25" // }, { //   "vote_count": 5770, //   "id": 185, //   "video": false, //   "vote_average": 8.2, //   "title": "A Clockwork Orange", //   "popularity": 16.411, //   "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg", //   "original_language": "en", //   "original_title": "A Clockwork Orange", //   "genre_ids": [878, 18], //   "backdrop_path": "/unMc1jEyqCnzba976GviSFKGagt.jpg", //   "adult": false, //   "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.", //   "release_date": "1971-12-18" // }, { //   "vote_count": 91, //   "id": 448776, //   "video": false, //   "vote_average": 6.6, //   "title": "A Prayer Before Dawn", //   "popularity": 16.124, //   "poster_path": "/73KrcLh1DpnBP3HwGpqoUUwKWF4.jpg", //   "original_language": "en", //   "original_title": "A Prayer Before Dawn", //   "genre_ids": [18, 28, 80], //   "backdrop_path": "/tyaVwOLIpAzZFP0qmXm2VZhYkxZ.jpg", //   "adult": false, //   "overview": "The true story of Billy Moore, an English boxer incarcerated in Thailand's most notorious prison. Thrown into a world of drugs and violence, he finds his best chance to escape is to fight his way out in Muay Thai tournaments.", //   "release_date": "2018-06-20" // }
+    // Christmas", //   "genre_ids": [35], //   "backdrop_path": "/aIF2xRhE7iGxQd6ITGNrwYdGB9e.jpg", //   "adult":
+    // false, //   "overview": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against
+    // the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday
+    // for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own
+    // mothers.", //   "release_date": "2017-11-01" // }, { //   "vote_count": 282, //   "id": 11257, //   "video":
+    // false, //   "vote_average": 7.1, //   "title": "A Room with a View", //   "popularity": 8.633, //
+    // "poster_path": "/fS4mDKBIHeTmWXPGgz64d2dMyJG.jpg", //   "original_language": "en", //   "original_title": "A
+    // Room with a View", //   "genre_ids": [18, 10749], //   "backdrop_path": "/8fAXEcTr8AlHsZl6kXKMBXKeqs0.jpg", //
+    // "adult": false, //   "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in
+    // Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation.
+    // Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in
+    // Tuscany affect her marriage plans?", //   "release_date": "1985-12-13" // }, { //   "vote_count": 8, //   "id":
+    // 488067, //   "video": false, //   "vote_average": 5.2, //   "title": "A Royal Christmas Ball", //
+    // "popularity": 17.282, //   "poster_path": "/3WyIHLtUPSpVFAiWMEc7GKU3Qc3.jpg", //   "original_language": "en", //
+    //   "original_title": "A Royal Christmas Ball", //   "genre_ids": [10770, 10749], //   "backdrop_path":
+    // "/6VR6jdrlif2vAP0G57Zzy8OmOPK.jpg", //   "adult": false, //   "overview": "Dateless for the Christmas ball,
+    // 39-year-old bachelor, King Charles of Baltania, tracks down his American college sweetheart, only to discover
+    // Allison has never been married, yet raised a 17-year-old daughter, Lily, who mathematically might be Charles'
+    // biological princess.", //   "release_date": "2017-12-10" // }, { //   "vote_count": 1736, //   "id": 1585, //
+    // "video": false, //   "vote_average": 8.2, //   "title": "It's a Wonderful Life", //   "popularity": 30.228, //
+    // "poster_path": "/rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg", //   "original_language": "en", //   "original_title": "It's a Wonderful Life", //   "genre_ids": [18, 10751, 14], //   "backdrop_path": "/nMomMy1sD3SN2QsKop3zBXCJfDJ.jpg", //   "adult": false, //   "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.", //   "release_date": "1946-12-20" // }, { //   "vote_count": 4265, //   "id": 9487, //   "video": false, //   "vote_average": 6.9, //   "title": "A Bug's Life", //   "popularity": 12.445, //   "poster_path": "/u9qGMRwcPwP0WETxulS5hKUsEum.jpg", //   "original_language": "en", //   "original_title": "A Bug's Life", //   "genre_ids": [12, 16, 35, 10751], //   "backdrop_path": "/bHMHpXNjeKRxcjWcpbIAD5f0aIK.jpg", //   "adult": false, //   "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.", //   "release_date": "1998-11-25" // }, { //   "vote_count": 5770, //   "id": 185, //   "video": false, //   "vote_average": 8.2, //   "title": "A Clockwork Orange", //   "popularity": 16.411, //   "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg", //   "original_language": "en", //   "original_title": "A Clockwork Orange", //   "genre_ids": [878, 18], //   "backdrop_path": "/unMc1jEyqCnzba976GviSFKGagt.jpg", //   "adult": false, //   "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.", //   "release_date": "1971-12-18" // }, { //   "vote_count": 91, //   "id": 448776, //   "video": false, //   "vote_average": 6.6, //   "title": "A Prayer Before Dawn", //   "popularity": 16.124, //   "poster_path": "/73KrcLh1DpnBP3HwGpqoUUwKWF4.jpg", //   "original_language": "en", //   "original_title": "A Prayer Before Dawn", //   "genre_ids": [18, 28, 80], //   "backdrop_path": "/tyaVwOLIpAzZFP0qmXm2VZhYkxZ.jpg", //   "adult": false, //   "overview": "The true story of Billy Moore, an English boxer incarcerated in Thailand's most notorious prison. Thrown into a world of drugs and violence, he finds his best chance to escape is to fight his way out in Muay Thai tournaments.", //   "release_date": "2018-06-20" // }
   ],
   b: [
     {
@@ -356,7 +396,27 @@ export const MOVIE_SEARCH_RESULTS = {
     // "original_title": "Band Aid", "genre_ids": [35, 18, 10402], "backdrop_path": "/q7MjtWWThDW1XvwA3wiVpa7poWW.jpg",
     // "adult": false, "overview": "A couple who can't stop fighting embark on a last-ditch effort to save their
     // marriage: turning their fights into songs and starting a band.", "release_date": "2017-06-02" }, { "vote_count":
-    // 41, "id": 44282, "video": false, "vote_average": 7.3, "title": "Plan B", "popularity": 2.022, "poster_path": "/pxuHgOyU5Tytlbo4q0t7dS23syu.jpg", "original_language": "es", "original_title": "Plan B", "genre_ids": [35, 18, 10749], "backdrop_path": "/gUnwK0WeRdAPD5EtCINvL59Wkdp.jpg", "adult": false, "overview": "Bruno's plan to win back his ex-girlfriend hits a snag when he becomes attracted to her boyfriend.", "release_date": "2009-03-27" }, { "vote_count": 974, "id": 8274, "video": false, "vote_average": 5.3, "title": "American Pie Presents: Band Camp", "popularity": 10.561, "poster_path": "/hwWwljYkvWebTb9xPvzJdhLtS8R.jpg", "original_language": "en", "original_title": "American Pie Presents: Band Camp", "genre_ids": [35], "backdrop_path": "/Ai7WaZDlqyrOZZ6FT5NrsTCaUi4.jpg", "adult": false, "overview": "The original American Pie characters have moved on, except for Sherman and Jim Levenstein's still understanding dad. Steve Stifler's little brother Matt wants to join his brother's business (the hit it big Girls Gone Wild) and after everything Matt has heard from Jim's band-geek wife Michelle, he plans to go back to band camp and make a video of his own: Bandies Gone Wild!", "release_date": "2005-10-30" }, { "vote_count": 215, "id": 13933, "video": false, "vote_average": 7.3, "title": "One Man Band", "popularity": 5.88, "poster_path": "/nBBl8gWJvVppKqyY4ugdm3znZ9G.jpg", "original_language": "en", "original_title": "One Man Band", "genre_ids": [16, 10751], "backdrop_path": "/aOTHQzosgV17iY9ygjD91J1JpgD.jpg", "adult": false, "overview": "With one coin to make a wish at the piazza fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the one-man-bands.", "release_date": "2005-06-21" }, { "vote_count": 288, "id": 11006, "video": false, "vote_average": 6.8, "title": "Smokey and the Bandit", "popularity": 8.85, "poster_path": "/5uTIEUSBVzmEZ8TnFEZbCCOVHPj.jpg", "original_language": "en", "original_title": "Smokey and the Bandit", "genre_ids": [28, 12, 35], "backdrop_path": "/hzjX8eA4u7tGz4d4kjTnsW4RNWK.jpg", "adult": false, "overview": "A race car driver tries to transport an illegal beer shipment from Texas to Atlanta in under 28 hours, picking up a reluctant bride-to-be on the way.", "release_date": "1977-05-26" }, { "vote_count": 154, "id": 266082, "video": false, "vote_average": 6.4, "title": "Girlhood", "popularity": 5.215, "poster_path": "/towsWW8B5U8wRXSI2RULoOFohP5.jpg", "original_language": "fr", "original_title": "Bande de filles", "genre_ids": [18], "backdrop_path": "/4nA5ent1wLWlpQvRSbFQCfQuzmc.jpg", "adult": false, "overview": "Oppressed by her family setting, dead-end school prospects and the boys law in the neighborhood, Marieme starts a new life after meeting a group of three free-spirited girls. She changes her name, her dress code, and quits school to be accepted in the gang, hoping that this will be a way to freedom.", "release_date": "2014-06-27" }, { "vote_count": 0, "id": 504957, "video": false, "vote_average": 0, "title": "Alma Bandida", "popularity": 2.406, "poster_path": "/qAFHoZLMkKV0iETh9YgOljv5a3d.jpg", "original_language": "pt", "original_title": "Alma Bandida", "genre_ids": [18], "backdrop_path": null, "adult": false, "overview": "Love in a Brazilian town on the edge of the jungle: he loves her, and she says she loves him too. She deserves a gift, one that makes an impression. He wants to marry her and can’t wait any longer. So he heads out into the jungle armed with a pickaxe, since there is no app to find what he has in mind for her: gemstones. Gemstones are the path to freedom, his way out of the dreary small town – with her at his side.", "release_date": "2018-02-16" }
+    // 41, "id": 44282, "video": false, "vote_average": 7.3, "title": "Plan B", "popularity": 2.022, "poster_path":
+    // "/pxuHgOyU5Tytlbo4q0t7dS23syu.jpg", "original_language": "es", "original_title": "Plan B", "genre_ids": [35, 18,
+    // 10749], "backdrop_path": "/gUnwK0WeRdAPD5EtCINvL59Wkdp.jpg", "adult": false, "overview": "Bruno's plan to win
+    // back his ex-girlfriend hits a snag when he becomes attracted to her boyfriend.", "release_date": "2009-03-27" },
+    // { "vote_count": 974, "id": 8274, "video": false, "vote_average": 5.3, "title": "American Pie Presents: Band
+    // Camp", "popularity": 10.561, "poster_path": "/hwWwljYkvWebTb9xPvzJdhLtS8R.jpg", "original_language": "en",
+    // "original_title": "American Pie Presents: Band Camp", "genre_ids": [35], "backdrop_path":
+    // "/Ai7WaZDlqyrOZZ6FT5NrsTCaUi4.jpg", "adult": false, "overview": "The original American Pie characters have moved
+    // on, except for Sherman and Jim Levenstein's still understanding dad. Steve Stifler's little brother Matt wants
+    // to join his brother's business (the hit it big Girls Gone Wild) and after everything Matt has heard from Jim's
+    // band-geek wife Michelle, he plans to go back to band camp and make a video of his own: Bandies Gone Wild!",
+    // "release_date": "2005-10-30" }, { "vote_count": 215, "id": 13933, "video": false, "vote_average": 7.3, "title":
+    // "One Man Band", "popularity": 5.88, "poster_path": "/nBBl8gWJvVppKqyY4ugdm3znZ9G.jpg", "original_language":
+    // "en", "original_title": "One Man Band", "genre_ids": [16, 10751], "backdrop_path":
+    // "/aOTHQzosgV17iY9ygjD91J1JpgD.jpg", "adult": false, "overview": "With one coin to make a wish at the piazza
+    // fountain, a peasant girl encounters two competing street performers who'd prefer the coin find its way into
+    // their tip jars. The little girl, Tippy, is caught in the middle as a musical duel ensues between the
+    // one-man-bands.", "release_date": "2005-06-21" }, { "vote_count": 288, "id": 11006, "video": false,
+    // "vote_average": 6.8, "title": "Smokey and the Bandit", "popularity": 8.85, "poster_path":
+    // "/5uTIEUSBVzmEZ8TnFEZbCCOVHPj.jpg", "original_language": "en", "original_title": "Smokey and the Bandit",
+    // "genre_ids": [28, 12, 35], "backdrop_path": "/hzjX8eA4u7tGz4d4kjTnsW4RNWK.jpg", "adult": false, "overview": "A race car driver tries to transport an illegal beer shipment from Texas to Atlanta in under 28 hours, picking up a reluctant bride-to-be on the way.", "release_date": "1977-05-26" }, { "vote_count": 154, "id": 266082, "video": false, "vote_average": 6.4, "title": "Girlhood", "popularity": 5.215, "poster_path": "/towsWW8B5U8wRXSI2RULoOFohP5.jpg", "original_language": "fr", "original_title": "Bande de filles", "genre_ids": [18], "backdrop_path": "/4nA5ent1wLWlpQvRSbFQCfQuzmc.jpg", "adult": false, "overview": "Oppressed by her family setting, dead-end school prospects and the boys law in the neighborhood, Marieme starts a new life after meeting a group of three free-spirited girls. She changes her name, her dress code, and quits school to be accepted in the gang, hoping that this will be a way to freedom.", "release_date": "2014-06-27" }, { "vote_count": 0, "id": 504957, "video": false, "vote_average": 0, "title": "Alma Bandida", "popularity": 2.406, "poster_path": "/qAFHoZLMkKV0iETh9YgOljv5a3d.jpg", "original_language": "pt", "original_title": "Alma Bandida", "genre_ids": [18], "backdrop_path": null, "adult": false, "overview": "Love in a Brazilian town on the edge of the jungle: he loves her, and she says she loves him too. She deserves a gift, one that makes an impression. He wants to marry her and can’t wait any longer. So he heads out into the jungle armed with a pickaxe, since there is no app to find what he has in mind for her: gemstones. Gemstones are the path to freedom, his way out of the dreary small town – with her at his side.", "release_date": "2018-02-16" }
   ],
   ab: [
     {
@@ -474,7 +534,27 @@ export const MOVIE_SEARCH_RESULTS = {
     // newly wed bride.", "release_date": "2004-12-24" }, { "vote_count": 0, "id": 440406, "video": false,
     // "vote_average": 0, "title": "Hats Off", "popularity": 0.84, "poster_path": "/41rZKPm4snfzMGElERdmVRplA7B.jpg",
     // "original_language": "de", "original_title": "Hats Off", "genre_ids": [], "backdrop_path":
-    // "/fi6ZehAlhfLAtNptLdkhSRxJRsv.jpg", "adult": false, "overview": "", "release_date": "1927-11-05" }, { "vote_count": 7, "id": 46360, "video": false, "vote_average": 5.4, "title": "Guns", "popularity": 2.038, "poster_path": "/iTn2WXeBJV2s4HZcM4vu1GJmNYP.jpg", "original_language": "en", "original_title": "Guns", "genre_ids": [28, 80], "backdrop_path": "/hTIkn1699cgElSqBTpQBmZ82PB9.jpg", "adult": false, "overview": "A South American gunrunner uses an island in Hawaii as his base of operations. A squad of beautiful government agents is sent to put him out of business.", "release_date": "1990-11-09" }, { "vote_count": 6, "id": 98289, "video": false, "vote_average": 8.2, "title": "Abandon Ship", "popularity": 1.603, "poster_path": "/lN44JeakuDpEtpy6OuetbedH4Hy.jpg", "original_language": "en", "original_title": "Abandon Ship", "genre_ids": [18, 12], "backdrop_path": "/cLKcXeHJjitzKi2twm8OFLomI8K.jpg", "adult": false, "overview": "Ship's officer finds himself in command of a lifeboat full of survivors of a sunken luxury liner.", "release_date": "1957-04-17" }, { "vote_count": 20, "id": 193645, "video": false, "vote_average": 6.7, "title": "Seduced and Abandoned", "popularity": 2.151, "poster_path": "/mLYWDTniE62LQNMEhifiMbFFKWS.jpg", "original_language": "en", "original_title": "Seduced and Abandoned", "genre_ids": [99], "backdrop_path": "/aE7rUxqvCgQRQzMZa5LAFseW2bg.jpg", "adult": false, "overview": "SEDUCED AND ABANDONED combines acting legend Alec Baldwin with director James Toback as they lead us on a troublesome and often hilarious journey of raising financing for their next feature film. Moving from director to financier to star actor, the two players provide us with a unique look behind the curtain at the world's biggest and most glamourous film festival, shining a light on the bitter-sweet relationship filmmakers have with Cannes and the film business. Featuring insights from directors Martin Scorsese, 'Bernando Bertolucci' and Roman Polanski; actors Ryan Gosling and Jessica Chastain and a host of film distribution luminaries.", "release_date": "2013-05-20" }, { "vote_count": 0, "id": 512598, "video": false, "vote_average": 0, "title": "Zimmer mit Stall - Ab in die Berge", "popularity": 2.412, "poster_path": "/zSc568uVPgVpaZok9kjcvbf2jdV.jpg", "original_language": "de", "original_title": "Zimmer mit Stall - Ab in die Berge", "genre_ids": [], "backdrop_path": "/5WhAf6jfL27mokKTtzehzgvRxj4.jpg", "adult": false, "overview": "", "release_date": "2018-03-16" }, { "vote_count": 5585, "id": 49530, "video": false, "vote_average": 6.8, "title": "In Time", "popularity": 18.91, "poster_path": "/lnYuAr3QOPzvuEFlzpsRUq41IEy.jpg", "original_language": "en", "original_title": "In Time", "genre_ids": [28, 53, 878], "backdrop_path": "/rY1TfKvvxk5Cw3qDYR2Akryw5e3.jpg", "adult": false, "overview": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.", "release_date": "2011-10-27" }, { "vote_count": 10, "id": 75253, "video": false, "vote_average": 5, "title": "Aa ab Laut Chalen", "popularity": 1.09, "poster_path": "/5wT0KbuQAh2NUUDgGNqXur3I6P9.jpg", "original_language": "hi", "original_title": "आ अब लौट चलें", "genre_ids": [18, 10749], "backdrop_path": "/l27qsL0Ol6relxQ8ftDZCKCQUiX.jpg", "adult": false, "overview": "Rohan is a jobless graduate living in the Delhi-based Khanna family with his widowed mother and grandfather. His father Balraj was killed in an accident many years ago. Rohan leaves Delhi for USA at the request of his friend to improve his life. Upon arrival in New York he finds shelter with Iqbal and Sardar. Rohan becomes a taxi-driver. One of his rides is a young woman named Pooja who has no one to call her own. He brings her to his home, and Pooja falls in love with Rohan but Rohan wants to make money and hence wants to marry a richer girl like Loveleen a spoiled rich girl, whom Rohan decides marry. When his friends oppose his decision, Rohan leaves their home, decides to live with Pooja - and a life full of uncertainties.", "release_date": "1999-01-22" }
+    // "/fi6ZehAlhfLAtNptLdkhSRxJRsv.jpg", "adult": false, "overview": "", "release_date": "1927-11-05" }, {
+    // "vote_count": 7, "id": 46360, "video": false, "vote_average": 5.4, "title": "Guns", "popularity": 2.038,
+    // "poster_path": "/iTn2WXeBJV2s4HZcM4vu1GJmNYP.jpg", "original_language": "en", "original_title": "Guns",
+    // "genre_ids": [28, 80], "backdrop_path": "/hTIkn1699cgElSqBTpQBmZ82PB9.jpg", "adult": false, "overview": "A South
+    // American gunrunner uses an island in Hawaii as his base of operations. A squad of beautiful government agents is
+    // sent to put him out of business.", "release_date": "1990-11-09" }, { "vote_count": 6, "id": 98289, "video":
+    // false, "vote_average": 8.2, "title": "Abandon Ship", "popularity": 1.603, "poster_path":
+    // "/lN44JeakuDpEtpy6OuetbedH4Hy.jpg", "original_language": "en", "original_title": "Abandon Ship", "genre_ids":
+    // [18, 12], "backdrop_path": "/cLKcXeHJjitzKi2twm8OFLomI8K.jpg", "adult": false, "overview": "Ship's officer finds
+    // himself in command of a lifeboat full of survivors of a sunken luxury liner.", "release_date": "1957-04-17" }, {
+    // "vote_count": 20, "id": 193645, "video": false, "vote_average": 6.7, "title": "Seduced and Abandoned",
+    // "popularity": 2.151, "poster_path": "/mLYWDTniE62LQNMEhifiMbFFKWS.jpg", "original_language": "en",
+    // "original_title": "Seduced and Abandoned", "genre_ids": [99], "backdrop_path":
+    // "/aE7rUxqvCgQRQzMZa5LAFseW2bg.jpg", "adult": false, "overview": "SEDUCED AND ABANDONED combines acting legend
+    // Alec Baldwin with director James Toback as they lead us on a troublesome and often hilarious journey of raising
+    // financing for their next feature film. Moving from director to financier to star actor, the two players provide
+    // us with a unique look behind the curtain at the world's biggest and most glamourous film festival, shining a
+    // light on the bitter-sweet relationship filmmakers have with Cannes and the film business. Featuring insights
+    // from directors Martin Scorsese, 'Bernando Bertolucci' and Roman Polanski; actors Ryan Gosling and Jessica
+    // Chastain and a host of film distribution luminaries.", "release_date": "2013-05-20" }, { "vote_count": 0, "id":
+    // 512598, "video": false, "vote_average": 0, "title": "Zimmer mit Stall - Ab in die Berge", "popularity": 2.412, "poster_path": "/zSc568uVPgVpaZok9kjcvbf2jdV.jpg", "original_language": "de", "original_title": "Zimmer mit Stall - Ab in die Berge", "genre_ids": [], "backdrop_path": "/5WhAf6jfL27mokKTtzehzgvRxj4.jpg", "adult": false, "overview": "", "release_date": "2018-03-16" }, { "vote_count": 5585, "id": 49530, "video": false, "vote_average": 6.8, "title": "In Time", "popularity": 18.91, "poster_path": "/lnYuAr3QOPzvuEFlzpsRUq41IEy.jpg", "original_language": "en", "original_title": "In Time", "genre_ids": [28, 53, 878], "backdrop_path": "/rY1TfKvvxk5Cw3qDYR2Akryw5e3.jpg", "adult": false, "overview": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.", "release_date": "2011-10-27" }, { "vote_count": 10, "id": 75253, "video": false, "vote_average": 5, "title": "Aa ab Laut Chalen", "popularity": 1.09, "poster_path": "/5wT0KbuQAh2NUUDgGNqXur3I6P9.jpg", "original_language": "hi", "original_title": "आ अब लौट चलें", "genre_ids": [18, 10749], "backdrop_path": "/l27qsL0Ol6relxQ8ftDZCKCQUiX.jpg", "adult": false, "overview": "Rohan is a jobless graduate living in the Delhi-based Khanna family with his widowed mother and grandfather. His father Balraj was killed in an accident many years ago. Rohan leaves Delhi for USA at the request of his friend to improve his life. Upon arrival in New York he finds shelter with Iqbal and Sardar. Rohan becomes a taxi-driver. One of his rides is a young woman named Pooja who has no one to call her own. He brings her to his home, and Pooja falls in love with Rohan but Rohan wants to make money and hence wants to marry a richer girl like Loveleen a spoiled rich girl, whom Rohan decides marry. When his friends oppose his decision, Rohan leaves their home, decides to live with Pooja - and a life full of uncertainties.", "release_date": "1999-01-22" }
   ],
   abc: [
     {
@@ -5492,7 +5572,8 @@ export const MOVIE_SEARCH_DETAIL_RESULTS = {
 };
 // These are the 46 test sequences generated by previous tests in the branch git-with-state-library
 export const testSequences = [
-  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -5582,8 +5663,7 @@ export const testSequences = [
     }
   }],
   [
-    { "USER_NAVIGATED_TO_APP": void 0 },
-    {
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -5603,9 +5683,7 @@ export const testSequences = [
         "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
       }], "query": ""
     }
-  },
-    { "QUERY_CHANGED": "a" },
-    {
+  }, { "QUERY_CHANGED": "a" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 543,
@@ -5639,10 +5717,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  },
-    { "QUERY_CHANGED": "ab" },
-    { "QUERY_CHANGED": "" },
-    {
+  }, { "QUERY_CHANGED": "ab" }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -5678,7 +5753,8 @@ export const testSequences = [
     }
   }
   ],
-  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -5860,7 +5936,8 @@ export const testSequences = [
       }], "query": "ab"
     }
   }],
-  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -6042,7 +6119,8 @@ export const testSequences = [
       }], "query": "ab"
     }
   }],
-  [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -6316,7 +6394,9 @@ export const testSequences = [
         "release_date": "2010-08-24"
       }], "query": "ab"
     }
-  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -6590,7 +6670,9 @@ export const testSequences = [
         "release_date": "2010-08-24"
       }], "query": "ab"
     }
-  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -6923,7 +7005,9 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -6977,7 +7061,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -7011,7 +7095,10 @@ export const testSequences = [
         "release_date": "2010-08-24"
       }], "query": "ab"
     }
-  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 },
+    {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -7031,9 +7118,13 @@ export const testSequences = [
         "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
       }], "query": ""
     }
-  }, { "QUERY_CHANGED": "a" }, { "QUERY_CHANGED": "ab" }, {
+  },
+    { "QUERY_CHANGED": "a" },
+    { "QUERY_CHANGED": "ab" },
+    {
     "SEARCH_RESULTS_RECEIVED": {
-      "results": [{
+      "results": [
+        {
         "vote_count": 543,
         "id": 484247,
         "video": false,
@@ -7065,7 +7156,8 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, {
+  },
+    {
     "MOVIE_SELECTED": {
       "movie": {
         "vote_count": 543,
@@ -7084,8 +7176,10 @@ export const testSequences = [
         "release_date": "2018-08-29"
       }
     }
-  }, {
-    "SEARCH_RESULTS_MOVIE_RECEIVED": [{
+  },
+    {
+    "SEARCH_RESULTS_MOVIE_RECEIVED": [
+      {
       "adult": false,
       "backdrop_path": "/xXGNyEG2v48q0bVR4AH4Vca2yvy.jpg",
       "belongs_to_collection": null,
@@ -7158,9 +7252,13 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  },
+    { "MOVIE_DETAILS_DESELECTED": void 0 },
+    { "QUERY_CHANGED": "" },
+    {
     "SEARCH_RESULTS_RECEIVED": {
-      "results": [{
+      "results": [
+        {
         "vote_count": 70,
         "id": 15992,
         "video": false,
@@ -7192,7 +7290,9 @@ export const testSequences = [
         "release_date": "2010-08-24"
       }], "query": "ab"
     }
-  }], [{ "USER_NAVIGATED_TO_APP": void 0 }, {
+  }],
+  [
+    { "USER_NAVIGATED_TO_APP": void 0 }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 267,
@@ -7432,7 +7532,7 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -9396,7 +9496,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -9649,7 +9749,7 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -11260,7 +11360,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -12166,7 +12266,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -12347,7 +12447,7 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -12621,7 +12721,7 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -13447,7 +13547,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -13700,7 +13800,7 @@ export const testSequences = [
         "profile_path": "/68XiL9p5KAKtWK9F6q435ChzpBL.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -14556,7 +14656,7 @@ export const testSequences = [
         "release_date": "2018-10-03"
       }], "query": "a"
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 70,
@@ -15428,7 +15528,7 @@ export const testSequences = [
         "poster_path": "/naSY3Msahk7cOpVJDJQADfWSYkk.jpg"
       }], "query": ""
     }
-  }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 543,
@@ -15833,7 +15933,7 @@ export const testSequences = [
         "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 543,
@@ -16217,7 +16317,7 @@ export const testSequences = [
         "profile_path": "/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg"
       }]
     }]
-  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "/movie/popular?language=en-US&page=1" }, {
+  }, { "MOVIE_DETAILS_DESELECTED": void 0 }, { "QUERY_CHANGED": "" }, {
     "SEARCH_RESULTS_RECEIVED": {
       "results": [{
         "vote_count": 543,

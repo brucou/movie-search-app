@@ -165,13 +165,12 @@ QUnit.test("With search concurrency", function exec_test(assert) {
   const formattedInputSequences = inputSequences.map(inputSequence => inputSequence.map(getInputKey));
   const formattedOutputsSequences = outputsSequences
     .map(outputsSequence => {
-      return outputsSequence.map(outputs => {
-        if (outputs === NO_OUTPUT) return outputs
-
+      return outputsSequence
+        .filter( x => x !== NO_OUTPUT)
+        .map(outputs => {
         return outputs
+          .filter( x => x !== NO_OUTPUT)
           .map(output => {
-            if (output === NO_OUTPUT) return output
-
             const { command, params } = output;
             if (command === COMMAND_RENDER) {
               const reactRenderParams = params(spyTrigger);
@@ -267,6 +266,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
               state: { ...state, pendingQuery: query }
             }
           }
+          // TODO : if last outputSeq has a COMMAND_MOVIE_SEARCH command then null
           case MOVIE_SELECTED : {
             const { movie } = eventData;
             const { pendingQuery, results } = state;
