@@ -4,7 +4,7 @@ import { events, IMAGE_TMDB_PREFIX, INITIAL_REQUEST, POPULAR_NOW, PROMPT, testId
 import ReactDOM from "react-dom"
 import h from "react-hyperscript"
 import App from "../src/App"
-import { getByTestId, wait } from "dom-testing-library"
+import { getByTestId, wait, waitForElement } from "dom-testing-library"
 import { INITIAL_REQUEST_RESULTS } from "./fixtures"
 
 QUnit.module("Specification S2", {
@@ -28,15 +28,14 @@ QUnit.module("Specification S2", {
 QUnit.test("GIVEN user navigated to [url] AND query field has not changed", function exec_test(assert) {
   const done = assert.async(1);
   const stubbedGet = this.stubbedGet;
-  const { SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_CHANGED, USER_NAVIGATED_TO_APP } = events;
   const {
     PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-    LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
+    MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID
   } = testIds;
 
   stubbedGet.withArgs(INITIAL_REQUEST)
     .returns(new Promise(function (resolve, reject) {
-      const delay = Math.random() * 1000;
+      const delay =  100;
       setTimeout(function () {resolve({ body: { results: INITIAL_REQUEST_RESULTS } })}, delay);
     }));
 
@@ -44,7 +43,7 @@ QUnit.test("GIVEN user navigated to [url] AND query field has not changed", func
   ReactDOM.render(h(App), document.getElementById('root'));
 
   // Wait for the results to appear
-  wait(() => !!getByTestId(root, MOVIE_IMG_SRC_TESTID), { timeout: 1000 })
+  waitForElement(() => !!getByTestId(root, MOVIE_IMG_SRC_TESTID), { timeout: 1000 })
     .then(() => {
       const promptContract = {
         dataTestId: PROMPT_TESTID,
