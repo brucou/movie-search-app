@@ -2,7 +2,8 @@ import { INIT_EVENT, INIT_STATE, NO_OUTPUT, NO_STATE_UPDATE } from "state-transd
 import {
   COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, IMAGE_TMDB_PREFIX, LOADING,
   MOVIE_DETAIL_QUERYING, MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR, MOVIE_QUERYING, MOVIE_SELECTION,
-  MOVIE_SELECTION_ERROR, NETWORK_ERROR, NO_INTENT, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, START, testIds, screens as screenIds
+  MOVIE_SELECTION_ERROR, NETWORK_ERROR, NO_INTENT, POPULAR_NOW, PROMPT, screens as screenIds, SEARCH_RESULTS_FOR, START,
+  testIds
 } from "./properties"
 import h from "react-hyperscript"
 import hyperscript from "hyperscript-helpers"
@@ -32,23 +33,27 @@ const states = {
   [MOVIE_DETAIL_SELECTION_ERROR]: ""
 };
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
-const {LOADING_SCREEN, SEARCH_ERROR_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR,} = screenIds;
+const { LOADING_SCREEN, SEARCH_ERROR_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, } = screenIds;
 const transitions = [
   { from: INIT_STATE, event: INIT_EVENT, to: START, action: NO_ACTIONS },
   { from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
   {
     from: MOVIE_QUERYING,
     event: SEARCH_RESULTS_RECEIVED,
-    to: MOVIE_SELECTION,
-    action: displayMovieSearchResultsScreen
+    guards: [
+      { predicate: isExpectedMovieResults, to: MOVIE_SELECTION, action: displayMovieSearchResultsScreen },
+      { predicate: isNotExpectedMovieResults, to: MOVIE_QUERYING, action: NO_ACTIONS }
+    ]
   },
   { from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
   { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
   {
     from: MOVIE_QUERYING,
     event: SEARCH_ERROR_RECEIVED,
-    to: MOVIE_SELECTION_ERROR,
-    action: displayMovieSearchErrorScreen
+    guards: [
+      { predicate: isExpectedMovieResults, to: MOVIE_SELECTION_ERROR, action: displayMovieSearchErrorScreen },
+      { predicate: isNotExpectedMovieResults, to: MOVIE_QUERYING, action: NO_ACTIONS }
+    ]
   },
   {
     from: MOVIE_SELECTION,
@@ -83,8 +88,8 @@ const preprocessor = rawEventSource => rawEventSource.pipe(
       return { [USER_NAVIGATED_TO_APP]: void 0 }
     }
     else if (rawEventName === SEARCH_RESULTS_RECEIVED) {
-      const results = e;
-      return { SEARCH_RESULTS_RECEIVED: results }
+      const resultsAndQuery = e;
+      return { SEARCH_RESULTS_RECEIVED: resultsAndQuery }
     }
     else if (rawEventName === SEARCH_ERROR_RECEIVED) {
       return { SEARCH_ERROR_RECEIVED: void 0 }
@@ -462,10 +467,12 @@ const screens = trigger => ({
 });
 
 const commandHandlers = {
-  [COMMAND_MOVIE_SEARCH]: (trigger, query, effectHandlers) => {
-    effectHandlers.runMovieSearchQuery(query)
+  [COMMAND_MOVIE_SEARCH]: (trigger, _query, effectHandlers) => {
+    const querySlug = _query === '' ? DISCOVERY_REQUEST : makeQuerySlug(_query);
+
+    effectHandlers.runMovieSearchQuery(querySlug)
       .then(data => {
-        trigger(SEARCH_RESULTS_RECEIVED)(data.results)
+        trigger(SEARCH_RESULTS_RECEIVED)({ results: data.results, query: _query })
       }).catch(error => {
       trigger(SEARCH_ERROR_RECEIVED)(void 0)
     });
@@ -482,8 +489,8 @@ const effectHandlers = {
   runMovieDetailQuery: runMovieDetailQuery
 };
 
-function AppScreen(props){
-  const {screen, trigger, args} = props;
+function AppScreen(props) {
+  const { screen, trigger, args } = props;
 
   return screens(trigger)[screen](...args)
 }
@@ -491,11 +498,11 @@ function AppScreen(props){
 function displayLoadingScreenAndQueryDb(extendedState, eventData, fsmSettings) {
   const searchCommand = {
     command: COMMAND_MOVIE_SEARCH,
-    params: DISCOVERY_REQUEST
+    params: ''
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : LOADING_SCREEN, args : []})
+    params: trigger => h(AppScreen, { trigger, screen: LOADING_SCREEN, args: [] })
   };
   return {
     updates: NO_STATE_UPDATE,
@@ -508,40 +515,40 @@ function displayLoadingScreenAndQueryNonEmpty(extendedState, eventData, fsmSetti
   const query = eventData;
   const searchCommand = {
     command: COMMAND_MOVIE_SEARCH,
-    params: makeQuerySlug(query)
+    params: query
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_AND_LOADING_SCREEN, args : [results, query]})
+    params: trigger => h(AppScreen, { trigger, screen: SEARCH_RESULTS_AND_LOADING_SCREEN, args: [results, query] })
   };
   return {
     updates: [
       { op: 'add', path: '/queryFieldHasChanged', value: true },
       { op: 'add', path: '/movieQuery', value: query },
-      ],
+    ],
     outputs: [renderCommand, searchCommand]
   }
 }
 
 function displayMovieSearchResultsScreen(extendedState, eventData, fsmSettings) {
   const searchResults = eventData;
-  const {movieQuery} = extendedState;
+  const { results, query } = searchResults;
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_SCREEN, args : [searchResults, movieQuery || '']})
+    params: trigger => h(AppScreen, { trigger, screen: SEARCH_RESULTS_SCREEN, args: [results, query || ''] })
   };
 
   return {
-    updates: [{ op: 'add', path: '/results', value: searchResults }],
+    updates: [{ op: 'add', path: '/results', value: results }],
     outputs: [renderCommand]
   }
 }
 
 function displayMovieSearchResultsScreen2(extendedState, eventData, fsmSettings) {
-  const {movieQuery, results} = extendedState;
+  const { movieQuery, results } = extendedState;
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_SCREEN, args : [results, movieQuery || '']})
+    params: trigger => h(AppScreen, { trigger, screen: SEARCH_RESULTS_SCREEN, args: [results, movieQuery || ''] })
   };
 
   return {
@@ -554,7 +561,11 @@ function displayMovieSearchErrorScreen(extendedState, eventData, fsmSettings) {
   const { queryFieldHasChanged, movieQuery, results, movieTitle } = extendedState;
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_ERROR_SCREEN, args : [queryFieldHasChanged ? movieQuery : '']})
+    params: trigger => h(AppScreen, {
+      trigger,
+      screen: SEARCH_ERROR_SCREEN,
+      args: [queryFieldHasChanged ? movieQuery : '']
+    })
   };
 
   return {
@@ -574,7 +585,11 @@ function displayDetailsLoadingScreenAndQueryDetailsDb(extendedState, eventData, 
   };
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, args : [results, movieQuery, movie]})
+    params: trigger => h(AppScreen, {
+      trigger,
+      screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN,
+      args: [results, movieQuery, movie]
+    })
   };
 
   return {
@@ -589,7 +604,11 @@ function displayMovieDetailsSearchResultsScreen(extendedState, eventData, fsmSet
 
   const renderCommand = {
     command: COMMAND_RENDER,
-    params: trigger => h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS, args : [results, movieQuery, movieDetails, cast]})
+    params: trigger => h(AppScreen, {
+      trigger,
+      screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS,
+      args: [results, movieQuery, movieDetails, cast]
+    })
   };
 
   return {
@@ -607,7 +626,11 @@ function displayMovieDetailsSearchErrorScreen(extendedState, eventData, fsmSetti
   const renderCommand = {
     command: COMMAND_RENDER,
     params:
-      trigger =>  h(AppScreen, {trigger, screen : SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, args : [results, movieQuery, movieTitle]})
+      trigger => h(AppScreen, {
+        trigger,
+        screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR,
+        args: [results, movieQuery, movieTitle]
+      })
   };
 
   return {
@@ -629,3 +652,13 @@ const movieSearchFsmDef = {
 
 export { movieSearchFsmDef }
 
+// Guards
+function isExpectedMovieResults(extendedState, eventData, settings) {
+  const { query: fetched } = eventData;
+  const { movieQuery: expected } = extendedState;
+  return fetched === expected
+}
+
+function isNotExpectedMovieResults(extendedState, eventData, settings) {
+  return !isExpectedMovieResults(extendedState, eventData, settings)
+}
