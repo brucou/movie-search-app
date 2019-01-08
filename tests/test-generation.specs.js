@@ -1,18 +1,14 @@
 import ReactDOMServer from "react-dom/server"
 import { COMMAND_RENDER } from "react-state-driven"
+import { create_state_machine, NO_OUTPUT, NO_STATE_UPDATE } from "state-transducer"
 import { range } from "ramda"
-import {
-  computeTimesCircledOn, generateTestsFromFSM, INIT_EVENT, INIT_STATE, NO_OUTPUT, NO_STATE_UPDATE
-} from "state-transducer"
 import { applyPatch } from "json-patch-es6/lib/duplex"
 import { merge as merge$, of, Subject } from "rxjs";
 import { movieSearchFsmDef } from "../src/fsm"
 import {
-  COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, MOVIE_DETAIL_QUERYING,
-  MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, screens,
-  START
+  COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, DISCOVERY_REQUEST, events, screens
 } from "../src/properties"
-import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS } from "./fixtures"
+import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS, testSequences } from "./fixtures"
 import { mapOverObj } from "fp-rosetree";
 import { makeQuerySlug } from "../src/helpers"
 
@@ -128,10 +124,11 @@ const default_settings = {
 };
 const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 
-function getQueryAlias(query){
+function getQueryAlias(query) {
   return (query === DISCOVERY_REQUEST) ? '_' : query
 }
-function getQueryString(query){
+
+function getQueryString(query) {
   return (query === DISCOVERY_REQUEST) ? '' : query
 }
 
@@ -158,165 +155,12 @@ QUnit.module("Testing test sequences generation", {});
 // beware that search movie results now is {results, query}
 QUnit.test("With search concurrency", function exec_test(assert) {
   const fsmDef = movieSearchFsmDef;
-  const genFsmDef = {
-    transitions: [
-      {
-        from: INIT_STATE, event: INIT_EVENT, to: START,
-        gen: constGen(void 0, { pending: [], done: [], keysPressed: 0 })
-      },
-      {
-        from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING,
-        gen: constGen(void 0, { pending: [DISCOVERY_REQUEST], done: [], keysPressed: 0 })
-      },
-      {
-        from: MOVIE_QUERYING,
-        event: SEARCH_RESULTS_RECEIVED,
-        to: MOVIE_SELECTION,
-        gen: (extS, genS) => {
-          // pick which query of the pending queries did arrive
-          // we pick the oldest one if any
-          const { pending, done, keysPressed } = genS;
-          const hasPendingQueries = pending.length !== 0;
-          let query = pending.slice(0, 1)[0];
-
-          if (hasPendingQueries) {
-            return {
-              hasGeneratedInput: true,
-              input: MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query],
-              generatorState: { pending: pending.slice(1), done: done.concat(pending.slice(0, 1)), keysPressed }
-            }
-          }
-          else {
-            return { hasGeneratedInput: false, input: void 0, generatorState: genS }
-          }
-        }
-      },
-      {
-        from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING,
-        gen: (extS, genS) => {
-          // Here we have two choices we want to test against : another key, and back to empty field
-          const { keysPressed, pending, done } = genS;
-          const keys = ['a', 'b', null];
-          if (keysPressed > 2) {
-            return { hasGeneratedInput: false, input: '', generatorState: genS }
-          }
-          else if (keysPressed === 2) {
-            const input = DISCOVERY_REQUEST;
-            return {
-              hasGeneratedInput: true,
-              input,
-              generatorState: { pending: pending.concat([input]), done, keysPressed: keysPressed + 1 }
-            }
-          }
-          else {
-            const input = keys.slice(0, keysPressed + 1).join('');
-            return {
-              hasGeneratedInput: true,
-              input,
-              generatorState: { pending: pending.concat([input]), done, keysPressed: keysPressed + 1 }
-            }
-          }
-        }
-      },
-      {
-        from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING,
-        gen: (extS, genS) => {
-          // Here we have two choices we want to test against : another key, and back to empty field
-          const { keysPressed, pending, done } = genS;
-          const keys = ['a', 'b', null];
-          if (keysPressed > 2) {
-            return { hasGeneratedInput: false, input: '', generatorState: genS }
-          }
-          else if (keysPressed === 2) {
-            const input = DISCOVERY_REQUEST;
-            return {
-              hasGeneratedInput: true,
-              input,
-              generatorState: { pending: pending.concat([input]), done, keysPressed: keysPressed + 1 }
-            }
-          }
-          else {
-            const input = keys.slice(0, keysPressed + 1).join('');
-            return {
-              hasGeneratedInput: true,
-              input,
-              generatorState: { pending: pending.concat([input]), done, keysPressed: keysPressed + 1 }
-            }
-          }
-        }
-      },
-      {
-        from: MOVIE_QUERYING,
-        event: SEARCH_ERROR_RECEIVED,
-        to: MOVIE_SELECTION_ERROR,
-        gen: (extS, genS) => {
-          // remove from pending. Error is received for the oldest query
-          const { keysPressed, pending, done } = genS;
-          return {
-            hasGeneratedInput: true, input: void 0, generatorState: { pending: pending.slice(1), done, keysPressed }
-          }
-        }
-      },
-      {
-        from: MOVIE_SELECTION, event: MOVIE_SELECTED, to: MOVIE_DETAIL_QUERYING,
-        gen: (extS, genS) => {
-          const { keysPressed, pending, done } = genS;
-          // The latest done is the one whose results are displayed
-          let query = done.slice(-1)[0];
-          // For this test we always pick the first movie
-          const movie = MOVIE_SEARCH_RESULTS[query === DISCOVERY_REQUEST ? '_' : query][0];
-          if (!movie) return { hasGeneratedInput: false, input: void 0, generatorState: genS }
-          else {
-            return { hasGeneratedInput: true, input: { movie }, generatorState: genS }
-          }
-        }
-      },
-      {
-        from: MOVIE_DETAIL_QUERYING, event: SEARCH_RESULTS_MOVIE_RECEIVED, to: MOVIE_DETAIL_SELECTION,
-        gen: (extS, genS) => {
-          const { keysPressed, pending, done } = genS;
-          // The latest done is the one whose results are displayed
-          let query = done.slice(-1)[0];
-          // For this test we always pick the first movie
-          return {
-            hasGeneratedInput: true,
-            input: MOVIE_SEARCH_DETAIL_RESULTS[query === DISCOVERY_REQUEST ? '_' : query],
-            generatorState: genS
-          }
-        }
-      },
-      {
-        from: MOVIE_DETAIL_QUERYING, event: SEARCH_ERROR_MOVIE_RECEIVED, to: MOVIE_DETAIL_SELECTION_ERROR,
-        gen: (extS, genS) => { return { hasGeneratedInput: true, input: void 0, generatorState: genS } }
-      },
-      {
-        from: MOVIE_DETAIL_SELECTION, event: MOVIE_DETAILS_DESELECTED, to: MOVIE_SELECTION,
-        gen: (extS, genS) => { return { hasGeneratedInput: true, input: void 0, generatorState: genS } }
-      },
-    ],
-  };
-  const generators = genFsmDef.transitions;
-  const ALL_n_TRANSITIONS_WITH_REPEATED_TARGET = ({ maxNumberOfTraversals, targetVertex }) => ({
-    isTraversableEdge: (edge, graph, pathTraversalState, graphTraversalState) => {
-      return computeTimesCircledOn(pathTraversalState.path, edge) < (maxNumberOfTraversals || 1)
-    },
-    isGoalReached: (edge, graph, pathTraversalState, graphTraversalState) => {
-      const { getEdgeTarget, getEdgeOrigin } = graph;
-      const lastPathVertex = getEdgeTarget(edge);
-      // Edge case : accounting for initial vertex
-      const vertexOrigin = getEdgeOrigin(edge);
-
-      const isGoalReached = vertexOrigin
-        ? lastPathVertex === targetVertex && !(computeTimesCircledOn(pathTraversalState.path, edge) < (maxNumberOfTraversals || 1))
-        : false;
-      return isGoalReached
+  const inputSequences = testSequences;
+  const outputsSequences = inputSequences.map(testSequence => {
+      const fsm = create_state_machine(fsmDef, default_settings);
+      return testSequence.map(fsm.yield)
     }
-  });
-  const strategy = ALL_n_TRANSITIONS_WITH_REPEATED_TARGET({ maxNumberOfTraversals: 3, targetVertex: MOVIE_SELECTION });
-  const settings = { updateState: applyJSONpatch, strategy };
-  const results = generateTestsFromFSM(fsmDef, generators, settings);
-  const inputSequences = results.map(result => result.inputSequence);
-  const outputsSequences = results.map(x => x.outputSequence);
+  );
   const spyTrigger = function spyTrigger(eventName) {
     return function spyEventHandler(rawEvent, ref, other) {
       void 0
@@ -503,7 +347,7 @@ QUnit.test("With search concurrency", function exec_test(assert) {
             }
           }
           default :
-            throw `expectedOutputSequences > unknow event??`
+            throw `expectedOutputSequences > unknown event??`
         }
       }, { outputSeq: [], state: { pendingQuery: '', results: null, movieTitle: '' } })
     })
