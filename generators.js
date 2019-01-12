@@ -19,8 +19,8 @@ function oneOf(generators) {
 }
 
 function oneOfCore(choiceStrategy, generators) {
-  const choice = choiceStrategy.choose(generators.length);
   return function oneOfCore({ state }) {
+    const choice = choiceStrategy.choose(generators.length);
     return generators[choice]({ state })
   }
 }
@@ -42,10 +42,12 @@ function chain(generators) {
 }
 
 function oneOrMoreCore(choiceStrategy, generator) {
-  if (typeof choiceStrategy === "number") choiceStrategy = Object.assign({}, randomStrategy, { max: choiceStrategy });
-  const number = choiceStrategy.choose(choiceStrategy.max || MAX - 1) + 1;
+  return function oneOrMoreCore({state}) {
+    if (typeof choiceStrategy === "number") choiceStrategy = Object.assign({}, randomStrategy, { max: choiceStrategy });
+    const number = choiceStrategy.choose(choiceStrategy.max || MAX - 1) + 1;
 
-  return chain(range(0, number).map(_ => generator))
+    return chain(range(0, number).map(_ => generator))({state})
+  }
 }
 
 function oneOrMore(generator) {
@@ -53,9 +55,11 @@ function oneOrMore(generator) {
 }
 
 function noneOrMoreCore(choiceStrategy, generator) {
-  const number = choiceStrategy.choose(choiceStrategy.max || MAX);
-  if (number === 0) return chainZero
-  else return oneOrMoreCore({ choose: () => number }, generator)
+  return function noneOrMoreCore({state}){
+    const number = choiceStrategy.choose(choiceStrategy.max || MAX);
+    if (number === 0) return chainZero({state})
+    else return oneOrMoreCore({ choose: () => number }, generator)({state})
+  }
 }
 function noneOrMore(generator) {
   return noneOrMoreCore(randomStrategy, generator)

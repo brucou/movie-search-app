@@ -187,13 +187,11 @@ function successLastQuery({ state }) {
 const initEvent = { [events.USER_NAVIGATED_TO_APP]: void 0 };
 const initialState = { results: [], selectedMovie: void 0, movieQuery: '' };
 const incrementallyTypedQuery = chain([oneOrMoreCore(3, queryChanged), successLastQuery]);
-const seq1 = () => chain([init(initEvent, initialState), initQuerySucceeded, noneOrMore(oneOf([movieSelectedAndBack, incrementallyTypedQuery]))]);
-window.seq1 = seq1;
-window.run = run;
+const seq1 = chain([init(initEvent, initialState), initQuerySucceeded, noneOrMore(oneOf([movieSelectedAndBack, incrementallyTypedQuery]))]);
 
 QUnit.test("Sequence of input leading to see a list of fetched movies", function (assert){
-  range(0, 50).forEach(index => {
-    const inputSequence = run(seq1(), {});
+  range(0, 20).forEach(index => {
+    const inputSequence = run(seq1, {});
     const fsm = create_state_machine(movieSearchFsmDef, default_settings);
     const outputsSequence = inputSequence.map(fsm.yield);
     assert.ok(lastScreenShowsMovieList(outputsSequence), formatInputSequence(inputSequence));
@@ -222,216 +220,239 @@ QUnit.test("Sequence of input leading to see a list of fetched movies", function
 // so new gen fsm
 // beware that now the query for the command is a text
 // beware that search movie results now is {results, query}
-QUnit.skip("With search concurrency", function exec_test(assert) {
-  const fsmDef = movieSearchFsmDef;
-  const inputSequences = testSequences;
-  const outputsSequences = inputSequences.map(testSequence => {
-      const fsm = create_state_machine(fsmDef, default_settings);
-      const output = testSequence.map(fsm.yield);
-      console.debug('outputSequence', output)
-      return output
-    }
-  );
-  const spyTrigger = function spyTrigger(eventName) {
-    return function spyEventHandler(rawEvent, ref, other) {
-      void 0
-    }
-  };
+
+function testFsm({testAPI, fsmFactorySpecs, inputSequences, oracle, format}){
   const getInputKey = function getInputKey(input) {return Object.keys(input)[0]};
-  const formattedInputSequences = inputSequences.map(inputSequence => inputSequence.map(getInputKey));
-  const formattedOutputsSequences = outputsSequences
-    .map(outputsSequence => {
-      return outputsSequence
-        .filter( x => x !== NO_OUTPUT)
-        .map(outputs => {
-        return outputs
-          .filter( x => x !== NO_OUTPUT)
-          .map(output => {
-            const { command, params } = output;
-            if (command === COMMAND_RENDER) {
-              const reactRenderParams = params(spyTrigger);
-              return {
-                command: command,
-                params: {
-                  props: reactRenderParams.props,
-                  component: reactRenderParams.type.displayName || '<anonymous>'
-                }
-              }
-            }
-            else {
-              return output
-            }
-          })
-          .map(formatResult)
-      })
-    });
+  const {assert} = testAPI;
+  const {formatOutputsSequences} = format;
+  const {fsmDef, factorySettings, create_state_machine} = fsmFactorySpecs;
+  const {computeOutputSequences} = oracle;
 
-  const expectedOutputSequences = inputSequences
-    .map((inputSequence, testIndex) => {
-      return inputSequence.reduce((acc, input, index) => {
-        const assign = Object.assign.bind(Object);
-        const setProps = props => ({ props: assign({}, defaultProps, props), component: 'AppScreen' });
-        const defaultProps = { screen: void 0, trigger: spyTrigger.name };
-        const { outputSeq, state } = acc;
-        const event = Object.keys(input)[0];
-        const eventData = input[event];
+  const formattedInputSequences = inputSequences.map(inputSequence => inputSequence.map(getInputKey).join(' -> '));
 
-        switch (event) {
-          case USER_NAVIGATED_TO_APP: {
-            const searchCommand = {
-              command: COMMAND_MOVIE_SEARCH,
-              params: ''
-            };
-            const renderCommand = { command: COMMAND_RENDER, params: setProps({ screen: LOADING_SCREEN, args: [] }) };
+  const outputsSequences = inputSequences.map(testSequence => {
+    const fsm = create_state_machine(fsmDef, factorySettings);
+    const output = testSequence.map(fsm.yield);
+    console.debug('outputSequence', output)
+    return output
+  }  );
+  const formattedOutputsSequences = formatOutputsSequences(outputsSequences);
 
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand, searchCommand]
-              ]),
-              state: { ...state, pendingQuery: '' }
-            }
-          }
-          case SEARCH_RESULTS_RECEIVED : {
-            const { results: searchResults, query } = eventData;
-            let { pendingQuery } = state;
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({
-                screen: SEARCH_RESULTS_SCREEN,
-                args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], pendingQuery]
-              })
-            };
+  const expectedOutputSequences = computeOutputSequences(inputSequences);
 
-            return {
-              outputSeq: pendingQuery === query
-                ? outputSeq.concat([[renderCommand]])
-                : outputSeq,
-              state: pendingQuery === query ? { ...state, results: searchResults, pendingQuery } : state
-            }
-          }
-          case SEARCH_ERROR_RECEIVED : {
-            const { pendingQuery } = state;
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [pendingQuery] })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand]
-              ]),
-              state
-            }
-          }
-          case QUERY_CHANGED : {
-            const query = eventData;
-            const { results } = state;
-            const searchCommand = {
-              command: COMMAND_MOVIE_SEARCH,
-              params: query
-            };
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_RESULTS_AND_LOADING_SCREEN, args: [results, query] })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand, searchCommand]
-              ]),
-              state: { ...state, pendingQuery: query }
-            }
-          }
-          // TODO : if last outputSeq has a COMMAND_MOVIE_SEARCH command then null
-          case MOVIE_SELECTED : {
-            const { movie } = eventData;
-            const { pendingQuery, results } = state;
-            const movieId = movie.id;
-            const movieTitle = movie.title;
-            const searchCommand = {
-              command: COMMAND_MOVIE_DETAILS_SEARCH,
-              params: movieId
-            };
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({
-                screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN,
-                args: [results, pendingQuery, movie]
-              })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand, searchCommand]
-              ]),
-              state: { ...state, movieTitle }
-            }
-          }
-          case SEARCH_RESULTS_MOVIE_RECEIVED: {
-            const [movieDetails, cast] = eventData;
-            const { pendingQuery, results } = state;
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({
-                screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS,
-                args: [results, pendingQuery]
-                  .concat(MOVIE_SEARCH_DETAIL_RESULTS[getQueryAlias(pendingQuery)])
-              })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand]
-              ]),
-              state
-            }
-          }
-          case SEARCH_ERROR_MOVIE_RECEIVED : {
-            const { pendingQuery, results, movieTitle } = state;
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({
-                screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR,
-                args: [results, pendingQuery, movieTitle]
-              })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand]
-              ]),
-              state
-            }
-          }
-          case MOVIE_DETAILS_DESELECTED : {
-            const { pendingQuery, results } = state;
-            const renderCommand = {
-              command: COMMAND_RENDER,
-              params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, pendingQuery] })
-            };
-
-            return {
-              outputSeq: outputSeq.concat([
-                [renderCommand]
-              ]),
-              state
-            }
-          }
-          default :
-            throw `expectedOutputSequences > unknown event??`
-        }
-      }, { outputSeq: [], state: { pendingQuery: '', results: null, movieTitle: '' } })
-    })
-    .map(x => x.outputSeq);
-
-  // NOTE: I am testing the application here, with the assumption that the test generation is already tested
+// NOTE: I am testing the application here, with the assumption that the test generation is already tested
   // So no need to test the input sequence (neither the control state sequence actually
   // What we have to test is that the (actual) ouptutSequence correspond to what we would compute otherwise
   range(0, inputSequences.length).forEach(index => {
     assert.deepEqual(
       formattedOutputsSequences[index],
       expectedOutputSequences[index],
-      formattedInputSequences[index].join(' -> ')
+      formattedInputSequences[index]
     );
   })
+}
+
+// TODO : to test testFsm : that is when you have an oracle (never?)
+QUnit.skip("With search concurrency", function exec_test(assert) {
+  const spyTrigger = function spyTrigger(eventName) {
+    return function spyEventHandler(rawEvent, ref, other) {
+      void 0
+    }
+  };
+  function getQueryAlias(query){
+    return query ? query : '_'
+  }
+  const testAPI = {assert};
+  const fsmFactorySpecs = {fsmDef: movieSearchFsmDef, factorySettings: default_settings, create_state_machine};
+  const oracle = {computeOutputSequences};
+  const format = {formatOutputsSequences};
+  testFsm({testAPI, fsmFactorySpecs, inputSequences:testSequences, oracle, format});
+
+  function formatOutputsSequences(outputsSequences){
+    return outputsSequences
+      .map(outputsSequence => {
+        return outputsSequence
+          .filter( x => x !== NO_OUTPUT)
+          .map(outputs => {
+            return outputs
+              .filter( x => x !== NO_OUTPUT)
+              .map(output => {
+                const { command, params } = output;
+                if (command === COMMAND_RENDER) {
+                  const reactRenderParams = params(spyTrigger);
+                  return {
+                    command: command,
+                    params: {
+                      props: reactRenderParams.props,
+                      component: reactRenderParams.type.displayName || '<anonymous>'
+                    }
+                  }
+                }
+                else {
+                  return output
+                }
+              })
+              .map(formatResult)
+          })
+      });
+  }
+
+  function computeOutputSequences(inputSequences){
+    return inputSequences
+      .map((inputSequence, testIndex) => {
+        return inputSequence.reduce((acc, input, index) => {
+          const assign = Object.assign.bind(Object);
+          const setProps = props => ({ props: assign({}, defaultProps, props), component: 'AppScreen' });
+          const defaultProps = { screen: void 0, trigger: spyTrigger.name };
+          const { outputSeq, state } = acc;
+          const event = Object.keys(input)[0];
+          const eventData = input[event];
+
+          switch (event) {
+            case USER_NAVIGATED_TO_APP: {
+              const searchCommand = {
+                command: COMMAND_MOVIE_SEARCH,
+                params: ''
+              };
+              const renderCommand = { command: COMMAND_RENDER, params: setProps({ screen: LOADING_SCREEN, args: [] }) };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand, searchCommand]
+                ]),
+                state: { ...state, pendingQuery: '' }
+              }
+            }
+            case SEARCH_RESULTS_RECEIVED : {
+              const { results: searchResults, query } = eventData;
+              let { pendingQuery } = state;
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({
+                  screen: SEARCH_RESULTS_SCREEN,
+                  args: [MOVIE_SEARCH_RESULTS[getQueryAlias(pendingQuery)], pendingQuery]
+                })
+              };
+
+              return {
+                outputSeq: pendingQuery === query
+                  ? outputSeq.concat([[renderCommand]])
+                  : outputSeq,
+                state: pendingQuery === query ? { ...state, results: searchResults, pendingQuery } : state
+              }
+            }
+            case SEARCH_ERROR_RECEIVED : {
+              const { pendingQuery } = state;
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({ screen: SEARCH_ERROR_SCREEN, args: [pendingQuery] })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand]
+                ]),
+                state
+              }
+            }
+            case QUERY_CHANGED : {
+              const query = eventData;
+              const { results } = state;
+              const searchCommand = {
+                command: COMMAND_MOVIE_SEARCH,
+                params: query
+              };
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({ screen: SEARCH_RESULTS_AND_LOADING_SCREEN, args: [results, query] })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand, searchCommand]
+                ]),
+                state: { ...state, pendingQuery: query }
+              }
+            }
+            case MOVIE_SELECTED : {
+              const { movie } = eventData;
+              const { pendingQuery, results } = state;
+              const movieId = movie.id;
+              const movieTitle = movie.title;
+              const searchCommand = {
+                command: COMMAND_MOVIE_DETAILS_SEARCH,
+                params: movieId
+              };
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({
+                  screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN,
+                  args: [results, pendingQuery, movie]
+                })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand, searchCommand]
+                ]),
+                state: { ...state, movieTitle }
+              }
+            }
+            case SEARCH_RESULTS_MOVIE_RECEIVED: {
+              const [movieDetails, cast] = eventData;
+              const { pendingQuery, results } = state;
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({
+                  screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS,
+                  args: [results, pendingQuery]
+                    .concat(MOVIE_SEARCH_DETAIL_RESULTS[getQueryAlias(pendingQuery)])
+                })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand]
+                ]),
+                state
+              }
+            }
+            case SEARCH_ERROR_MOVIE_RECEIVED : {
+              const { pendingQuery, results, movieTitle } = state;
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({
+                  screen: SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR,
+                  args: [results, pendingQuery, movieTitle]
+                })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand]
+                ]),
+                state
+              }
+            }
+            case MOVIE_DETAILS_DESELECTED : {
+              const { pendingQuery, results } = state;
+              const renderCommand = {
+                command: COMMAND_RENDER,
+                params: setProps({ screen: SEARCH_RESULTS_SCREEN, args: [results, pendingQuery] })
+              };
+
+              return {
+                outputSeq: outputSeq.concat([
+                  [renderCommand]
+                ]),
+                state
+              }
+            }
+            default :
+              throw `expectedOutputSequences > unknown event??`
+          }
+        }, { outputSeq: [], state: { pendingQuery: '', results: null, movieTitle: '' } })
+      })
+      .map(x => x.outputSeq);
+  }
 });
