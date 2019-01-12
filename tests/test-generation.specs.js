@@ -130,8 +130,6 @@ const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
 const { SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_ERROR_SCREEN, LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN } = screens;
 
-// Generators
-
 QUnit.module("Testing properties", {});
 
 // Properties
@@ -198,17 +196,6 @@ QUnit.test("Sequence of input leading to see a list of fetched movies", function
   });
 });
 
-// assert.deepEqual(run(movieSelectedAndBack, {}), [], `movieSelectedAndBack works?`)
-// assert.deepEqual(run(oneOrMoreCore(3, queryChanged), {}), [], `oneOrMoreCore(3, queryChanged) works?`)
-// assert.deepEqual(run(oneOf([movieSelectedAndBack, incrementallyTypedQuery]), {}), [], `oneOf([movieSelectedAndBack, incrementallyTypedQuery] works?`)
-// assert.deepEqual(run(incrementallyTypedQuery, {}), [], `incrementallyTypedQuery works?`)
-// assert.deepEqual(run(seq1, {}), [], `seq1 works?`)
-
-// TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
-// TODO : so like testFsm(testAPI, fsmDef, generators, updateState, strategy, oracle, format)
-// format : format input, and output, and expected output
-// oracle : generate expected output sequences
-// strategy : search criteria and algorithm
 // TODO : make some checks that the generators has the same shape than the machine!!
 // TODO : manage errors : only errors which should transcur are :
 // - exceptions while generating the input sequnces : error in the test making
@@ -216,10 +203,6 @@ QUnit.test("Sequence of input leading to see a list of fetched movies", function
 // - generating expected output uses state but should be easy : only state born from input
 // - generating input sequence uses state but born from what we want to test
 // - we should not duplicate or reuse code from the implementation!!
-// TODO : update tests for new fsm
-// so new gen fsm
-// beware that now the query for the command is a text
-// beware that search movie results now is {results, query}
 
 function testFsm({testAPI, fsmFactorySpecs, inputSequences, oracle, format}){
   const getInputKey = function getInputKey(input) {return Object.keys(input)[0]};
