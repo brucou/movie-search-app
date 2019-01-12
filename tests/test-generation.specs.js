@@ -6,8 +6,9 @@ import { applyPatch } from "json-patch-es6/lib/duplex"
 import { merge as merge$, of, Subject } from "rxjs";
 import { movieSearchFsmDef } from "../src/fsm"
 import { COMMAND_MOVIE_DETAILS_SEARCH, COMMAND_MOVIE_SEARCH, events, screens } from "../src/properties"
-import { MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS, testSequences } from "./fixtures"
+import { INITIAL_REQUEST_RESULTS, MOVIE_SEARCH_DETAIL_RESULTS, MOVIE_SEARCH_RESULTS, testSequences } from "./fixtures"
 import { mapOverObj } from "fp-rosetree";
+import { chain, init, noneOrMore, oneOf, oneOrMore, oneOrMoreCore, run } from "../generators"
 
 export function tryCatch(fn, err) {
   return function (...args) {
@@ -98,6 +99,11 @@ export function formatResult(result) {
   }
 }
 
+function formatInputSequence(inputSequence){
+  return inputSequence.map(input => Object.keys(input)[0]).join(' -> ')
+}
+
+
 /**
  *
  * @param {FSM_Model} model
@@ -121,14 +127,84 @@ const default_settings = {
 };
 const NO_ACTIONS = () => ({ outputs: NO_OUTPUT, updates: NO_STATE_UPDATE });
 
-function getQueryAlias(query) {
-  return (query === '') ? '_' : query
-}
-
 const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
 const { SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_ERROR_SCREEN, LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN } = screens;
 
-QUnit.module("Testing test sequences generation", {});
+// Generators
+
+QUnit.module("Testing properties", {});
+
+// Properties
+function lastScreenShowsMovieList(outputsSequence){
+  let lastOutputs = outputsSequence.slice(-1);
+  if (lastOutputs === null) return false;
+  lastOutputs = lastOutputs.filter(x => x!== null)[0];
+  return lastOutputs.some(output => {
+    const {command, params} = output;
+    return command === COMMAND_RENDER &&
+      params(()=>{}).props.screen === SEARCH_RESULTS_SCREEN
+  })
+}
+
+// Ad-hoc to copy in the test
+function movieSelectedAndBack({ state }) {
+  const { results, movieQuery } = state;
+  // Always use the first one, we aint got fixtures for nothing else
+  const movie = results && results[0];
+
+  return {
+    state: state,
+    generated: [
+      { [events.MOVIE_SELECTED]: { movie } },
+      { [events.SEARCH_RESULTS_MOVIE_RECEIVED]: MOVIE_SEARCH_DETAIL_RESULTS[movieQuery ? movieQuery : '_'] },
+      { [events.MOVIE_DETAILS_DESELECTED]: void 0 }
+    ]
+  }
+}
+function queryChanged({ state }) {
+  const query = state.movieQuery || '';
+  const nextChar = query ? String.fromCharCode(query.slice(-1).charCodeAt(0) + 1) : 'a'
+  const nextQuery = query.length > 2 ? '' : query + nextChar;
+  return {
+    state: { ...state, movieQuery: nextQuery },
+    generated: { [events.QUERY_CHANGED]: nextQuery }
+  }
+}
+function initQuerySucceeded({ state }) {
+  return {
+    state : {...state, movieQuery: '', results : INITIAL_REQUEST_RESULTS},
+    generated : {[events.SEARCH_RESULTS_RECEIVED] : {results: INITIAL_REQUEST_RESULTS, query : ''}}
+  }
+}
+function successLastQuery({ state }) {
+  const { movieQuery } = state;
+  const results =movieQuery.length === 0 ? INITIAL_REQUEST_RESULTS : MOVIE_SEARCH_RESULTS[movieQuery ? movieQuery : '_'];
+  return {
+    state : {...state, results},
+    generated : {[events.SEARCH_RESULTS_RECEIVED] : {results, query : movieQuery}}
+  }
+}
+const initEvent = { [events.USER_NAVIGATED_TO_APP]: void 0 };
+const initialState = { results: [], selectedMovie: void 0, movieQuery: '' };
+const incrementallyTypedQuery = chain([oneOrMoreCore(3, queryChanged), successLastQuery]);
+const seq1 = () => chain([init(initEvent, initialState), initQuerySucceeded, noneOrMore(oneOf([movieSelectedAndBack, incrementallyTypedQuery]))]);
+window.seq1 = seq1;
+window.run = run;
+
+QUnit.test("Sequence of input leading to see a list of fetched movies", function (assert){
+  range(0, 50).forEach(index => {
+    const inputSequence = run(seq1(), {});
+    const fsm = create_state_machine(movieSearchFsmDef, default_settings);
+    const outputsSequence = inputSequence.map(fsm.yield);
+    assert.ok(lastScreenShowsMovieList(outputsSequence), formatInputSequence(inputSequence));
+  });
+});
+
+// assert.deepEqual(run(movieSelectedAndBack, {}), [], `movieSelectedAndBack works?`)
+// assert.deepEqual(run(oneOrMoreCore(3, queryChanged), {}), [], `oneOrMoreCore(3, queryChanged) works?`)
+// assert.deepEqual(run(oneOf([movieSelectedAndBack, incrementallyTypedQuery]), {}), [], `oneOf([movieSelectedAndBack, incrementallyTypedQuery] works?`)
+// assert.deepEqual(run(incrementallyTypedQuery, {}), [], `incrementallyTypedQuery works?`)
+// assert.deepEqual(run(seq1, {}), [], `seq1 works?`)
 
 // TODO : add to state transducer something like testMachineComponent(testAPI, testScenario, machineDef)
 // TODO : so like testFsm(testAPI, fsmDef, generators, updateState, strategy, oracle, format)
@@ -146,7 +222,7 @@ QUnit.module("Testing test sequences generation", {});
 // so new gen fsm
 // beware that now the query for the command is a text
 // beware that search movie results now is {results, query}
-QUnit.test("With search concurrency", function exec_test(assert) {
+QUnit.skip("With search concurrency", function exec_test(assert) {
   const fsmDef = movieSearchFsmDef;
   const inputSequences = testSequences;
   const outputsSequences = inputSequences.map(testSequence => {
