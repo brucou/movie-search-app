@@ -432,7 +432,7 @@ Did I manage to excite your curiosity or did I loose you somewhere along the
 way? If quality, and maintainability of user interfaces matters is important in what you do, give
  the technique a look. You know, it is just a function!
 
-[^3]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found two bugs (in the error paths).
+[^3]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
 
 ## Annex
 You can use the following libraries to play with state machines : 
