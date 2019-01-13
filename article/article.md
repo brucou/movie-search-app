@@ -101,15 +101,12 @@ The TDD methodology leads to an implementation which can be found here:
 | 1-11  | [specs-all](https://github.com/brucou/movie-search-app/tree/specs-all)|
 
 Even if you don't know React, the chosen DOM library, you should be able to 
- understand the implementation pretty well. To that purpose, we are using hyperscript helpers, 
- which allow to write the screens like you would with html. Apart from the React twist, we 
+ understand the [implementation](https://frontarm.com/demoboard/?id=84de78ec-a59c-452e-899a-4ddcf73a746a) pretty well. To that purpose, we are using hyperscript helpers, which allow to write the screens like you would with html. Apart from the React twist, we 
  use a standard model-view-controller division :
  
  - events are propagated to a central controller
  - the controller elicits what actions to do, based on the current value of a model
  - the controller perform those actions, and updates the model
-
-<TODO : include demoboard playground https://frontarm.com/demoboard/?id=84de78ec-a59c-452e-899a-4ddcf73a746a>
 
 ## Refactoring towards state machines
 Did you notice the form of our specifications ? Abstracting over application-specific content, 
@@ -365,16 +362,13 @@ being executed. The correct model is the following :
 ![fsm model corrected](movie%20search%20good%20fsm%20corrected%20flowchart.png)
 
 We regenerated tests for the [updated machine](https://frontarm.com/demoboard/?id=ffa7c61d-b3b4-448b-996f-39599465cb3e) and we found yet another bug, which may be pretty 
-difficult to identify from the specification or implementation. HINT : it is a concurrency bug (a
- tough category of bugs this brother says)[^2]. Can you find it? By generating a **large enough 
- number of test sequences**, we were able to eventually find a reproducing sequence for it.
+difficult to identify from the specification or implementation. **HINT** : it is a concurrency 
+bug (a tough category of bugs this brother says)[^2]. Can you find it? By generating a **large 
+enough number of test sequences**, we were able to eventually find a reproducing sequence for it.
  
 [^2]: Type fast enough, and you may generate several queries whose results arrive out of order, 
 with the first results arriving get displayed. Only the **latest query results** should be 
 displayed. 
-
-<TODO : add a picture with paths with different width in the graph!! when I will have done the 
-implementation ah ah>
 
 ### Iterate on features
 After playing a bit with the prototype, it seems like the UX could be improved with a few changes :
