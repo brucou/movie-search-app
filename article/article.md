@@ -36,17 +36,17 @@ In order to scope and guide the implementation, you write the detailed specifica
    - display loading screen
    - query for movies in some default way
 2. GIVEN user navigated to [url] AND query field has not changed 
- - WHEN default query is successful, THEN display (result screen) 
+ - WHEN default query is successful, THEN display result screen 
 3. GIVEN url not [url] AND user navigates to [url] AND query field has not changed 
- - WHEN default query is not successful, THEN display (error screen)
+ - WHEN default query is not successful, THEN display error screen
 4. GIVEN user navigated to [url] AND query field has not changed 
  - WHEN query field changes AND query field is not empty, THEN 
    - query for movies containing the content of <query> field
    - display loading screen
 5. GIVEN user navigated to [url], AND query field changed AND query field is not empty
- - WHEN query is successful, THEN display (result screen)
+ - WHEN query is successful, THEN display result screen
 6. GIVEN user navigated to [url], AND query field changed AND query field is not empty
- - WHEN query is not successful, THEN display (error screen). 
+ - WHEN query is not successful, THEN display error screen. 
 7. GIVEN user navigated to [url] AND query field changed
  - WHEN query field changes AND query field is empty, THEN 
    - display loading screen
@@ -66,7 +66,7 @@ was successful AND user clicked on a movie
    - display movie detail error screen
 11. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
 was successful AND user clicks on a movie AND movie detail query is successful
- - WHEN user clicks outside of the movie detail, THEN display (result screen) corresponding to
+ - WHEN user clicks outside of the movie detail, THEN display result screen corresponding to
   the query
 ```
 
@@ -123,15 +123,15 @@ The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as $actions =
 | state | event | actions |
 |---|---|---|
 |some other url|user navigates to `[url]`|display loading screen, query for movies in some default way|
-|user navigated to `[url]`, query field has not changed |default query is successful|display (result screen) |
+|user navigated to `[url]`, query field has not changed |default query is successful|display result screen |
 
 
 While this equation is enough to specify the behaviour of our interface, it is not enough to 
-implement it : we have what is called a free variable -- `state`. The equation 
+implement it : we have what is called a free variable (`state`). The equation 
 shows that our user interface has state, but it tells us nothing about it, in particular how it 
 evolves over time. For implementation purposes, we need a more complete description of the user 
- interface behaviour : $(actions_n, state_n+1) = g(state_n, event_n)$, where `n` is the index of
- the `n`th event accepted by the user interface, and $state_n+1$ is the **new state** after the 
+ interface behaviour : $(actions_n, state_{n+1}) = g(state_n, event_n)$, where `n` is the index of
+ the `n`th event accepted by the user interface, and $state_{n+1}$ is the **new state** after the 
  event occurs. This is no discovery, a good number of front-end libraries and frameworks are using 
  exactly that equation as their foundation. `Elm` for example revolves around an `update`
  function which is expressed as `update :: Msg -> Model -> (Model, Cmd Msg)`. You will
@@ -143,7 +143,7 @@ many ways to represent the state that is used internally for our interface's imp
 The provided TDD implementation for instance uses  `{queryFieldHasChanged, movieQuery, results, movieTitle}` 
 
 ### State machine formalism
-There are thus many ways (`g`) to write the reactive function `f`. State machines (more 
+There are thus many ways to implement the reactive function `f`. State machines (more 
 precisely **Mealy machines** or **state transducers**) are a way to write the reactive function, so 
 that it is amenable to **formal reasoning**, and **visualization**. It does so by segregating the 
 pieces of state which are involved in control (duely referred to as control states) from the rest
@@ -195,7 +195,7 @@ implementation can be represented by the following state machine :
 
 ![state machine associated to the TDD implementation](movie%20search%20TDD%20fsm%20actual.png)
 
-Did you picture a glaring issue with our implementation ? We forgot the cases for 
+Did you picture a glaring issue with our implementation? We forgot the cases for 
 selecting a movie at the beginning of the application, when the query input field has not been 
 interacted with!
 
@@ -217,7 +217,7 @@ machine faithfully implements our BDD specifications, but our BDD specifications
 Writing state machines helps identify early design bugs, by explicitly identifying the control 
 flow implied by the user interface behaviour. As we have seen, some modelization are better than 
 others when it comes to convey the interface's behaviour. Writing easily understandable machines 
-is a skill, which like any other, gets better with time. What is interesting is that if we start 
+is a skill, which, like any other, gets better with time. What is interesting is that if we start 
 directly with coding, we tend to reach implicit machines which are not very readable (the first 
 case), while when we take the time to think about control flow and transitions in our interface, 
 we tend to have a much clearer design which can guide technical choices and conversations with 
@@ -350,7 +350,7 @@ graph. This process can be automatized through application of the usual graph tr
 
 Remember that we test for two reasons : to generate confidence in the behaviour of the application,
  and to find bugs. For confidence purposes, we can have automatic generation of tests on the 
- (imagined) main paths taken by the user. For bug-finding purposes, we can have automatic 
+ predicted main paths taken by the user. For bug-finding purposes, we can have automatic 
  generation of edge cases, error paths, negative paths, etc. Because tests are generated 
  automatically, the incremental cost of testing is low, so we can run easily hundreds of tests 
  with the same effort, increasing the likelihood to find a bug.
@@ -381,8 +381,7 @@ After playing a bit with the prototype, it seems like the UX could be improved w
 Adding, removing or modifying features requires an understanding of the interaction of those 
 features with the application. With a state machine model, those interactions are explicit. 
 
-We have implemented the two first changes to the specifications. Here are the corresponding 
-updated machines :
+Here are the corresponding updated machines for the two first changes to the specifications :
 
 | feature | machine |
 |---|---|
@@ -390,8 +389,8 @@ updated machines :
 | debouncing | ![fsm model corrected with debounce](movie%20search%20good%20fsm%20corrected%20flowchart%20with%20back%20button%20and%20debounce.png) |
 
 The first case is easy. Clicking on the `Back` link will generate the same event as clicking 
-outside the movie detail.we have nothing to change in the machine! The second case is not much 
-more complicated. We use a timer to wait for accepting `QUERY_CHANGED` events. How would you do the other three? 
+outside the movie detail. We have nothing to change in the machine! The second case is not much 
+more complicated. We use a timer to wait for accepting `QUERY_CHANGED` events. 
 
 In both cases, we were able to quickly and **confidently** identify the exact part of the machine
  impacted by the changes and implement the modification of the behaviour. We can add the 
@@ -399,11 +398,11 @@ In both cases, we were able to quickly and **confidently** identify the exact pa
  piece of state used by any transitions involved in the other features.
 
 In both cases, we are able to fairly quickly identify the part of the machine impacted by the 
-changes and implement the modification of the behaviour. How would you do the other ones?
+changes and implement the modification of the behaviour. How would you implement the other features?
 
 ### Document clearly and economically the interface behaviour
 Arguably the state machine for promise we visualized earlier is a useful support to explain 
- promise behaviour to a profane crows. State machines can be visualized in different ways, 
+ promise behaviour to a profane crowd. State machines can be visualized in different ways, 
  emphasizing on different pieces of information. To discuss with designers, it is possible to 
  focus the visualization on the control states and transitions. To discuss with developers, it may be preferred to include 
 technical details such as internal state updates, and other relevant notes. For quality assurance
