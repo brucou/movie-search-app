@@ -56,6 +56,12 @@ const transitions = [
     ]
   },
   {
+    from: MOVIE_SELECTION_ERROR,
+    event: QUERY_CHANGED,
+    to: MOVIE_QUERYING,
+    action: displayLoadingScreenAndQueryNonEmpty
+  },
+  {
     from: MOVIE_SELECTION,
     event: MOVIE_SELECTED,
     to: MOVIE_DETAIL_QUERYING,
@@ -74,10 +80,16 @@ const transitions = [
     action: displayMovieDetailsSearchErrorScreen
   },
   {
+    from: MOVIE_DETAIL_SELECTION_ERROR,
+    event: MOVIE_DETAILS_DESELECTED,
+    to: MOVIE_SELECTION,
+    action: displayCurrentMovieSearchResultsScreen
+  },
+  {
     from: MOVIE_DETAIL_SELECTION,
     event: MOVIE_DETAILS_DESELECTED,
     to: MOVIE_SELECTION,
-    action: displayMovieSearchResultsScreen2
+    action: displayCurrentMovieSearchResultsScreen
   },
 ];
 const preprocessor = rawEventSource => rawEventSource.pipe(
@@ -92,7 +104,8 @@ const preprocessor = rawEventSource => rawEventSource.pipe(
       return { SEARCH_RESULTS_RECEIVED: resultsAndQuery }
     }
     else if (rawEventName === SEARCH_ERROR_RECEIVED) {
-      return { SEARCH_ERROR_RECEIVED: void 0 }
+      const query = e;
+      return { SEARCH_ERROR_RECEIVED: query }
     }
     else if (rawEventName === QUERY_RESETTED) {
       return { QUERY_CHANGED: '' }
@@ -474,7 +487,7 @@ const commandHandlers = {
       .then(data => {
         trigger(SEARCH_RESULTS_RECEIVED)({ results: data.results, query: _query })
       }).catch(error => {
-      trigger(SEARCH_ERROR_RECEIVED)(void 0)
+      trigger(SEARCH_ERROR_RECEIVED)({query: _query})
     });
   },
   [COMMAND_MOVIE_DETAILS_SEARCH]: (trigger, movieId, effectHandlers) => {
@@ -544,7 +557,7 @@ function displayMovieSearchResultsScreen(extendedState, eventData, fsmSettings) 
   }
 }
 
-function displayMovieSearchResultsScreen2(extendedState, eventData, fsmSettings) {
+function displayCurrentMovieSearchResultsScreen(extendedState, eventData, fsmSettings) {
   const { movieQuery, results } = extendedState;
   const renderCommand = {
     command: COMMAND_RENDER,
