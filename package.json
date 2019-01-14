@@ -1,0 +1,35 @@
+{
+  "repository": "git@github.com:brucou/cycle-state-machine-demo.git",
+  "author": "brucou",
+  "license": "MIT",
+  "description": "Demo of state machine usage for specification and implementation of user interface",
+  "name": "state-machine-demo",
+  "version": "0.4.1",
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject",
+    "parcel": "parcel tests/parcel-index.html"
+  },
+  "cca": {
+    "language": "javascript",
+    "streamLib": "rxjs"
+  },
+  "devDependencies": {
+    "cycle-scripts": "2.1.0",
+    "parcel-bundler": "^1.9.5",
+    "qunitjs": "^1.20.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "18.3.0",
+    "@cycle/rxjs-run": "7.1.0",
+    "hyperscript-helpers": "3.0.3",
+    "snabbdom": "0.7.2",
+    "superagent": "^4.0.0",
+    "rxjs": "^6.3.3",
+    "ramda": "^0.25.0",
+    "json-patch-es6": "^2.0.6",
+    "state-transducer": "^0.9.9"
+  }
+}
