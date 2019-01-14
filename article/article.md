@@ -409,7 +409,7 @@ technical details such as internal state updates, and other relevant notes. For 
  purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
 
 ### Final state machine implementation
-You can have a look at the [final implementation with all fixes](https://github.com/brucou/movie-search-app/tree/with-state-library-concurrency-fix) of the [online interface](https://frontarm.com/demoboard/?id=b78a81ab-59b3-406b-beb4-d50f1442d8d8) 
+You can have a look at the [final implementation with all fixes](https://github.com/brucou/movie-search-app/tree/with-state-library-concurrency-fix) of the [online interface](https://frontarm.com/demoboard/?id=cf48c910-a2c1-4aeb-b922-bb496eab35bb) 
 to the movie database using dedicated state machine libraries (disclaimer : I wrote those libraries).
 
 ## Conclusion
