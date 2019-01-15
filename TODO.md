@@ -1,4 +1,0 @@
-- then app with full and correct specs (no design bugs)
-  - NO, not necessary
-- correct the branch S1-S8? should test again
-- add tests also for each branch
