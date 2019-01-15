@@ -1,4 +1,4 @@
-# Building robust, maintainable user interfaces with state machines
+# Building robust, maintainable, testable user interfaces with state machines
 So, you just finished a client's project. Three months of crazy deadlines, 
 constant changes in specifications, with an endless streams of bugs, but you did it. Happy as 
 Ulysses on his way back to Ithaka, you enjoy a few days at home and start binge-watching movies. 
@@ -13,13 +13,13 @@ not look bad. If it was not for all those bugs...
 
 In this article, we are going to use this simple online movie search application to explain how 
 using explicit state machines in the modelization and implementation of user 
-interfaces leads to **robust** and **maintainable** interfaces. We start with describing the search 
-application, and end up presenting the state machine formalism. In the process we will reveal 
+interfaces leads to **robust**, **maintainable** and **testable** interfaces. We start with 
+describing the search application, and end up presenting the state machine formalism. In the process we will reveal 
 the implicit state machine complected in our code and show the advantages of using an explicit 
 one instead.
 
 While the concept may be novel to some, and this article covers them relatively fast, I encourage
- you to pause and rewind when lost, consult the code examples, and leave your code questions on 
+ you to pause and rewind when lost, consult the code examples, and post your questions on 
  stack overflow.
 
 ## The movie search app
