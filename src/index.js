@@ -1,6 +1,5 @@
 // Core
-import {Observable, Subject} from 'rxjs/Rx'
-import {startWith} from 'rxjs/operators'
+import { Subject} from 'rxjs/Rx'
 import { run } from '@cycle/rxjs-run'
 import { App } from './app'
 // View library
