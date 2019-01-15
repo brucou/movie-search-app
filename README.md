@@ -28,6 +28,10 @@ stream-free interface to event handling (it is just a function). This simplifies
 code, while allowing to take advantage of the automatic visualization, tracing, and testing of 
 state machines.
 
+Generally speaking, we have a minimal use of streams, and the usual techniques and knowledge 
+(promises) can be leveraged, disminishing the cognitive load linked to a stream-heavy framework, 
+and the associated debuggability issues.
+
 The corresponding machine is reproduced here :
 
  ![movie-search-fsm](assets/movie search good fsm corrected flowchart no emphasis switchMap.png)
