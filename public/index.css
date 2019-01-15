@@ -1,0 +1,134 @@
+/* App.css */
+
+html, body, #root {
+  height: 100%;
+}
+
+#root * {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #323e4a 0%,#161618 100%);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.App__header {
+  position: fixed;
+  z-index: 1;
+
+  transition-property: opacity, visibility;
+  transition-duration: .3s, 0s;
+  transition-delay: 0s, 0s;
+}
+
+.App[data-active-page="home"] .App__header {
+  transition-delay: 0s, .3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.App__view-container {
+  flex: 1 1 auto;
+  align-self: auto;
+
+  position: relative;
+  top: 54px;
+}
+
+.App__view {
+  height: 100%;
+  width: calc(100% - 50px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-property: opacity, left, filter;
+  transition-duration: .5s, .5s, .5s;
+}
+
+.App__view[data-page="home"] {
+  left: 10%;
+  width: 70%;
+}
+
+.App__view[data-page="item"] {
+  padding-left: 30%;
+  transform: translateX(-30%);
+  left: 30%;
+  width: 90%;
+  position: fixed;
+  top: calc(54px + 20px);
+}
+
+.App[data-active-page="home"] .App__view[data-page="item"] {
+  opacity: 0;
+  z-index: -1;
+}
+
+.App[data-active-page="item"] .App__view[data-page="home"] {
+  left: 7%;
+  /* -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, .25), transparent 45%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, .25), transparent 45%); */
+  opacity: .15;
+  filter: blur(10px);
+}
+
+.App[data-active-page="item"] .App__view[data-page="item"] {
+  left: 20%;
+}
+
+/* HomePage.css */
+
+.HomePage .SearchBar {
+  width: 100%;
+  max-width: 1245px;
+}
+
+/* ResultsContainer.css*/
+
+/* Fine adjustments on uk-thumbnav */
+.ResultsContainer .uk-thumbnav > * > ::after {
+  background: rgba(255,255,255,0.2);
+}
+
+.ResultsContainer__thumbnail-holder,
+.ResultsContainer .uk-thumbnav > * > ::after {
+  height: 169px;
+}
+
+.ResultsContainer .uk-thumbnav > * > :focus::after,
+.ResultsContainer .uk-thumbnav > * > :hover::after {
+  background-color: transparent;
+}
+
+.ResultsContainer__caption {
+  width: 300px;
+}
+
+.ResultsContainer .uk-thumbnav > * > :focus,
+.ResultsContainer .uk-thumbnav > * > :hover {
+  text-decoration: none;
+}
+
+.MovieDetailsPage__img-container {
+  float: left;
+  min-width: 342px;
+  min-height: 497px;
+}
+
+.MovieDetailsPage dt {
+  color: rgba(255, 255, 255, .3);
+}
+
+.MovieDetailsPage dt,
+.MovieDetailsPage dd {
+  margin-left: 362px;
+}
+

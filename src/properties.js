@@ -1,4 +1,5 @@
 export const NO_INTENT = null;
+export const NO_COMMAND = null;
 
 // Test ids
 export const testIds = {
@@ -13,6 +14,7 @@ export const testIds = {
 };
 
 // Events
+export const READY='READY';
 export const events = {
   USER_NAVIGATED_TO_APP : 'USER_NAVIGATED_TO_APP',
   QUERY_CHANGED : 'QUERY_CHANGED',

@@ -1,13 +1,19 @@
-import { events, testIds, screens as screenIds, POPULAR_NOW, PROMPT, LOADING, SEARCH_RESULTS_FOR, IMAGE_TMDB_PREFIX, NETWORK_ERROR } from "./properties"
+import {
+  events, IMAGE_TMDB_PREFIX, LOADING, NETWORK_ERROR, POPULAR_NOW, PROMPT, screens as screenIds, SEARCH_RESULTS_FOR,
+  testIds
+} from "./properties"
+import h from "react-hyperscript";
+import hyperscript from 'hyperscript-helpers';
 
-const { SEARCH_ERROR_MOVIE_RECEIVED, QUERY_RESETTED, USER_NAVIGATED_TO_APP, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_RESULTS_RECEIVED } = events;
+const { div, a, ul, li, input, h1, h3, legend, img, dl, dt, dd } = hyperscript(h);
+const { QUERY_RESETTED, QUERY_CHANGED, MOVIE_DETAILS_DESELECTED, MOVIE_SELECTED } = events;
 const { LOADING_SCREEN, SEARCH_ERROR_SCREEN, SEARCH_RESULTS_AND_LOADING_SCREEN, SEARCH_RESULTS_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS, SEARCH_RESULTS_WITH_MOVIE_DETAILS_AND_LOADING_SCREEN, SEARCH_RESULTS_WITH_MOVIE_DETAILS_ERROR, } = screenIds;
 const {
   PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-  LOADING_TESTID, MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
+  MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID, NETWORK_ERROR_TESTID
 } = testIds;
 
-// TODO : update trigger for snabbdom event listener module
+// TODO : update trigger somewhere in index. it trigerFnFactory to replicate
 export const screens = trigger => ({
   [LOADING_SCREEN]: () =>
     div(".App.uk-light.uk-background-secondary", { "data-active-page": "home" }, [

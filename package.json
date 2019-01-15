@@ -22,14 +22,16 @@
     "qunitjs": "^1.20.0"
   },
   "dependencies": {
-    "@cycle/dom": "18.3.0",
-    "@cycle/rxjs-run": "7.1.0",
+    "@cycle/rxjs-run": "^10.2.0",
     "hyperscript-helpers": "3.0.3",
-    "snabbdom": "0.7.2",
     "superagent": "^4.0.0",
-    "rxjs": "^6.3.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "rxjs": "^5.4.3",
     "ramda": "^0.25.0",
     "json-patch-es6": "^2.0.6",
-    "state-transducer": "^0.9.9"
+    "state-transducer": "^0.9.9",
+    "react-hyperscript": "^3.2.0",
+    "react-state-driven": "^0.4.8"
   }
 }
