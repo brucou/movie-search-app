@@ -171,7 +171,7 @@ function handleAppEvents(app, event, args) {
       app.setState({ screen: screens.LOADING_SCREEN() });
       runSearchQuery(DISCOVERY_REQUEST)
         .then(res => eventEmitter.emit(SEARCH_RESULTS_RECEIVED, res))
-        .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, err))
+        .catch(err => eventEmitter.emit(SEARCH_ERROR_RECEIVED, void 0))
       break;
 
     case SEARCH_RESULTS_RECEIVED :
@@ -186,7 +186,6 @@ function handleAppEvents(app, event, args) {
       break;
 
     case SEARCH_ERROR_RECEIVED:
-      const [err] = args;
       if (queryFieldHasChanged === false) {
         app.setState({ screen: screens.SEARCH_ERROR_SCREEN('') });
       }

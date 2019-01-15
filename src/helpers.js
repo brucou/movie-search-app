@@ -11,6 +11,7 @@ export function runSearchQuery(query) {
     .then(res => {
       return res.body.results
     })
+    .catch(err => {throw err})
 }
 
 export function makeQuerySlug(query) {
