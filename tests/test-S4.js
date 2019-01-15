@@ -1,12 +1,12 @@
 import sinon from "sinon"
 import superagent from "superagent"
 import {
-  events, IMAGE_TMDB_PREFIX, INITIAL_REQUEST, NETWORK_ERROR, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, testIds
+  IMAGE_TMDB_PREFIX, INITIAL_REQUEST, NETWORK_ERROR, POPULAR_NOW, PROMPT, SEARCH_RESULTS_FOR, testIds
 } from "../src/properties"
 import ReactDOM from "react-dom"
 import h from "react-hyperscript"
 import App from "../src/App"
-import { fireEvent, getByTestId, getByText, wait, waitForElement } from "dom-testing-library"
+import { fireEvent, getByTestId, getByText, waitForElement } from "dom-testing-library"
 import { INITIAL_REQUEST_RESULTS, RESULT_QUERY_a } from "./fixtures"
 import { makeQuerySlug, SvcUrl } from "../src/helpers"
 
@@ -165,19 +165,16 @@ QUnit.test("GIVEN user navigated to [url] AND query field has not changed WHEN q
     .then(() => {assert.ok(true, `[USER_NAVIGATED_TO_APP, QUERY_CHANGED:'a', QUERY_CHANGED:''] : results are the one expected for query ''`)})
     .catch(err => {
       console.error(`Error occured while simulating inputs. Check the logs`, err);
-      throw err
+      done(err)
     })
-    .finally(done)
+    .then(done)
 });
 
 QUnit.test("GIVEN user navigated to [url] AND query field has not changed WHEN query field changes AND query field" +
   " is not empty AND query is not successful", function exec_test(assert) {
   const done = assert.async(1);
   const stubbedGet = this.stubbedGet;
-  const {
-    PROMPT_TESTID, NETWORK_ERROR_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
-    MOVIE_IMG_SRC_TESTID, MOVIE_TITLE_TESTID
-  } = testIds;
+  const { NETWORK_ERROR_TESTID, QUERY_FIELD_TESTID, MOVIE_IMG_SRC_TESTID } = testIds;
 
   stubbedGet
     .withArgs(INITIAL_REQUEST)
@@ -225,7 +222,7 @@ QUnit.test("GIVEN user navigated to [url] AND query field has not changed WHEN q
     .then(() => {
       return waitForElement(() => !!getByTestId(root, NETWORK_ERROR_TESTID), { timeout: 1000 })
         .then(_ => {
-          const el= document.querySelector(`[data-testid="${NETWORK_ERROR_TESTID}"]`);
+          const el = document.querySelector(`[data-testid="${NETWORK_ERROR_TESTID}"]`);
           const elText = el.textContent && el.textContent.trim() || '';
           const message = `Error message correctly displayed`;
           assert.deepEqual(elText, NETWORK_ERROR, message);
