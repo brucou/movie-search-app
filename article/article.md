@@ -20,7 +20,8 @@ one instead.
 
 While the concept may be novel to some, and this article covers the subject relatively fast, I 
 encourage you to pause and rewind when lost, consult the code examples, and post your questions 
-in the comment section or the [statecharts group](https://spectrum.chat/statecharts).
+on the [dedicated SO tag](https://stackoverflow.com/questions/tagged/state-transducer) or 
+come and discuss the topic on the [statecharts group](https://spectrum.chat/statecharts).
 
 ## The movie search app
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
@@ -311,8 +312,8 @@ function makePromiseMachine(params) {
 
 However, doing so is not only error-prone, but also harder to maintain reliably. Formalizing 
 a data structure conveying the machine semantics allows to derive programmatically an 
-executable version of the machine, and also tests for that machine, as we will see now. A number of 
-libraries exists to do so and can be found at the end of the article.
+executable version of the machine, and also tests for that machine, as we will see now (I wrote 
+a library that does just that, see in annex).
  
 #### Automatic test generation
 We have seen that an alternative formulation `g` of the reactive function `f` which is oriented to 
@@ -435,25 +436,13 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code :-)
 
 ## Annex
-You can use the following libraries to play with state machines : 
+All implementation examples in this article are using the [state-transducer](https://github.com/brucou/state-transducer) library, which I started to write some years ago to make the modelization of user interface simpler. Additionally I also wrote [react-state-driven](https://github.com/brucou/react-state-driven) to support integration with React (also used by the examples in the article). 
 
-| Library | *Quid est* |
-|---|---|
-| [state-transducer](https://github.com/brucou/state-transducer) | Extended Hierarchical State Machine library for reliable interfaces (this humble servant wrote this one :-)) |
-| [xstate](https://github.com/davidkpiano/xstate) | Functional, stateless JavaScript finite state machines and statecharts |
-| [rosmaro](https://rosmaro.js.org/) | A visual automata-based programming framework |
+That said, because implementation-wise, a state machine is just a function, you can write it 
+directly and do not need a specific library to integrate it into your popular framework. For 
+simple cases, this may be the cheapest option.
 
-Because implementation-wise, a state machine is just a function, you do not need a library to 
-integrate it into your popular framework. However, if you want to leverage prior work, 
-the following libraries exist to integrate with `React`: 
-
-| Library |
-|---|
-| [react-state-driven](https://github.com/brucou/react-state-driven) |
-| [react-automata](https://github.com/MicheleBertoli/react-automata) |
-| [react-xstate](https://github.com/nenti/react-xstate) |
-
-Interesting articles :
+Interesting articles shedding light on the subject :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [Pure UI](https://rauchg.com/2015/pure-ui)
 
