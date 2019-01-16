@@ -19,8 +19,8 @@ the implicit state machine complected in our code and show the advantages of usi
 one instead.
 
 While the concept may be novel to some, and this article covers them relatively fast, I encourage
- you to pause and rewind when lost, consult the code examples, and post your questions on 
- stack overflow.
+ you to pause and rewind when lost, consult the code examples, and post your questions in the 
+ comment section.
 
 ## The movie search app
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
@@ -109,14 +109,14 @@ Even if you don't know React, the chosen DOM library, you should be able to
  - the controller perform those actions, and updates the model
 
 ## Refactoring towards state machines
-Did you notice the form of our specifications ? Abstracting over application-specific content, 
+Did you notice the shape of our specifications ? Abstracting over application-specific content, 
 the specifications follow the pattern : `GIVEN state WHEN event THEN actions`. That is the 
 *event-state-action* paradigm which can be used to describe most of the user interfaces we see 
 on the web. That paradigm leads us to a refactoring with state machines.
 
 ### Event-state-action paradigm
-The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as $actions = f(state, event)$.
- We will call $f$ the reactive function associated to the behaviour. In any of the equations we 
+The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as `actions = f(state, event)`.
+ We will call `f` the reactive function associated to the behaviour. In any of the equations we 
  will write in what follows, keep in mind that any function mentioned is a mathematical function, 
  which can be implemented programmatically by means of a pure function. Here is a partial mapping :
 
@@ -125,13 +125,12 @@ The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as $actions =
 |some other url|user navigates to `[url]`|display loading screen, query for movies in some default way|
 |user navigated to `[url]`, query field has not changed |default query is successful|display result screen |
 
-
 While this equation is enough to specify the behaviour of our interface, it is not enough to 
 implement it : we have what is called a free variable (`state`). The equation 
 shows that our user interface has state, but it tells us nothing about it, in particular how it 
 evolves over time. For implementation purposes, we need a more complete description of the user 
- interface behaviour : $(actions_n, state_{n+1}) = g(state_n, event_n)$, where `n` is the index of
- the `n`th event accepted by the user interface, and $state_{n+1}$ is the **new state** after the 
+ interface behaviour : `(actions_n, state_{n+1}) = g(state_n, event_n)`, where `n` is the index of
+ the `n`th event accepted by the user interface, and `state_{n+1}` is the **new state** after the 
  event occurs. This is no discovery, a good number of front-end libraries and frameworks are using 
  exactly that equation as their foundation. `Elm` for example revolves around an `update`
  function which is expressed as `update :: Msg -> Model -> (Model, Cmd Msg)`. You will
@@ -410,7 +409,7 @@ technical details such as internal state updates, and other relevant notes. For 
 
 ### Final state machine implementation
 You can have a look at the [final implementation with all fixes](https://github.com/brucou/movie-search-app/tree/with-state-library-concurrency-fix) of the [online interface](https://frontarm.com/demoboard/?id=cf48c910-a2c1-4aeb-b922-bb496eab35bb) 
-to the movie database using dedicated state machine libraries (disclaimer : I wrote those libraries).
+to the movie database using dedicated state machine libraries.
 
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
@@ -434,17 +433,21 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 
 [^3]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
 
+## Credits
+- Credit to [Sari Márton](https://github.com/sarimarton) for the [original stream-based 
+implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code
+
 ## Annex
 You can use the following libraries to play with state machines : 
 
 | Library | *Quid est* |
 |---|---|
-| [state-transducer](https://github.com/brucou/state-transducer) | Extended Hierarchical State Machine library for reliable interfaces |
+| [state-transducer](https://github.com/brucou/state-transducer) | Extended Hierarchical State Machine library for reliable interfaces (this humble servant wrote this one :-)) |
 | [xstate](https://github.com/davidkpiano/xstate) | Functional, stateless JavaScript finite state machines and statecharts |
 | [rosmaro](https://rosmaro.js.org/) | A visual automata-based programming framework |
 
 Because implementation-wise, a state machine is just a function, you do not need a library to 
-integrate it into your popular framework. However, if you want to avoid reinventing the wheel, 
+integrate it into your popular framework. However, if you want to leverage prior work, 
 the following libraries exist to integrate with `React`: 
 
 | Library |
@@ -456,11 +459,10 @@ the following libraries exist to integrate with `React`:
 Interesting articles :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [Pure UI](https://rauchg.com/2015/pure-ui)
-- [application process demo](https://github.com/brucou/cycle-state-machine-demo/tree/first-iteration-fix)
 
-We barely touched the surface of the subject. Other subjects of interest I might touch in other 
+I barely touched the surface of the subject. Other subjects of interest I might touch in other 
 articles :
-- state machine, hierarchization, and componentization against complexity
+- state machine, state charts, and componentization against complexity
 - best practices for state machine modelling
 - model-based testing : model coverage and data coverage
 - state machines and concurrency
