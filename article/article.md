@@ -432,7 +432,7 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 
 ## Credits
 - Credit to [Sari Márton](https://github.com/sarimarton) for the [original stream-based 
-implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code
+implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code :-)
 
 ## Annex
 You can use the following libraries to play with state machines : 
