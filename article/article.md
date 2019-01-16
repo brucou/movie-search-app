@@ -406,8 +406,7 @@ technical details such as internal state updates, and other relevant notes. For 
  purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
 
 ### Final state machine implementation
-You can have a look at the [final implementation with all fixes](https://github.com/brucou/movie-search-app/tree/with-state-library-concurrency-fix) of the [online interface](https://frontarm.com/demoboard/?id=cf48c910-a2c1-4aeb-b922-bb496eab35bb) 
-to the movie database using dedicated state machine libraries.
+You can have a look at the [final implementation with all fixes](https://frontarm.com/demoboard/?id=cf48c910-a2c1-4aeb-b922-bb496eab35bb) of the online interface to the movie database using dedicated state machine libraries.
 
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
