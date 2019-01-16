@@ -19,9 +19,8 @@ the implicit state machine complected in our code and show the advantages of usi
 one instead.
 
 While the concept may be novel to some, and this article covers the subject relatively fast, I 
-encourage you to pause and rewind when lost, consult the code examples, and post your questions 
-on the [dedicated SO tag](https://stackoverflow.com/questions/tagged/state-transducer) or 
-come and discuss the topic on the [statecharts group](https://spectrum.chat/statecharts).
+encourage you to pause and rewind when lost, consult the code examples (I try to link an 
+example at every step, so click on the links), and post your questions on the [dedicated SO tag](https://stackoverflow.com/questions/tagged/state-transducer) or come and discuss the topic on the [statecharts group](https://spectrum.chat/statecharts).
 
 ## The movie search app
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
