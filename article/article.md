@@ -421,7 +421,7 @@ While it is a de facto method for modeling complex behaviours in the large, it i
  give it a look. After all, it is just a function!
 
 [^2]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found two bugs (in the error paths).
-
+ 
 ## Annex
 | Library | Comment |
 |---|---|
