@@ -458,7 +458,7 @@ Interesting articles :
 - [Pure UI](https://rauchg.com/2015/pure-ui)
 
 I barely touched the surface of the subject. Other areas of interest I might touch in other 
-articles :
+articles if you guys give positive feedback :
 - modelling user interface behaviour with state machines : a hands-on approach
 - state machine, state charts, and componentization against complexity
 - how to incorporate state machines in your favorite framework
