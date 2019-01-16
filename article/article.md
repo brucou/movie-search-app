@@ -18,9 +18,9 @@ describing the search application, and end up presenting the state machine forma
 the implicit state machine complected in our code and show the advantages of using an explicit 
 one instead.
 
-While the concept may be novel to some, and this article covers them relatively fast, I encourage
- you to pause and rewind when lost, consult the code examples, and post your questions in the 
- comment section.
+While the concept may be novel to some, and this article covers the subject relatively fast, I 
+encourage you to pause and rewind when lost, consult the code examples, and post your questions 
+in the comment section or the [statecharts group](https://spectrum.chat/statecharts).
 
 ## The movie search app
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
@@ -29,7 +29,7 @@ different stages of the user flow.
 ### Detailed specifications
 In order to scope and guide the implementation, you write the detailed specifications of the 
 **interface behaviour** in a more formalized form, taking a chapter from BDD[^1] :
- 
+
 ```gherkin
 1. GIVEN some other url
  - WHEN user navigates to [url], THEN 
@@ -78,17 +78,17 @@ In terms of visual design, it would go like this :
 
 | Spec#  | Screen  |
 |---|---|
-| 1  |  ![1](./app%20screenshot%20init%20-%20pending.png)|
-| 2  | ![2](./app%20screenshot%20init%20-%20success.png)|
-| 3  | ![3](./app%20screenshot%20init%20-%20error.png) |
-| 4  | ![4](./app%20screenshot%20query%20-%20pending.png) |
-| 5  | ![5](./app%20screenshot%20query%20-%20success.png) |
-| 6  | ![6](./app%20screenshot%20query%20-%20error.png) |
-| 7  |  ![1](./app%20screenshot%20init%20-%20pending.png) |
-| 8  | ![8](./app%20screenshot%20query%20detail%20-%20pending.png) |
-| 9  | ![9](./app%20screenshot%20query%20detail%20-%20success.png) |
-| 10  | ![9](./app%20screenshot%20query%20detail%20-%20error.png) |
-| 11  | ![5](./app%20screenshot%20query%20-%20success.png) |
+| 1  |  ![1](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png)|
+| 2  | ![2](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png)|
+| 3  | ![3](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png) |
+| 4  | ![4](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png) |
+| 5  | ![5](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png) |
+| 6  | ![6](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png) |
+| 7  |  ![1](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png) |
+| 8  | ![8](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png) |
+| 9  | ![9](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png) |
+| 10  | ![9](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png) |
+| 11  | ![5](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png) |
 
 ### Implementation
 The TDD methodology leads to an implementation which can be found here:
@@ -163,12 +163,12 @@ pieces of state which are involved in control (duely referred to as control stat
 The segregation between control states and extended state allows to represent visually and 
 intuitively the state machine :
 
-![movie search explicit fsm](./movie%20search%20good%20fsm%20flowchart.png)
+![movie search explicit fsm](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20flowchart.png)
 
 The visualization semantics are pretty straight forward. The notation `EVENT / actions` is used 
 to define the transitions between control states. Note that we did not include in the 
 visualization the information about internal state updates, for the sake of readability. That 
-naturally can be done, depending on the interest of the target audience.
+naturally can be done, depending on the interest of the chart's target audience.
 
 For the purpose of this article, a state machine is a data structure comprising :
 - a set of control states
@@ -192,7 +192,7 @@ benefits :
 Let's get back at our TDD implementation. The `event-state-action` mapping realized in that 
 implementation can be represented by the following state machine : 
 
-![state machine associated to the TDD implementation](movie%20search%20TDD%20fsm%20actual.png)
+![state machine associated to the TDD implementation](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20TDD%20fsm%20actual.png)
 
 Did you picture a glaring issue with our implementation? We forgot the cases for 
 selecting a movie at the beginning of the application, when the query input field has not been 
@@ -200,7 +200,7 @@ interacted with!
 
 Let's have a look again at the equivalent design we produced previously : 
 
-![movie search explicit fsm](./movie%20search%20good%20fsm%20flowchart.png)
+![movie search explicit fsm](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20flowchart.png)
 
 Observe that while equivalent, that design is easier to read and analyze. As a result,
 if you look long enough at the previous visualization, you should be able to spot two potential 
@@ -243,7 +243,7 @@ function makePromiseMachine(params) {
     // ... other pieces of state
   };
 
-  return function updatePromiseWith(event) {
+  return function (event) {
     const control = state.control;
     let output;
 
@@ -354,14 +354,12 @@ Remember that we test for two reasons : to generate confidence in the behaviour 
  automatically, the incremental cost of testing is low, so we can run easily hundreds of tests 
  with the same effort, increasing the likelihood to find a bug.
 
-We autogenerated test sequences for our [movie search app](https://frontarm.com/demoboard/?id=da063993-aec1-4812-9343-c5309b556e41), and looking at them we found 
-another design bug : we haven't modelized the fact that the user can still type while search queries are 
+We autogenerated test sequences for our [movie search app](https://frontarm.com/demoboard/?id=da063993-aec1-4812-9343-c5309b556e41), and looking at them we found another design bug : we haven't modelized the fact that the user can still type while search queries are 
 being executed. Improving on the previous model we get : 
 
-![fsm model corrected](movie%20search%20good%20fsm%20corrected%20flowchart.png)
+![fsm model corrected](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart.png)
 
-We regenerated tests for the [updated machine](https://frontarm.com/demoboard/?id=ffa7c61d-b3b4-448b-996f-39599465cb3e) and we found yet another bug, which may be pretty 
-difficult to identify from the specification or implementation. **HINT** : it is a concurrency 
+We regenerated tests for the [updated machine](https://frontarm.com/demoboard/?id=ffa7c61d-b3b4-448b-996f-39599465cb3e) and we found yet another bug, which may be pretty difficult to identify from the specification or implementation. **HINT** : it is a concurrency 
 bug (a tough category of bugs this brother says)[^2]. Can you find it? By generating a **large 
 enough number of test sequences**, we were able to eventually find a reproducing sequence for it.
  
@@ -382,10 +380,10 @@ features with the application. With a state machine model, those interactions ar
 
 Here are the corresponding updated machines for the two first changes to the specifications :
 
-| feature | machine |
-|---|---|
-| back button | ![fsm model corrected with back button](movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis.png)|
-| debouncing | ![fsm model corrected with debounce](movie%20search%20good%20fsm%20corrected%20flowchart%20with%20back%20button%20and%20debounce.png) |
+| Feature | Machine |
+|---| ---|
+| back button | ![fsm model corrected with back button](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis.png)|
+| debouncing | ![fsm model corrected with debounce](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart%20with%20back%20button%20and%20debounce.png) |
 
 The first case is easy. Clicking on the `Back` link will generate the same event as clicking 
 outside the movie detail. We have nothing to change in the machine! The second case is not much 
@@ -413,9 +411,9 @@ to the movie database using dedicated state machine libraries.
 
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
-maintainable interfaces. That is the reason behind their success in safety-critical software 
-(nuclear plants. aeronautics, etc.). Additionally, it allows to reason easily about, and update, 
-complex behaviours. That is why the technique is popular in modelization of the complex behaviour
+maintainable interfaces. That is the reason behind their success in safety-critical software for 
+embedded systems (nuclear plants. aeronautics, etc.). Additionally, it allows to reason easily 
+about, and update, complex behaviours. That is why the technique is popular in modelization of the complex behaviour
  of game agents. The automatic test and code generation can also translate in improved 
  productivity of the development process (less debugging, and less code to write).
 
@@ -425,7 +423,7 @@ to get right[^3]:
 
 | Before | After fixing design bugs, concurrency and error flows  |
 |---|---|
-|![](movie%20search%20TDD%20fsm%20actual.png)|![](movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis%20switchMap.png)|
+|![](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20TDD%20fsm%20actual.png)|![](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart%20no%20emphasis%20switchMap.png)|
 
 Did I manage to excite your curiosity or did I loose you somewhere along the 
 way? If quality, and maintainability of user interfaces matters in what you do, give
@@ -460,10 +458,9 @@ Interesting articles :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [Pure UI](https://rauchg.com/2015/pure-ui)
 
-I barely touched the surface of the subject. Other subjects of interest I might touch in other 
+I barely touched the surface of the subject. Other areas of interest I might touch in other 
 articles :
+- modelling user interface behaviour with state machines : a hands-on approach
 - state machine, state charts, and componentization against complexity
-- best practices for state machine modelling
-- model-based testing : model coverage and data coverage
-- state machines and concurrency
-- how to use state machines in your favorite framework
+- how to incorporate state machines in your favorite framework
+- model-based testing for user interfaces
