@@ -215,7 +215,7 @@ machine faithfully implements our BDD specifications, but our BDD specifications
 
 Writing state machines helps identify early design bugs, by explicitly identifying the control 
 flow implied by the user interface behaviour. As we have seen, some modelization are better than 
-others when it comes to convey the interface's behaviour. Writing easily understandable machines 
+others when it comes to conveying the interface's behaviour. Writing easily understandable machines 
 is a skill, which, like any other, gets better with time. What is interesting is that if we start 
 directly with coding, we tend to reach implicit machines which are not very readable (the first 
 case), while when we take the time to think about control flow and transitions in our interface, 
@@ -412,8 +412,8 @@ to the movie database using dedicated state machine libraries.
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
 maintainable interfaces. That is the reason behind their success in safety-critical software for 
-embedded systems (nuclear plants. aeronautics, etc.). Additionally, it allows to reason easily 
-about, and update, complex behaviours. That is why the technique is popular in modelization of the complex behaviour
+embedded systems (nuclear plants. air flight systems, etc.). Additionally, it allows to reason 
+easily about, and update, complex behaviours. That is why the technique is popular in modelization of the complex behaviour
  of game agents. The automatic test and code generation can also translate in improved 
  productivity of the development process (less debugging, and less code to write).
 
