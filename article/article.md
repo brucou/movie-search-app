@@ -179,11 +179,7 @@ For the purpose of this article, a state machine is a **data structure** compris
 - a set of transitions between control states, mapped to actions to be executed as a result of 
 an event triggering the transition
 
-By **executable state machine**, we mean an implementation of the reactive function `g`, which 
-**encapsulates (hide) its internal state**, that is, a function `fsm` such that `actions = fsm
-(event)`. `fsm`, having state, is not a pure function but has nonetheless interesting properties 
-we will address when discussing testing.
-
+The previous state machine is for instance represented in a [state machine library](https://github.com/brucou/state-transducer) as : 
 
 ```javascript
 const movieSearchFsmDef = {
@@ -230,6 +226,11 @@ const movieSearchFsmDef = {
 }
 
 ```
+
+By **executable state machine**, we mean an implementation of the reactive function `g`, which 
+**encapsulates (hide) its internal state**, that is, a function `fsm` such that `actions = fsm
+(event)`. `fsm`, having state, is not a pure function but has nonetheless interesting properties 
+we will address when discussing testing.
 
 ## Why use state machines
 Incorporating state machines early in your development process may bring the following 
