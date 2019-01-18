@@ -184,14 +184,14 @@ By **executable state machine**, we mean an implementation of the reactive funct
 (event)`. `fsm`, having state, is not a pure function but has nonetheless interesting properties 
 we will address when discussing testing.
 
+
 ```javascript
 const movieSearchFsmDef = {
   initialExtendedState: { queryFieldHasChanged: false, movieQuery: '', results: null, movieTitle: null },
   states: makeStates([START, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, MOVIE_DETAIL_QUERYING, MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR]),
   events: makeEvents(USER_NAVIGATED_TO_APP, QUERY_CHANGED, SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_RESETTED, MOVIE_SELECTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_ERROR_MOVIE_RECEIVED, MOVIE_DETAILS_DESELECTED),
   transitions: [
-    { from: INIT_STATE, event: INIT_EVENT, to: START, action: NO_ACTIONS },
-    { from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
+    { from: INIT, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
     {
       from: MOVIE_QUERYING, event: SEARCH_RESULTS_RECEIVED, to: MOVIE_SELECTION, action: displayMovieSearchResultsScreen
     },
@@ -227,6 +227,7 @@ const movieSearchFsmDef = {
       to: MOVIE_SELECTION,
       action: displayCurrentMovieSearchResultsScreen
     },
+    { from: INIT_STATE, event: INIT_EVENT, to: INIT, action: NO_ACTIONS },
   ],
 }
 
