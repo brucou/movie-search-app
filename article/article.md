@@ -365,7 +365,7 @@ being executed. Improving on the previous model we get :
 ![fsm model corrected](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart.png)
 
 We regenerated tests for the [updated machine](https://frontarm.com/demoboard/?id=ffa7c61d-b3b4-448b-996f-39599465cb3e) and we found yet another bug, which may be pretty difficult to identify from the specification or implementation. **HINT** : it is a concurrency 
-bug (a tough category of bugs this brother says)[^2]. Can you find it? By generating a **large 
+bug (an usually tough category of bugs)[^2]. Can you find it? By generating a **large 
 enough number of test sequences**, we were able to eventually find a reproducing sequence for it.
  
 [^2]: Type fast enough, and you may generate several queries whose results arrive out of order, 
@@ -406,8 +406,8 @@ changes and implement the modification of the behaviour. How would you implement
 Arguably the state machine for promise we visualized earlier is a useful support to explain 
  promise behaviour to a profane crowd. State machines can be visualized in different ways, 
  emphasizing on different pieces of information. To discuss with designers, it is possible to 
- focus the visualization on the control states and transitions. To discuss with developers, it may be preferred to include 
-technical details such as internal state updates, and other relevant notes. For quality assurance
+ focus the visualization on control states and transitions. With developers, it may be preferred 
+ to include technical details such as internal state updates. For quality assurance
  purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
 
 ### Final state machine implementation
@@ -419,7 +419,7 @@ maintainable interfaces. That is the reason behind their success in safety-criti
 embedded systems (nuclear plants. air flight systems, etc.). Additionally, it allows to reason 
 easily about, and update, complex behaviours. That is why the technique is popular in modelization of the complex behaviour
  of game agents. The automatic test and code generation can also translate in improved 
- productivity of the development process (less debugging, and less code to write).
+ productivity of the development process (less debugging, less code to write).
 
 While state machine modelling is a de facto method for modeling complex behaviours in the 
 large, it is also beneficial in the small. Even our apparently simple user interface was tricky 
@@ -453,7 +453,7 @@ Interesting articles shedding light on the subject :
 
 I barely touched the surface of the subject. Other areas of interest I might touch in other 
 articles if you guys give positive feedback :
-- modelling user interface behaviour with state machines : a hands-on approach
+- modelling user interface with state machines : a hands-on approach
 - state machine, state charts, and componentization against complexity
 - how to incorporate state machines in your favorite framework
-- model-based testing for user interfaces
+- model- and property-based testing for user interfaces
