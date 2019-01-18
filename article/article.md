@@ -226,7 +226,6 @@ const movieSearchFsmDef = {
       to: MOVIE_SELECTION,
       action: displayCurrentMovieSearchResultsScreen
     },
-    { from: INIT_STATE, event: INIT_EVENT, to: INIT, action: NO_ACTIONS },
   ],
 }
 
