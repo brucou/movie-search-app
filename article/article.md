@@ -184,6 +184,54 @@ By **executable state machine**, we mean an implementation of the reactive funct
 (event)`. `fsm`, having state, is not a pure function but has nonetheless interesting properties 
 we will address when discussing testing.
 
+```javascript
+const movieSearchFsmDef = {
+  initialExtendedState: { queryFieldHasChanged: false, movieQuery: '', results: null, movieTitle: null },
+  states: makeStates([START, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, MOVIE_DETAIL_QUERYING, MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR]),
+  events: makeEvents(USER_NAVIGATED_TO_APP, QUERY_CHANGED, SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_RESETTED, MOVIE_SELECTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_ERROR_MOVIE_RECEIVED, MOVIE_DETAILS_DESELECTED),
+  transitions: [
+    { from: INIT_STATE, event: INIT_EVENT, to: START, action: NO_ACTIONS },
+    { from: START, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
+    {
+      from: MOVIE_QUERYING, event: SEARCH_RESULTS_RECEIVED, to: MOVIE_SELECTION, action: displayMovieSearchResultsScreen
+    },
+    { from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
+    { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
+    {
+      from: MOVIE_QUERYING,
+      event: SEARCH_ERROR_RECEIVED,
+      to: MOVIE_SELECTION_ERROR,
+      action: displayMovieSearchErrorScreen
+    },
+    {
+      from: MOVIE_SELECTION,
+      event: MOVIE_SELECTED,
+      to: MOVIE_DETAIL_QUERYING,
+      action: displayDetailsLoadingScreenAndQueryDetailsDb
+    },
+    {
+      from: MOVIE_DETAIL_QUERYING,
+      event: SEARCH_RESULTS_MOVIE_RECEIVED,
+      to: MOVIE_DETAIL_SELECTION,
+      action: displayMovieDetailsSearchResultsScreen
+    },
+    {
+      from: MOVIE_DETAIL_QUERYING,
+      event: SEARCH_ERROR_MOVIE_RECEIVED,
+      to: MOVIE_DETAIL_SELECTION_ERROR,
+      action: displayMovieDetailsSearchErrorScreen
+    },
+    {
+      from: MOVIE_DETAIL_SELECTION,
+      event: MOVIE_DETAILS_DESELECTED,
+      to: MOVIE_SELECTION,
+      action: displayCurrentMovieSearchResultsScreen
+    },
+  ],
+}
+
+```
+
 ## Why use state machines
 Incorporating state machines early in your development process may bring the following 
 benefits :
