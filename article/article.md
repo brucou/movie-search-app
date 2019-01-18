@@ -100,13 +100,16 @@ The TDD methodology leads to an implementation which can be found here:
 | 4-7  | [specs-S4](https://github.com/brucou/movie-search-app/tree/specs-S4) |
 | 1-11  | [specs-all](https://github.com/brucou/movie-search-app/tree/specs-all)|
 
-Even if you don't know React, the chosen DOM library, you should be able to 
- understand the [implementation](https://frontarm.com/demoboard/?id=84de78ec-a59c-452e-899a-4ddcf73a746a) pretty well. To that purpose, we are using hyperscript helpers, which allow to write the screens like you would with html. Apart from the React twist, we 
- use a standard model-view-controller division :
+The [implementation](https://frontarm.com/demoboard/?id=84de78ec-a59c-452e-899a-4ddcf73a746a) 
+uses `React` exclusively as a DOM library, and uses hyperscript helpers, so the screens follow an 
+html-like form. Thus you should not need understand React. We use a standard model-view-controller 
+division :
  
  - events are propagated to a central controller
  - the controller elicits what actions to do, based on the current value of a model
- - the controller perform those actions, and updates the model
+ - the controller performs those actions, and updates the model
+
+Have a look!
 
 ## Refactoring towards state machines
 Did you notice the shape of our specifications ? Abstracting over application-specific content, 
@@ -170,14 +173,16 @@ to define the transitions between control states. Note that we did not include i
 visualization the information about internal state updates, for the sake of readability. That 
 naturally can be done, depending on the interest of the chart's target audience.
 
-For the purpose of this article, a state machine is a data structure comprising :
+For the purpose of this article, a state machine is a **data structure** comprising :
 - a set of control states
 - an extended state variable
-- a set of transitions between control states, linking an origin control state, a target control 
-state, and actions to be executed as a result of receiving an event
+- a set of transitions between control states, mapped to actions to be executed as a result of 
+an event triggering the transition
 
-By executable state machine, we will mean an implementation of the reactive function `g`, by 
-means of a pure function.
+By **executable state machine**, we mean an implementation of the reactive function `g`, which 
+**encapsulates (hide) its internal state**, that is, a function `fsm` such that `actions = fsm
+(event)`. `fsm`, having state, is not a pure function but has nonetheless interesting properties 
+we will address when discussing testing.
 
 ## Why use state machines
 Incorporating state machines early in your development process may bring the following 
@@ -435,11 +440,12 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code :-)
 
 ## Annex
-All implementation examples in this article are using the [state-transducer](https://github.com/brucou/state-transducer) library, which I started to write some years ago to make the modelization of user interface simpler. Additionally I also wrote [react-state-driven](https://github.com/brucou/react-state-driven) to support integration with React (also used by the examples in the article). 
+Implementation examples in this article are using :
+- the [state-transducer](https://github.com/brucou/state-transducer) state machine library 
+- [react-state-driven](https://github.com/brucou/react-state-driven) to support integration with React
 
-That said, because implementation-wise, a state machine is just a function, you can write it 
-directly and do not need a specific library to integrate it into your popular framework. For 
-simple cases, this may be the cheapest option.
+As we mentioned, an executable state machine being just a function, you can also write it 
+directly. For simple cases, this may be the cheapest option.
 
 Interesting articles shedding light on the subject :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
