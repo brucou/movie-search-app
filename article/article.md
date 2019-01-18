@@ -195,7 +195,6 @@ const movieSearchFsmDef = {
     {
       from: MOVIE_QUERYING, event: SEARCH_RESULTS_RECEIVED, to: MOVIE_SELECTION, action: displayMovieSearchResultsScreen
     },
-    { from: MOVIE_QUERYING, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
     { from: MOVIE_SELECTION, event: QUERY_CHANGED, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryNonEmpty },
     {
       from: MOVIE_QUERYING,
