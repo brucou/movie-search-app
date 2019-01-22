@@ -174,9 +174,10 @@ visualization the information about internal state updates, for the sake of read
 naturally can be done, depending on the interest of the chart's target audience.
 
 For the purpose of this article, a state machine is a **data structure** comprising :
-- a set of control states
+- events
+- control states
 - an extended state variable
-- a set of transitions between control states, mapped to actions to be executed as a result of 
+- transitions between control states, mapped to actions to be executed as a result of 
 an event triggering the transition
 
 The previous state machine is for instance represented in a [state machine library](https://github.com/brucou/state-transducer) as : 
@@ -185,7 +186,9 @@ The previous state machine is for instance represented in a [state machine libra
 const movieSearchFsmDef = {
   initialExtendedState: { queryFieldHasChanged: false, movieQuery: '', results: null, movieTitle: null },
   states: makeStates([START, MOVIE_QUERYING, MOVIE_SELECTION, MOVIE_SELECTION_ERROR, MOVIE_DETAIL_QUERYING, MOVIE_DETAIL_SELECTION, MOVIE_DETAIL_SELECTION_ERROR]),
-  events: makeEvents(USER_NAVIGATED_TO_APP, QUERY_CHANGED, SEARCH_RESULTS_RECEIVED, SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_RESETTED, MOVIE_SELECTED, SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_ERROR_MOVIE_RECEIVED, MOVIE_DETAILS_DESELECTED),
+  events: makeEvents([USER_NAVIGATED_TO_APP, QUERY_CHANGED, SEARCH_RESULTS_RECEIVED, 
+  SEARCH_ERROR_RECEIVED, SEARCH_REQUESTED, QUERY_RESETTED, MOVIE_SELECTED, 
+  SEARCH_RESULTS_MOVIE_RECEIVED, SEARCH_ERROR_MOVIE_RECEIVED, MOVIE_DETAILS_DESELECTED]),
   transitions: [
     { from: INIT, event: USER_NAVIGATED_TO_APP, to: MOVIE_QUERYING, action: displayLoadingScreenAndQueryDb },
     {
