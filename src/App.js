@@ -205,7 +205,7 @@ const screens = {
         div(".App__view.uk-margin-top-small.uk-margin-left.uk-margin-right", { "data-page": "item" }, [
           div([
             h1([movieDetail.title]),
-            div(['Loading...']),
+            div([LOADING])
           ])
         ])
       ])
