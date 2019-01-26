@@ -146,7 +146,7 @@ const screens = {
               query.length === 0 ? POPULAR_NOW : SEARCH_RESULTS_FOR(query)
             ]),
             div(".ResultsContainer", { "data-testid": RESULTS_CONTAINER_TESTID }, [
-              <div>Loading...</div>
+              div([LOADING])
             ])
           ])
         ])
