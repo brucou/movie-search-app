@@ -487,8 +487,7 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 [^3]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
 
 ## Credits
-- Big up to [Sari Márton](https://github.com/sarimarton) for the [original stream-based 
-implementation](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/) and for writing clear code :-)
+- Big up to [Sari Márton](https://github.com/sarimarton) for the original idea and for writing clear code :-)
 
 ## Annex
 Implementation examples in this article are using :
