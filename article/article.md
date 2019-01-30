@@ -494,15 +494,13 @@ Implementation examples in this article are using :
 - the [state-transducer](https://github.com/brucou/state-transducer) state machine library 
 - [react-state-driven](https://github.com/brucou/react-state-driven) to support integration with React
 
-As we mentioned, an executable state machine being just a function, you can also write it 
-directly. For simple cases, this may be the cheapest option.
+As we mentioned, an executable state machine being just a function, you can also write it directly. For simple cases, this may be the cheapest option.
 
 Interesting articles shedding light on the subject :
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [Pure UI](https://rauchg.com/2015/pure-ui)
 
-I barely touched the surface of the subject. Other areas of interest I might touch in other 
-articles if you guys give positive feedback :
+I barely touched the surface of the subject. Other areas of interest I might touch in other articles if you guys give positive feedback :
 - modelling user interface with state machines : a hands-on approach
 - state machine, state charts, and componentization against complexity
 - how to incorporate state machines in your favorite framework
