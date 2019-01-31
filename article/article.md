@@ -254,7 +254,7 @@ Did you picture a glaring issue with our implementation? We forgot the cases for
 selecting a movie at the beginning of the application, when the query input field has not been 
 interacted with!
 
-Let's have a look again at the equivalent design we produced previously : 
+Now let's have a look again at the equivalent design we produced previously : 
 
 ![movie search explicit fsm](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20flowchart.png)
 
@@ -267,16 +267,19 @@ events put the machine in that control state, the machine remains indefinitely i
 
 In both introduced cases, we have a failure in our specifications, i.e. a **design bug**. Our state 
 machine faithfully implements our BDD specifications, but our BDD specifications are not equivalent to our
- informal specifications : we forgot to consider some cases.
+ informal specifications : we forgot to consider some cases. 
+ 
+ Design bugs, or specification errors, are particularly tough. No amount of type 
+ checking, automated testing, and code reviews can reliably crack that nut open. **To detect errors 
+ in specification, we need to test the specification itself**. State machines provide a visual 
+ model which you can easily test-run in your head.
 
-Writing state machines helps identify early design bugs, by explicitly identifying the control 
-flow implied by the user interface behaviour. As we have seen, some modelization are better than 
-others when it comes to conveying the interface's behaviour. Writing easily understandable machines 
-is a skill, which, like any other, gets better with time. What is interesting is that if we start 
-directly with coding, we tend to reach implicit machines which are not very readable (the first 
-case), while when we take the time to think about control flow and transitions in our interface, 
-we tend to have a much clearer design which can guide technical choices and conversations with 
-stakeholders.
+As we have seen, some modelization are better than others when it comes to conveying the 
+interface's behaviour. Writing easily  understandable machines is a skill, which, like any other,
+ gets better with time. What is interesting is that if we start directly with coding, we tend to
+  reach implicit machines which are not very readable (the first case), while when we take the 
+  time to think about control flow and transitions in our interface (the second case, we tend to 
+  have a much clearer design which can guide technical choices and conversations with stakeholders.
 
 ### Identify and reduce implementation bugs
 A state machine modelization may lead to reduced bugs at implementation time for two reasons :
