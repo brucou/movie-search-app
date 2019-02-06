@@ -487,10 +487,7 @@ Did I manage to excite your curiosity or did I loose you somewhere along the
 way? If quality, and maintainability of user interfaces matters in what you do, give
  the technique a look. You know, it is just a function!
 
-[^3]: In fact, this example is taken from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
-
-## Credits
-- Big up to [Sari Márton](https://github.com/sarimarton) for the original idea and for writing clear code :-)
+[^3]: This example is inspired from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
 
 ## Annex
 Implementation examples in this article are using :
