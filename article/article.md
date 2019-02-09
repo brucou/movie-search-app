@@ -465,7 +465,7 @@ Arguably the state machine for promise we visualized earlier is a useful support
  purposes, some paths in the state machine can be emphasized (core path, error paths, etc.). 
 
 ### Final state machine implementation
-You can have a look at the [final implementation with all fixes](https://codesandbox.io/s/mo2p97k7m8) of the online interface to the movie database using dedicated state machine libraries.
+You can have a look at the [final implementation with all fixes](https://codesandbox.io/s/kwn3lx2qx7) of the online interface to the movie database using dedicated state machine libraries.
 
 ## Conclusion
 Modelling user interfaces' behaviour with explicit state machines produces robust and 
