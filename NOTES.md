@@ -68,23 +68,3 @@ and also put a .babelrc
 
 # http://lucasmreis.github.io/blog/contents/
 - explain to him that he is doing state machine really in his react patterns
-
-# DSL for state machines
-- I can use state litterals!!! pass action functions in ${} it works!!! incredible
-
-Guards:
----
-function xxx()
----
-
-Actions :
----
-function xxx(){}
-test if closure can be used this is evaluated so probably ??
----
-Given ST1, When EV And guard THEN xxx
-or 
-ST1 => ST2 when EV AND guard
-ST1 => ST2 on EV if guard
-
-amazing world
