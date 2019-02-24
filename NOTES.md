@@ -1,11 +1,4 @@
-- we will use innerHtml on the app element of the html
-- this creates and destroys dom elements, so there is no need to keep track of listeners
-- now fast this is, that is a good question... we will see
-- to optimize it is always possible to split the app element html into slow and fast part, and 
-check for the slow part changes. If changes then redraw, if no changes, then leave as is. That 
-requires anchors for the slow and fast parts
-
-# Learnt
+# Learnt : General
 - CATCH ERRORS in promises and systematically LOG THEM
   - a lot of the time I spent with the issues below are due to error swallowing
 - jsx camelcase => uncamelled in html
@@ -15,7 +8,7 @@ requires anchors for the slow and fast parts
 - querySelectorAll returns a NodeList not an array. Does not have a map method, but a forEach only
 - setImmediate does not exist in the browser. So react-testing-library bugs. must mock 
 setImmediate for setTimeout 0
-- apparently it is `oninput` not `onchange` for change in input fields
+- apparently it is `oninput` not `onchange` for change in input fields with React
 - AVOID mispelling when pasting like lost ' or " SUPER ANNOYING
 - BUG with `` : ${string}\> includes the \ inside the string
 - be careful with dom-testing-library to put the arguments in the right position - no error 
@@ -30,10 +23,8 @@ signalling most of the time
   - that makes it indeterminate to discriminate with wait. It sometimes get the first stuff 
   happenned, sometimes after the second...
   - make a specific test id to discriminate!
-- using innerHTML for rendering means that I loose focus on input fields
-  - generally i loose the DOM state by recreating the DOM!!!
 
-# Learnt Config
+# Learnt : Config
 - qunit better included in the html if webpack (the import works, but the function QUnit.module 
 etc. do not produce any effect)
 - had to put in webpack.config.js to avoid annoying issues with react-app-presets or whatever 
@@ -51,9 +42,8 @@ and also put a .babelrc
 
 # State machines benefits
 - original implementation does not show anything in case of network error on initial load!!
-- we don't do debounce in vanilla js implementation for now, or maybe we should
 
-# progression
+# Progression
 - S0: shell : https://codesandbox.io/s/yjwpx1wn8j
 - S1: loading : https://codesandbox.io/s/vvymn2qn3l
 - S2-3: init results ok : https://codesandbox.io/s/y2yljrzxj1

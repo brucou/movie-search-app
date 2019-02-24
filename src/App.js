@@ -510,5 +510,3 @@ class App extends Component {
 }
 
 export default App;
-
-// cf. https://codesandbox.io/s/jj4vrzq3wy
