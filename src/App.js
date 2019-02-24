@@ -5,7 +5,16 @@ import h from "react-hyperscript";
 import hyperscript from "hyperscript-helpers";
 import { runSearchQuery } from "./helpers"
 
-const { div, a, ul, li, span, input, h1, h3, legend } = hyperscript(h);
+// Before going into the TDD process, we build an app shell, which reflect
+// our first design choices :
+// - React as the rendering library
+// - we use test ids to reference the DOM elements we will test against
+//   so our testing concern is independent of our styling concern
+// - We use an extremely simple event emitter library for event handling
+//   with the core API : emit, on, off
+//   cf. https://github.com/konsumer/emitonoff
+
+const { div, a, input, h1, h3, legend } = hyperscript(h);
 
 const {
   PROMPT_TESTID, RESULTS_HEADER_TESTID, RESULTS_CONTAINER_TESTID, QUERY_FIELD_TESTID,
@@ -80,17 +89,3 @@ class App extends Component {
 }
 
 export default App;
-
-// cf. https://frontarm.com/demoboard/?id=0d51aa8a-d5cf-443e-868c-3b8ce106062c
-// cf. https://codesandbox.io/s/5x8lwxw48k
-
-// Before going into the TDD process, we build an app shell, which reflect
-// our first design choices :
-// - React as the rendering library
-// - we use test ids to reference the DOM elements we will test against
-//   so our testing concern is independent of our styling concern
-// - We use an extremely simple event emitter library for event handling
-//   with the core API : emit, on, off
-//   cf. https://github.com/konsumer/emitonoff
-
-
