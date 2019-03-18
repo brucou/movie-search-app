@@ -76,9 +76,9 @@ not bother, shall we.
 
 In terms of visual design, it would go like this :
 
-| Spec#  | Screen  |
-|---|---|
-| 1  |  ![1](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png)|
+| Spec#  | Screen  | Spec|
+|---|---|---|
+| 1  |  ![1](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png)|1. GIVEN some other url<br>- WHEN user navigates to [url], THEN<br>-display loading screen<br>- query for movies in some default way<br>
 | 2  | ![2](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png)|
 | 3  | ![3](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png) |
 | 4  | ![4](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png) |
