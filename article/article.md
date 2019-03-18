@@ -73,14 +73,14 @@ was successful AND user clicks on a movie AND movie detail query is successful
 [^1]: Well, just a page actually. In actual BDD, you may consolidate those 11 
 assertions in three scenarios, with a proper syntax, and a few other things. Let's 
 not bother, shall we.
-
+https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20error%20-%2060%25.png?raw=true
 In terms of visual design, it would go like this :
 
 | Spec#  | Screen  | Spec|
 |---|---|---|
 | 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png%20-%2060%25" width="40%">|1. GIVEN some other url<br> - WHEN user navigates to [url], THEN<br>-display loading screen<br>- query for movies in some default way<br>|
 | 2  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png%20-%2060%25" width="40%">||
-| 3  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png%20-%2060%25" width="40%">| |
+| 3  | <img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20error%20-%2060%25.png" width="40%">| |
 | 4  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png%20-%2060%25" width="40%">| |
 | 5  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png%20-%2060%25" width="40%">| |
 | 6  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png%20-%2060%25" width="40%">| |
