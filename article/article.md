@@ -107,7 +107,7 @@ In terms of visual design, it would go like this :
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-0lax"><img src="https://github    .com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
     width="40%"></td>
     <td class="tg-0lax">GIVEN user navigated to [url] AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
   </tr>
