@@ -213,14 +213,14 @@ pieces of state which are involved in control (duely referred to as control stat
 | | State| Event| Action | New state | |
 |-----|:-----:|:-----|-----:|:-----:|:-----|
 | *Control state* | *Extended state* |   | **Actions** | *New extended state* | *New control state* |
-| init | ... | USER_NAVIGATED_TO_APP | :white_square_button: loading <br>:grey_question: TMDb  | ... | Movie querying | 
-| Movie querying | ... | SEARCH_RESULTS_RECEIVED | :white_square_button: results  | ... |Movie selection | 
-| Movie selection | ... | QUERY_CHANGED | :white_square_button: loading <br>:grey_question: TMDb | ... | Movie querying | 
-| Movie querying | ... | SEARCH_ERROR_RECEIVED | :white_square_button: error  | ... | Movie selection error | 
-| Movie selection | ... | MOVIE_SELECTED | :white_square_button: loading <br>:grey_question: TMDb | ... | Movie detail querying | 
-| Movie detail querying | ... | SEARCH_RESULTS_MOVIE_RECEIVED | :white_square_button: details results  | ... | Movie detail selection | 
-| Movie detail selection | ... | MOVIE_DETAILS_DESELECTED | :white_square_button: results  | ... | Movie selection | 
-| Movie detail querying | ... | SEARCH_ERROR_MOVIE_RECEIVED | :white_square_button: error  | ... | Movie detail selection error | 
+| init | ... | USER_NAVIGATED_TO_APP | display loading screen<br> query database | ... | Movie querying | 
+| Movie querying | ... | SEARCH_RESULTS_RECEIVED | display results screen | ... |Movie selection | 
+| Movie selection | ... | QUERY_CHANGED | display loading screen<br> query database | ... | Movie querying | 
+| Movie querying | ... | SEARCH_ERROR_RECEIVED | display error screen | ... | Movie selection error | 
+| Movie selection | ... | MOVIE_SELECTED | display loading screen<br> query database | ... | Movie detail querying | 
+| Movie detail querying | ... | SEARCH_RESULTS_MOVIE_RECEIVED | display results screen | ... | Movie detail selection | 
+| Movie detail selection | ... | MOVIE_DETAILS_DESELECTED | display results screen | ... | Movie selection | 
+| Movie detail querying | ... | SEARCH_ERROR_MOVIE_RECEIVED | display error screen | ... | Movie detail selection error | 
 
 The segregation between control states and extended state allows to represent visually and 
 intuitively the state machine :
