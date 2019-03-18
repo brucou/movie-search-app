@@ -131,17 +131,20 @@ In terms of visual design, it would go like this :
   <tr>
     <td class="tg-0lax">9</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND querywas successful<br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
+    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND querywas successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN <br>- display movie detail error screen</td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
+    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN <br>- display movie detail error screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND querywas successful<br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
+    field is not empty <br>AND query was successful<br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
   </tr>
 </table>
 
