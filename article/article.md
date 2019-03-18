@@ -76,19 +76,6 @@ not bother, shall we.
 
 In terms of visual design, it would go like this :
 
-
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="100%">|
-|
-|
-|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%">|
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-0lax">Spec#</th>
@@ -157,22 +144,6 @@ In terms of visual design, it would go like this :
     <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query<br>was successful AND user clicks on a movie AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
   </tr>
 </table>
-
-
-| Spec#  | Screen  | Spec|
-|---|---|---|
-| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="100%">|1. GIVEN some other url<br> - WHEN user 
-navigates to [url], THEN<br>-display loading screen<br>- query for movies in some default way<br>
-| 2  | ![2](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png)|
-| 3  | ![3](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png) |
-| 4  | ![4](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png) |
-| 5  | ![5](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png) |
-| 6  | ![6](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png) |
-| 7  |  ![1](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png) |
-| 8  | ![8](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png) |
-| 9  | ![9](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png) |
-| 10  | ![9](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png) |
-| 11  | ![5](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png) |
 
 ### Implementation
 The TDD methodology leads to an implementation which can be found here:
