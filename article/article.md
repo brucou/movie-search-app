@@ -126,12 +126,15 @@ In terms of visual design, it would go like this :
   <tr>
     <td class="tg-0lax">6</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"  width="100%"></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen.</td>
+    <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">7</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen.</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
+                            width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url] AND query field changed<br>WHEN query field
+     changes AND query field is empty, <br>THEN<br> display loading screen<br> query for movies 
+     in some default way</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
@@ -150,7 +153,7 @@ In terms of visual design, it would go like this :
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%"></td>
     <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query<br>was successful AND user clicks on a movie AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
   </tr>
 </table>
