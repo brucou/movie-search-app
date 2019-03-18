@@ -79,8 +79,8 @@ In terms of visual design, it would go like this :
 <table class="tg" style="table-layout: fixed">
   <tr>
     <th class="tg-0lax">Spec#</th>
-    <th class="tg-0lax">Screen</th>
-    <th class="tg-0lax" style="width:450px">Spec</th>
+    <th class="tg-0lax" style="width:150px">Screen</th>
+    <th class="tg-0lax" style="width:150px">Spec</th>
   </tr>
   <tr>
     <td class="tg-0lax">1</td>
