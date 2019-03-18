@@ -78,7 +78,7 @@ In terms of visual design, it would go like this :
 
 | Spec#  | Screen  | Spec|
 |---|---|---|
-| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png%20-%2060%25" width="40%">|GIVEN some other url<br> <br> WHEN user navigates to [url], THEN<br>-display loading screen<br>- query for movies in some default way<br>|
+| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png%20-%2060%25" width="40%">|GIVEN some other url<br> WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way<br>|
 | 2  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png%20-%2060%25" width="40%">||
 | 3  | <img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20error%20-%2060%25.png" width="40%">| |
 | 4  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png%20-%2060%25" width="40%">| |
