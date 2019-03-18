@@ -218,7 +218,7 @@ pieces of state which are involved in control (duely referred to as control stat
 | Movie selection | ... | QUERY_CHANGED | :white_square_button: loading <br>:grey_question: TMDb | ... | Movie querying | 
 | Movie querying | ... | SEARCH_ERROR_RECEIVED | :white_square_button: error  | ... | Movie selection error | 
 | Movie selection | ... | MOVIE_SELECTED | :white_square_button: loading <br>:grey_question: TMDb | ... | Movie detail querying | 
-| Movie detail querying | ... | SEARCH_RESULTS_MOVIE_RECEIVED | :white_square_button: results  | ... | Movie detail selection | 
+| Movie detail querying | ... | SEARCH_RESULTS_MOVIE_RECEIVED | :white_square_button: details results  | ... | Movie detail selection | 
 | Movie detail selection | ... | MOVIE_DETAILS_DESELECTED | :white_square_button: results  | ... | Movie selection | 
 | Movie detail querying | ... | SEARCH_ERROR_MOVIE_RECEIVED | :white_square_button: error  | ... | Movie detail selection error | 
 
