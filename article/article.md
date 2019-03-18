@@ -80,7 +80,7 @@ In terms of visual design, it would go like this :
   <tr>
     <th class="tg-0lax">Spec#</th>
     <th class="tg-0lax">Screen</th>
-    <th class="tg-0lax" style="float:left;min-width:500px;visibility:hidden;width:0px;>Spec</th>
+    <th class="tg-0lax" style="float:left;min-width:500px;visibility:hidden;width:0px;">Spec</th>
   </tr>
   <tr>
     <td class="tg-0lax">1</td>
