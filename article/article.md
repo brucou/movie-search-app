@@ -84,7 +84,8 @@ In terms of visual design, it would go like this :
   </tr>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
+    <td class="tg-0lax" style="float:left;min-width:500px;visibility:hidden;height:0px;"><img src="https://github
+    .com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
     ></td>
     <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way</td>
   </tr>
