@@ -213,8 +213,7 @@ pieces of state which are involved in control (duely referred to as control stat
 | | State| Event| Action | New state | |
 |-----|:-----:|:-----|-----:|:-----:|:-----|
 | *Control state* | *Extended state* |   | **Actions** | *New extended state* | *New control state* |
-| init | ... | USER_NAVIGATED_TO_APP | :white_square_button: loading screen<br>:grey_question: TMDb
-  | ... | Movie querying | 
+| init | ... | USER_NAVIGATED_TO_APP | :white_square_button: loading screen<br>:grey_question: TMDb  | ... | Movie querying | 
 | Movie querying | ... | SEARCH_RESULTS_RECEIVED | :white_square_button: results screen | ... |Movie selection | 
 | Movie selection | ... | QUERY_CHANGED | :white_square_button: loading screen<br>:grey_question: TMDb | ... | Movie querying | 
 | Movie querying | ... | SEARCH_ERROR_RECEIVED | :white_square_button: error screen | ... | Movie selection error | 
