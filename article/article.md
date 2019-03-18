@@ -211,7 +211,7 @@ pieces of state which are involved in control (duely referred to as control stat
  of the application state. Here is an alternative `event-state-action` mapping for our movie search application : 
 
 | | State| Event| Action | New state | |
-|-----|-----|:-----|-----:|:-----:|:-----|
+|-----|:-----:|:-----|-----:|:-----:|:-----|
 | *Control state* | *Extended state* |   | **Actions** | *New extended state* | *New control state* |
 | init | ... | USER_NAVIGATED_TO_APP | display loading screen, query database | ... | Movie querying | 
 | Movie querying | ... | SEARCH_RESULTS_RECEIVED | display results screen | ... |Movie selection | 
