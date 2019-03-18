@@ -78,17 +78,17 @@ In terms of visual design, it would go like this :
 
 | Spec#  | Screen  | Spec|
 |---|---|---|
-| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png%20-%2060%25" width="40%">|GIVEN some other url<br> WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way<br>|
-| 2  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png%20-%2060%25" width="40%">||
-| 3  | <img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20error%20-%2060%25.png" width="40%">| |
-| 4  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png%20-%2060%25" width="40%">| |
-| 5  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png%20-%2060%25" width="40%">| |
-| 6  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png%20-%2060%25" width="40%">| |
-| 7  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png%20-%2060%25" width="40%">| |
-| 8  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png%20-%2060%25" width="40%">| |
-| 9  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png%20-%2060%25" width="40%">| |
-| 10  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png%20-%2060%25" width="40%">| |
-| 11  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png%20-%2060%25" width="40%">| |
+| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="40%">|GIVEN some other url<br> WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way<br>|
+| 2  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" width="40%">||
+| 3  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png" width="40%">| |
+| 4  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png" width="40%">| |
+| 5  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="40%">| |
+| 6  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png" width="40%">| |
+| 7  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="40%">| |
+| 8  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="40%">| |
+| 9  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" width="40%">| |
+| 10  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" width="40%">| |
+| 11  | <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="40%">| |
 
 ### Implementation
 The TDD methodology leads to an implementation which can be found here:
