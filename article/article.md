@@ -78,7 +78,7 @@ In terms of visual design, it would go like this :
 
 
 <img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="100%">|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="100%">|
+|
 |
 |
 <img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%">|
@@ -138,7 +138,7 @@ In terms of visual design, it would go like this :
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="100%"></td>
     <td class="tg-0lax">GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query <br>was successful <br>WHEN user clicks on a movie, <br>THEN <br>- display movie detail loading screen<br>- query for movie detail screen on top of movie screen</td>
   </tr>
   <tr>
