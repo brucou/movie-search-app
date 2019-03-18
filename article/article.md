@@ -86,7 +86,8 @@ In terms of visual design, it would go like this :
     <td class="tg-0lax">1</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
     ></td>
-    <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way</td>
+    <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>- 
+    display loading screen<br>- query for movies in some default way</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
@@ -120,8 +121,8 @@ In terms of visual design, it would go like this :
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
                             ></td>
     <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field changed<br>WHEN query field
-     changes <br>AND query field is empty, <br>THEN<br> display loading screen<br> query for movies 
-     in some default way</td>
+     changes <br>AND query field is empty, <br>THEN<br>- display loading screen<br>- query for 
+     movies in some default way</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
@@ -138,7 +139,7 @@ In terms of visual design, it would go like this :
     <td class="tg-0lax">10</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" ></td>
     <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
-    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN <br>- display movie detail error screen</td>
+    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN display movie detail error screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
