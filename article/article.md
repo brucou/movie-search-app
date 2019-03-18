@@ -80,68 +80,68 @@ In terms of visual design, it would go like this :
   <tr>
     <th class="tg-0lax">Spec#</th>
     <th class="tg-0lax">Screen</th>
-    <th class="tg-0lax">Spec</th>
+    <th class="tg-0lax" style="min-width:450px">Spec</th>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">1</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
     width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way</td>
+    <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">2</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
     width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
+    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">3</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png" 
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png" 
     width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN url not [url] <br>AND user navigates to [url] <br>AND query field has not changed <br>WHEN default query is not successful, <br>THEN display error screen</td>
+    <td class="tg-0lax">GIVEN url not [url] <br>AND user navigates to [url] <br>AND query field has not changed <br>WHEN default query is not successful, <br>THEN display error screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">4</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN query field changes <br>AND query field is not empty, <br>THEN <br>- query for movies containing the content of  field<br>- display loading screen</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN query field changes <br>AND query field is not empty, <br>THEN <br>- query for movies containing the content of  field<br>- display loading screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">5</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is successful, <br>THEN display result screen</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is successful, <br>THEN display result screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">6</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"  width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen</td>
+    <td class="tg-0lax">6</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"  width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">7</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
+    <td class="tg-0lax">7</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
                             width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url] <br>AND query field changed<br>WHEN query field
+    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field changed<br>WHEN query field
      changes <br>AND query field is empty, <br>THEN<br> display loading screen<br> query for movies 
      in some default way</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">8</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query <br>was successful <br>WHEN user clicks on a movie, <br>THEN <br>- display movie detail loading screen<br>- query for movie detail screen on top of movie screen</td>
+    <td class="tg-0lax">8</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query <br>was successful <br>WHEN user clicks on a movie, <br>THEN <br>- display movie detail loading screen<br>- query for movie detail screen on top of movie screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">9</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
+    <td class="tg-0lax">9</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">10</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN <br>- display movie detail error screen</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN <br>- display movie detail error screen</td>
   </tr>
   <tr>
-    <td class="tg-0lax" style="min-width:450px">11</td>
-    <td class="tg-0lax" style="min-width:450px"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%"></td>
-    <td class="tg-0lax" style="min-width:450px">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
+    <td class="tg-0lax">11</td>
+    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%"></td>
+    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query<br>was successful <br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
   </tr>
 </table>
 
