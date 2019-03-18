@@ -77,11 +77,11 @@ not bother, shall we.
 In terms of visual design, it would go like this :
 
 
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="100%">|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="100%">|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" width="100%">|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" width="100%">|
-<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="100%">|
+<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="80%">|
+<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" width="80%">|
+<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" width="80%">|
+<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" width="80%">|
+<img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" width="80%">|
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -98,24 +98,24 @@ In terms of visual design, it would go like this :
   <tr>
     <td class="tg-0lax">1</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
-    width="100%"></td>
+    width="80%"></td>
     <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-display loading screen<br>- query for movies in some default way</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
-    width="100%"></td>
+    width="80%"></td>
     <td class="tg-0lax">GIVEN user navigated to [url] AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-0lax"><img src="(https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png" 
-    width="100%"></td>
+    width="80%"></td>
     <td class="tg-0lax">GIVEN url not [url] AND user navigates to [url] AND query field has not changed <br>WHEN default query is not successful, <br>THEN display error screen</td>
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
-    <td class="tg-0lax"><img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png" width="100%"></td>
+    <td class="tg-0lax"><img src="<https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20error.png" width="80%"></td>
     <td class="tg-0lax">GIVEN user navigated to [url] AND query field has not changed <br>WHEN query field changes AND query field is not empty, <br>THEN <br>- query for movies containing the content of  field<br>- display loading screen</td>
   </tr>
   <tr>
@@ -158,7 +158,7 @@ In terms of visual design, it would go like this :
 
 | Spec#  | Screen  | Spec|
 |---|---|---|
-| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="100%">|1. GIVEN some other url<br> - WHEN user 
+| 1  |  <img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20pending.png" width="80%">|1. GIVEN some other url<br> - WHEN user 
 navigates to [url], THEN<br>-display loading screen<br>- query for movies in some default way<br>
 | 2  | ![2](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png)|
 | 3  | ![3](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png) |
