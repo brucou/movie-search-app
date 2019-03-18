@@ -76,7 +76,7 @@ not bother, shall we.
 
 In terms of visual design, it would go like this :
 
-<table class="tg">
+<table class="tg" style="table-layout: fixed">
   <tr>
     <th class="tg-0lax">Spec#</th>
     <th class="tg-0lax">Screen</th>
