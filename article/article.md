@@ -213,7 +213,7 @@ pieces of state which are involved in control (duely referred to as control stat
 | | State| Event| Action | New state | |
 |-----|:-----:|:-----|-----:|:-----:|:-----|
 | *Control state* | *Extended state* |   | **Actions** | *New extended state* | *New control state* |
-| init | ... | USER_NAVIGATED_TO_APP | display loading screen<br> query database | ... | Movie querying | 
+| init | ... | USER_NAVIGATED_TO_APP | :white_square_button: display loading screen<br> query database | ... | Movie querying | 
 | Movie querying | ... | SEARCH_RESULTS_RECEIVED | display results screen | ... |Movie selection | 
 | Movie selection | ... | QUERY_CHANGED | display loading screen, query database | ... | Movie querying | 
 | Movie querying | ... | SEARCH_ERROR_RECEIVED | display error screen | ... | Movie selection error | 
