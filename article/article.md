@@ -28,53 +28,14 @@ different stages of the user flow.
 
 ### Detailed specifications
 In order to scope and guide the implementation, you write the detailed specifications of the 
-**interface behaviour** in a more formalized form, taking a chapter from BDD[^1] :
-
-```gherkin
-1. GIVEN some other url
- - WHEN user navigates to [url], THEN 
-   - display loading screen
-   - query for movies in some default way
-2. GIVEN user navigated to [url] AND query field has not changed 
- - WHEN default query is successful, THEN display result screen 
-3. GIVEN url not [url] AND user navigates to [url] AND query field has not changed 
- - WHEN default query is not successful, THEN display error screen
-4. GIVEN user navigated to [url] AND query field has not changed 
- - WHEN query field changes AND query field is not empty, THEN 
-   - query for movies containing the content of <query> field
-   - display loading screen
-5. GIVEN user navigated to [url], AND query field changed AND query field is not empty
- - WHEN query is successful, THEN display result screen
-6. GIVEN user navigated to [url], AND query field changed AND query field is not empty
- - WHEN query is not successful, THEN display error screen. 
-7. GIVEN user navigated to [url] AND query field changed
- - WHEN query field changes AND query field is empty, THEN 
-   - display loading screen
-   - query for movies in some default way
-8. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query 
-was successful 
- - WHEN user clicks on a movie, THEN 
-   - display movie detail loading screen
-   - query for movie detail screen on top of movie screen 
-9. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-was successful AND user clicked on a movie  
- - WHEN movie detail query is successful, THEN 
-   - display movie detail screen
-10. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-was successful AND user clicked on a movie  
- - WHEN movie detail query is not successful, THEN 
-   - display movie detail error screen
-11. GIVEN user navigated to [url], AND query field changed AND query field is not empty AND query
-was successful AND user clicks on a movie AND movie detail query is successful
- - WHEN user clicks outside of the movie detail, THEN display result screen corresponding to
-  the query
-```
+**interface behaviour** in a more formalized form, taking a chapter from BDD[^1].
 
 [^1]: Well, just a page actually. In actual BDD, you may consolidate those 11 
 assertions in three scenarios, with a proper syntax, and a few other things. Let's 
 not bother, shall we.
 
-In terms of visual design, it would go like this :
+Including the actual screenshots from the design phase: it would go like 
+this:
 
 <table class="tg">
   <tr>
@@ -162,7 +123,7 @@ The TDD methodology leads to an implementation which can be found here:
 The [implementation](https://frontarm.com/demoboard/?id=84de78ec-a59c-452e-899a-4ddcf73a746a) 
 uses `React` exclusively as a DOM library, and uses hyperscript helpers, so the screens follow an 
 html-like form. Thus you should not need understand React. We use a standard model-view-controller 
-division :
+division:
  
  - events are propagated to a central controller
  - the controller elicits what actions to do, based on the current value of a model
@@ -172,7 +133,7 @@ Have a look!
 
 ## Refactoring towards state machines
 Did you notice the shape of our specifications ? Abstracting over application-specific content, 
-the specifications follow the pattern : `GIVEN state WHEN event THEN actions`. That is the 
+the specifications follow the pattern: `GIVEN state WHEN event THEN actions`. That is the 
 *event-state-action* paradigm which can be used to describe most of the user interfaces we see 
 on the web. That paradigm leads us to a refactoring with state machines.
 
@@ -180,7 +141,7 @@ on the web. That paradigm leads us to a refactoring with state machines.
 The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as `actions = f(state, event)`.
  We will call `f` the reactive function associated to the behaviour. In any of the equations we 
  will write in what follows, keep in mind that any function mentioned is a mathematical function, 
- which can be implemented programmatically by means of a pure function. Here is a partial mapping :
+ which can be implemented programmatically by means of a pure function. Here is a partial mapping:
 
 | state | event | actions |
 |---|---|---|
@@ -188,14 +149,14 @@ The `(GIVEN, WHEN, THEN)` BDD triples can be written formulaically as `actions =
 |user navigated to `[url]`, query field has not changed |default query is successful|display result screen |
 
 While this equation is enough to specify the behaviour of our interface, it is not enough to 
-implement it : we have what is called a free variable (`state`). The equation 
+implement it: we have what is called a free variable (`state`). The equation 
 shows that our user interface has state, but it tells us nothing about it, in particular how it 
 evolves over time. For implementation purposes, we need a more complete description of the user 
- interface behaviour : `(actions_n, state_{n+1}) = g(state_n, event_n)`, where `n` is the index of
+ interface behaviour: `(actions_n, state_{n+1}) = g(state_n, event_n)`, where `n` is the index of
  the `n`th event accepted by the user interface, and `state_{n+1}` is the **new state** after the 
  event occurs. This is no discovery, a good number of front-end libraries and frameworks are using 
  exactly that equation as their foundation. `Elm` for example revolves around an `update`
- function which is expressed as `update :: Msg -> Model -> (Model, Cmd Msg)`. You will
+ function which is expressed as `update:: Msg -> Model -> (Model, Cmd Msg)`. You will
  recognize `Msg` as the event, `Model` as the state, and the update function as bringing a state 
  and an event into a new state and a command depending on the triggering event (`Cmd Msg`).
 
@@ -208,7 +169,7 @@ There are thus many ways to implement the reactive function `f`. State machines 
 precisely **Mealy machines** or **state transducers**) are a way to write the reactive function, so 
 that it is amenable to **formal reasoning**, and **visualization**. It does so by segregating the 
 pieces of state which are involved in control (duely referred to as control states) from the rest
- of the application state. Here is an alternative `event-state-action` mapping for our movie search application : 
+ of the application state. Here is an alternative `event-state-action` mapping for our movie search application: 
 
 | | State| Event| Action | New state | |
 |-----|:-----:|:-----|-----:|:-----:|:-----|
@@ -223,7 +184,7 @@ pieces of state which are involved in control (duely referred to as control stat
 | Movie detail querying | ... | SEARCH_ERROR_MOVIE_RECEIVED | display error screen | ... | Movie detail selection error | 
 
 The segregation between control states and extended state allows to represent visually and 
-intuitively the state machine :
+intuitively the state machine:
 
 ![movie search explicit fsm](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20flowchart.png)
 
@@ -232,14 +193,14 @@ to define the transitions between control states. Note that we did not include i
 visualization the information about internal state updates, for the sake of readability. That 
 naturally can be done, depending on the interest of the chart's target audience.
 
-For the purpose of this article, a state machine is a **data structure** comprising :
+For the purpose of this article, a state machine is a **data structure** comprising:
 - events
 - control states
 - an extended state variable
 - transitions between control states, mapped to actions to be executed as a result of 
 an event triggering the transition
 
-The previous state machine is for instance represented in a [state machine library](https://github.com/brucou/state-transducer) as : 
+The previous state machine is for instance represented in a [state machine library](https://github.com/brucou/state-transducer) as: 
 
 ```javascript
 const movieSearchFsmDef = {
@@ -296,7 +257,7 @@ we will address when discussing testing.
 
 ## Why use state machines
 Incorporating state machines early in your development process may bring the following 
-benefits :
+benefits:
 
 - find design bugs early 
 - reduce implementation bugs
@@ -305,7 +266,7 @@ benefits :
 
 ### Identify design bugs early
 Let's get back at our TDD implementation. The `event-state-action` mapping realized in that 
-implementation can be represented by the following state machine : 
+implementation can be represented by the following state machine: 
 
 ![state machine associated to the TDD implementation](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20TDD%20fsm%20actual.png)
 
@@ -313,7 +274,7 @@ Did you picture a glaring issue with our implementation? We forgot the cases for
 selecting a movie at the beginning of the application, when the query input field has not been 
 interacted with!
 
-Now let's have a look again at the equivalent design we produced previously : 
+Now let's have a look again at the equivalent design we produced previously: 
 
 ![movie search explicit fsm](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20flowchart.png)
 
@@ -326,7 +287,7 @@ events put the machine in that control state, the machine remains indefinitely i
 
 In both introduced cases, we have a failure in our specifications, i.e. a **design bug**. Our state 
 machine faithfully implements our BDD specifications, but our BDD specifications are not equivalent to our
- informal specifications : we forgot to consider some cases. 
+ informal specifications: we forgot to consider some cases. 
  
  Design bugs, or specification errors, are particularly tough. No amount of type 
  checking, automated testing, and code reviews can reliably crack that nut open. **To detect errors 
@@ -341,7 +302,7 @@ interface's behaviour. Writing easily  understandable machines is a skill, which
   have a much clearer design which can guide technical choices and conversations with stakeholders.
 
 ### Identify and reduce implementation bugs
-A state machine modelization may lead to reduced bugs at implementation time for two reasons :
+A state machine modelization may lead to reduced bugs at implementation time for two reasons:
 - code implementing the behaviour modelized by the state machine can be auto-generated 
 (executable state machine)
 - the testing of the state machine, can be automated.
@@ -352,12 +313,12 @@ behaviour of a `Promise`):
 
 ![Promise fsm](https://camo.githubusercontent.com/a1bb5b873eca74ed5b926fe1f6390e6fdc2faa42/68747470733a2f2f7261776769746875622e636f6d2f46616c65696a2f30663835393863373836343436353130613666313538643766363661386565342f7261772f303735326430623831613139346462353163376565636432386461373238656665663562623233302f66736d302e737667)
 
-can be written naively as :
+can be written naively as:
 
 ```javascript
 function makePromiseMachine(params) {
   let state = {
-    control : 'pending',
+    control: 'pending',
     // ... other pieces of state
   };
 
@@ -366,7 +327,7 @@ function makePromiseMachine(params) {
     let output;
 
     switch (event){
-      case 'approve' :
+      case 'approve':
         switch (control) {
           case 'pending':
             // update state, update output
@@ -417,7 +378,7 @@ function makePromiseMachine(params) {
         }
         break;
 
-      default :
+      default:
         break;
     }
       
@@ -443,7 +404,7 @@ Given a starting point (initial state of the machine), and given a sequence of e
 function simply returns the sequence of actions, obtained after passing in order the sequence of 
 events into `g`. That event sequence is very similar to a BDD user scenario.
 
-Here is a portion of the `h` functional mapping :
+Here is a portion of the `h` functional mapping:
 
 | Event sequence | Actions sequence |
 |---|---|
@@ -457,7 +418,7 @@ We thus have a testing methodology, but how do we generate those event sequences
  this is fairly intractable. Additionally **a lot** of those test sequences will involve events 
  which do not produce any actions or are by construction of the interface impossible (imagine you
  add a button click event in the sequence, while in fact there is no such button in the screen 
-  at that moment). That is not completely uninteresting : we also want to test that our machine 
+  at that moment). That is not completely uninteresting: we also want to test that our machine 
   **does not do anything** if it receives events for which no actions are specified! However, if 
   90% of the test sequences goes into checking that, that is a lot of waste.
 
@@ -465,18 +426,18 @@ The good news is that because our machine is a graph (as you can see from its vi
 can generate **interesting test sequences** simply by following the edges (transitions) of that 
 graph. This process can be automatized through application of the usual graph traversal algorithms.
 
-Remember that we test for two reasons : to generate confidence in the behaviour of the application,
+Remember that we test for two reasons: to generate confidence in the behaviour of the application,
  and to find bugs. For confidence purposes, we can have automatic generation of tests on the 
  predicted main paths taken by the user. For bug-finding purposes, we can have automatic 
  generation of edge cases, error paths, negative paths, etc. Because tests are generated 
  automatically, the incremental cost of testing is low, so we can run easily hundreds of tests 
  with the same effort, increasing the likelihood to find a bug.
 
-We autogenerated test sequences for our [movie search app](https://codesandbox.io/s/042pqzkjkn), and looking at them we found another design bug : we haven't modelized the fact that the user can still type while search queries are being executed. Improving on the previous model we get : 
+We autogenerated test sequences for our [movie search app](https://codesandbox.io/s/042pqzkjkn), and looking at them we found another design bug: we haven't modelized the fact that the user can still type while search queries are being executed. Improving on the previous model we get: 
 
 ![fsm model corrected](https://github.com/brucou/movie-search-app/raw/specs-all/article/movie%20search%20good%20fsm%20corrected%20flowchart.png)
 
-We regenerated tests for the [updated machine](https://codesandbox.io/s/2z9xrwq3mn) and we found yet another bug, which may be pretty difficult to identify from the specification or implementation. **HINT** : it is a concurrency 
+We regenerated tests for the [updated machine](https://codesandbox.io/s/2z9xrwq3mn) and we found yet another bug, which may be pretty difficult to identify from the specification or implementation. **HINT**: it is a concurrency 
 bug (an usually tough category of bugs)[^2]. Can you find it? By generating a **large 
 enough number of test sequences**, we were able to eventually find a reproducing sequence for it.
  
@@ -485,7 +446,7 @@ with the first results arriving get displayed. Only the **latest query results**
 displayed. 
 
 ### Iterate on features
-After playing a bit with the prototype, it seems like the UX could be improved with a few changes :
+After playing a bit with the prototype, it seems like the UX could be improved with a few changes:
 - add a back button
 - debounce input
 - query the movie database only after three characters are entered
@@ -495,7 +456,7 @@ After playing a bit with the prototype, it seems like the UX could be improved w
 Adding, removing or modifying features requires an understanding of the interaction of those 
 features with the application. With a state machine model, those interactions are explicit. 
 
-Here are the corresponding updated machines for the two first changes to the specifications :
+Here are the corresponding updated machines for the two first changes to the specifications:
 
 | Feature | Machine |
 |---| ---|
@@ -508,7 +469,7 @@ more complicated. We use a timer to wait for accepting `QUERY_CHANGED` events.
 
 In both cases, we were able to quickly and **confidently** identify the exact part of the machine
  impacted by the changes and implement the modification of the behaviour. We can add the 
- debouncing feature, knowing that **it will not break other features** : we do not modify any 
+ debouncing feature, knowing that **it will not break other features**: we do not modify any 
  piece of state used by any transitions involved in the other features.
 
 In both cases, we are able to fairly quickly identify the part of the machine impacted by the 
@@ -548,7 +509,7 @@ way? If quality, and maintainability of user interfaces matters in what you do, 
 [^3]: This example is inspired from [an existing app](https://sarimarton.github.io/tmdb-ui-cyclejs/dist/#/), in which we actually found three bugs (in the error paths).
 
 ## Annex
-Implementation examples in this article are using :
+Implementation examples in this article are using:
 - the [state-transducer](https://github.com/brucou/state-transducer) state machine library 
 - [react-state-driven](https://github.com/brucou/react-state-driven) to support integration with React
 
@@ -556,12 +517,12 @@ As we mentioned, an executable state machine being just a function, you can also
 directly. For simple cases, this may be the cheapest option. Libraries however may bring in 
 important goodies such as automated testing, or tracing.
 
-Interesting articles shedding light on the subject :
+Interesting articles shedding light on the subject:
 - [How to visually design state in JavaScript](https://medium.freecodecamp.org/how-to-visually-design-state-in-javascript-3a6a1aadab2b)
 - [Pure UI](https://rauchg.com/2015/pure-ui)
 
-I barely touched the surface of the subject. Other areas of interest I might touch in other articles if you guys give positive feedback :
-- modelling user interface with state machines : a hands-on approach
+I barely touched the surface of the subject. Other areas of interest I might touch in other articles if you guys give positive feedback:
+- modelling user interface with state machines: a hands-on approach
 - state machine, state charts, and componentization against complexity
 - how to incorporate state machines in your favorite framework
 - model- and property-based testing for user interfaces
