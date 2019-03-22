@@ -38,76 +38,76 @@ Including the actual screenshots from the design phase: it would go like
 this:
 
 <table class="tg">
-  <tr>
-    <th class="tg-0lax">Spec#</th>
-    <th class="tg-0lax">Screen</th>
-    <th class="tg-0lax">Spec</th>
-  </tr>
-  <tr>
-    <td class="tg-0lax">1</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
-    ></td>
-    <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>- 
-    display loading screen<br>- query for movies in some default way</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png" 
-    ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">3</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png" 
-    ></td>
-    <td class="tg-0lax">GIVEN url not [url] <br>AND user navigates to [url] <br>AND query field has not changed <br>WHEN default query is not successful, <br>THEN display error screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">4</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN query field changes <br>AND query field is not empty, <br>THEN <br>- query for movies containing the content of  field<br>- display loading screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is successful, <br>THEN display result screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">6</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"  ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">7</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png" 
-                            ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field changed<br>WHEN query field
-     changes <br>AND query field is empty, <br>THEN<br>- display loading screen<br>- query for 
-     movies in some default way</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">8</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query was successful<br>WHEN user clicks on a movie, <br>THEN <br>- display movie detail loading screen<br>- query for movie detail screen on top of movie screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">9</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
-    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
-    field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN display movie detail error screen</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">11</td>
-    <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" ></td>
-    <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query 
-    field is not empty <br>AND query was successful<br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
-  </tr>
+    <tr>
+        <th class="tg-0lax">Spec#</th>
+        <th class="tg-0lax">Screen</th>
+        <th class="tg-0lax">Spec</th>
+    </tr>
+    <tr>
+        <td class="tg-0lax">1</td>
+        <td class="tg-0lax">GIVEN some other url<br>WHEN user navigates to [url], <br>THEN<br>-
+            display loading screen<br>- query for movies in some default way</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png"
+        ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">2</td>
+        <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN default query is successful, <br>THEN display result screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png"
+        ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">3</td>
+        <td class="tg-0lax">GIVEN url not [url] <br>AND user navigates to [url] <br>AND query field has not changed <br>WHEN default query is not successful, <br>THEN display error screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"
+        ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">4</td>
+        <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field has not changed <br>WHEN query field changes <br>AND query field is not empty, <br>THEN <br>- query for movies containing the content of  field<br>- display loading screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20pending.png" ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">5</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is successful, <br>THEN display result screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">6</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty<br>WHEN query is not successful, <br>THEN display error screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20error.png"  ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">7</td>
+        <td class="tg-0lax">GIVEN user navigated to [url] <br>AND query field changed<br>WHEN query field
+            changes <br>AND query field is empty, <br>THEN<br>- display loading screen<br>- query for
+            movies in some default way</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/blob/specs-all/article/app%20screenshot%20init%20-%20pending.png"
+        ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">8</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query field is not empty <br>AND query was successful<br>WHEN user clicks on a movie, <br>THEN <br>- display movie detail loading screen<br>- query for movie detail screen on top of movie screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20pending.png" ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">9</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query
+            field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is successful, <br>THEN <br>- display movie detail screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20success.png" ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">10</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query
+            field is not empty <br>AND query was successful<br>AND user clicked on a movie  <br>WHEN movie detail query is not successful, <br>THEN display movie detail error screen</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20detail%20-%20error.png" ></td>
+    </tr>
+    <tr>
+        <td class="tg-0lax">11</td>
+        <td class="tg-0lax">GIVEN user navigated to [url], <br>AND query field changed <br>AND query
+            field is not empty <br>AND query was successful<br>AND user clicks on a movie <br>AND movie detail query is successful<br>WHEN user clicks outside of the movie detail, <br>THEN display result screen corresponding to the query</td>
+        <td class="tg-0lax"><img src="https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20query%20-%20success.png" ></td>
+    </tr>
 </table>
 
 ### Implementation
