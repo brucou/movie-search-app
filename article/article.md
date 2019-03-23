@@ -34,14 +34,14 @@ In order to scope and guide the implementation, you write the detailed specifica
 assertions in three scenarios, with a proper syntax, and a few other things. Let's 
 not bother, shall we.
 
-Including the actual screenshots from the design phase: it would go like 
+Including the actual screenshots from the design phase, it would go like 
 this:
 
 <table class="tg">
     <tr>
         <th class="tg-0lax">Spec#</th>
-        <th class="tg-0lax">Screen</th>
         <th class="tg-0lax">Spec</th>
+        <th class="tg-0lax">Screen</th>
     </tr>
     <tr>
         <td class="tg-0lax">1</td>
