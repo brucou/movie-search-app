@@ -23,10 +23,10 @@ encourage you to pause and rewind when lost, consult the code examples (I try to
 example at every step, so click on the links), and post your questions on the [dedicated SO tag](https://stackoverflow.com/questions/tagged/state-transducer) or come and discuss the topic on the [statecharts group](https://spectrum.chat/statecharts).
 
 ## The movie search app
+### Detailed specifications
 Your preliminary analysis produced detailed specifications and a set of screens corresponding to 
 different stages of the user flow.
 
-### Detailed specifications
 In order to scope and guide the implementation, you write the detailed specifications of the 
 **interface behaviour** in a more formalized form, taking a chapter from BDD[^1].
 
