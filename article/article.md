@@ -9,7 +9,11 @@ wrong?
 
 So you take the informal specifications in your head, imagine how you would like to use the app, 
 craft detailed specifications, user flows, design your screens, and do the programming. It does 
-not look bad. If it was not for all those bugs...
+not look bad:
+ 
+![screen shot movie app](https://github.com/brucou/movie-search-app/raw/specs-all/article/app%20screenshot%20init%20-%20success.png)
+         
+Unfortunately, it does not work quite as well as you intended...
 
 In this article, we are going to use this simple online movie search application to explain how 
 using explicit state machines in the modelization and implementation of user 
