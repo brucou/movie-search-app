@@ -1,3 +1,4 @@
+
 # Building robust, maintainable, testable user interfaces with state machines  
 You just finished a client's project. Three months of crazy deadlines, constant changes in requirements and specifications, with an endless streams of bugs, but you shipped. Happy as Ulysses on his way back to Ithaca, you enjoy a few days at home and start binge-watching movies. For some reason, unhappy with the time you spent browsing through movies, you decide to create an online interface to the [The Movie Database (TMDb)](https://www.themoviedb.org/?language=en-US). It seems easy: a query field, a few network requests, and displaying the results. What could possibly go wrong?  
   
@@ -209,6 +210,7 @@ Incorporating state machines early in your development process may bring the fol
 - reduce implementation bugs  
 - iterate on features faster and more reliably  
 - have an automatable and clear documentation of the interface for all members of the development team  
+- pick and change front-end architecture as the need emerges
   
 ### Identify design bugs early  
 Let's get back to our TDD implementation. The `event-state-action` mapping realized in that implementation can be represented by the following state machine:   
@@ -368,6 +370,22 @@ In both cases, we are able to fairly quickly identify the part of the machine im
 ### Clearly and economically document the interface behavior  
 Arguably the state machine for promises we visualized earlier is a useful mechanism to explain promise behavior. State machines get visualized in different ways, emphasizing different pieces of information. To discuss this approach with designers, it is possible to focus the visualization on control states and transitions. With developers, it may be preferred to include technical details such as internal state updates. For quality assurance purposes, some paths in the state machine can get emphasized (core path, error paths, etc.).   
    
+### Fits any front-end architecture
+The machine completely isolates the behavior of the user interface from other concerns, and controls the other relevant pieces of the front-end architecture through a command pattern. This has non-trivial architectural implications: the choice of a rendering engine can be reversed without modifying the machine (the behavior has not changed!); libraries to execute effects can also be swapped out at will at any point of time (e.g. [`fetch-jsonp`](https://github.com/camsong/fetch-jsonp) may be replaced by [`window.fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)).
+
+To illustrate the point, here are implementations of the online movie search app among 6 front-end frameworks with diverse characteristics, with the exact same state machine:
+
+|Framework|Possible reason for adoption|Codesandbox|
+|----|----|----|
+|Vue|template-based, low learning curve|[https://codesandbox.io/s/4p1nnywy0](https://codesandbox.io/s/4p1nnywy0)|
+|React|large [ecosystem of components](https://reactjsexample.com/)|[https://codesandbox.io/s/ym8vpqm7m9](https://codesandbox.io/s/ym8vpqm7m9)|
+|Ivi|built to beat [performance benchmarks](https://stefankrause.net/js-frameworks-benchmark8/table.html)|[https://codesandbox.io/s/3x9x5v4kq5](https://codesandbox.io/s/3x9x5v4kq5)|
+|Inferno|small, [fast, React-like API](https://infernojs.org/)|[https://codesandbox.io/s/9zjo5yx8po](https://codesandbox.io/s/9zjo5yx8po)|
+|Nerv|supports down to IE8, React-like API|[https://codesandbox.io/s/o4vkwmw7y](https://codesandbox.io/s/o4vkwmw7y)|
+|Svelte|compiles template to vanilla JS, [small size](https://medium.freecodecamp.org/a-realworld-comparison-of-front-end-frameworks-with-benchmarks-2019-update-4be0d3c78075)|[https://github.com/brucou/movie-search-app-svelte](https://github.com/brucou/movie-search-app-svelte)|
+
+Using state machines for modelization thus fits both monolithic and [micro-front-end architectures](https://micro-frontends.org/), the latter which encourages dividing an application into non-overlapping features, and using the more adapted technological stack for each feature.
+
 ### Final state machine implementation  
 You can have a look at a [final implementation with all fixes](https://codesandbox.io/s/ym8vpqm7m9) of the online interface to the movie database using dedicated state machine libraries.  
   
