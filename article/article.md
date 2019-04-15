@@ -368,21 +368,25 @@ In both cases, we were able to quickly and **confidently** identify the exact pa
 In both cases, we are able to fairly quickly identify the part of the machine impacted by the changes and implement the modification of the behaviour. How would you implement the other features?  
   
 ### Clearly and economically document the interface behavior  
-Arguably the state machine for promises we visualized earlier is a useful mechanism to explain promise behavior. State machines get visualized in different ways, emphasizing different pieces of information. To discuss this approach with designers, it is possible to focus the visualization on control states and transitions. With developers, it may be preferred to include technical details such as internal state updates. For quality assurance purposes, some paths in the state machine can get emphasized (core path, error paths, etc.).   
-   
+Arguably the state machine for promises we visualized earlier is a useful mechanism to explain promise behavior. State machines get visualized in different ways, emphasizing different pieces of information. To discuss this approach with designers, it is possible to focus the visualization on control states and transitions. With developers, it may be preferred to include technical details such as internal state updates. For quality assurance purposes, some paths in the state machine can get emphasized (core path, error paths, etc.).  
+
 ### Fits any front-end architecture
-The machine completely isolates the behavior of the user interface from other concerns, and controls the other relevant pieces of the front-end architecture through a command pattern. This has non-trivial architectural implications: the choice of a rendering engine can be reversed without modifying the machine (the behavior has not changed!); libraries to execute effects can also be swapped out at will at any point of time (e.g. [`fetch-jsonp`](https://github.com/camsong/fetch-jsonp) may be replaced by [`window.fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)).
+The machine completely isolates the behavior of the user interface from other concerns, and controls the other relevant pieces of the front-end architecture through a command pattern. This has non-trivial architectural implications: the choice of a rendering engine can be reversed without modifying the machine (the behavior has not changed!); libraries to execute effects can also be swapped out at will at any point of time (e.g. [`fetch-jsonp`](https://github.com/camsong/fetch-jsonp) may be replaced by [`window.fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)). 
+
+Concretely, you may thus start with a front-end framework which favors development speed in the prototyping phase, and switch later to another one emphasizing performance, depending on the information you gathered. Bob Martin, one of the authors of the [Agile Manifesto](https://agilemanifesto.org/), emphasized in his [*Clean Architecture and Design* talk](https://vimeo.com/68215570) how a good architecture is one which allows to delay decisions till sufficient information is available:
+
+> The purpose of a good architecture is to defer decisions, delay decisions. The job of an architect is not to make decisions, the job of an architect is to build a structure that allows decisions to be delayed as long as possible. Why? **Because when you delay a decision, you have more information when it comes time to make it.**
 
 To illustrate the point, here are implementations of the online movie search app among 6 front-end frameworks with diverse characteristics, with the exact same state machine:
 
 |Framework|Possible reason for adoption|Codesandbox|
 |----|----|----|
-|Vue|template-based, low learning curve|[https://codesandbox.io/s/4p1nnywy0](https://codesandbox.io/s/4p1nnywy0)|
-|React|large [ecosystem of components](https://reactjsexample.com/)|[https://codesandbox.io/s/ym8vpqm7m9](https://codesandbox.io/s/ym8vpqm7m9)|
-|Ivi|built to beat [performance benchmarks](https://stefankrause.net/js-frameworks-benchmark8/table.html)|[https://codesandbox.io/s/3x9x5v4kq5](https://codesandbox.io/s/3x9x5v4kq5)|
-|Inferno|small, [fast, React-like API](https://infernojs.org/)|[https://codesandbox.io/s/9zjo5yx8po](https://codesandbox.io/s/9zjo5yx8po)|
-|Nerv|supports down to IE8, React-like API|[https://codesandbox.io/s/o4vkwmw7y](https://codesandbox.io/s/o4vkwmw7y)|
-|Svelte|compiles template to vanilla JS, [small size](https://medium.freecodecamp.org/a-realworld-comparison-of-front-end-frameworks-with-benchmarks-2019-update-4be0d3c78075)|[https://github.com/brucou/movie-search-app-svelte](https://github.com/brucou/movie-search-app-svelte)|
+|[Vue](https://vuejs.org/)|template-based, low learning curve|[https://codesandbox.io/s/4p1nnywy0](https://codesandbox.io/s/4p1nnywy0)|
+|[React](https://reactjs.org/)|large [ecosystem of components](https://reactjsexample.com/)|[https://codesandbox.io/s/ym8vpqm7m9](https://codesandbox.io/s/ym8vpqm7m9)|
+|[Ivi](https://github.com/localvoid/ivi)|built to beat [performance benchmarks](https://stefankrause.net/js-frameworks-benchmark8/table.html)|[https://codesandbox.io/s/3x9x5v4kq5](https://codesandbox.io/s/3x9x5v4kq5)|
+|[Inferno](https://infernojs.org/)|small, [fast, React-like API](https://infernojs.org/)|[https://codesandbox.io/s/9zjo5yx8po](https://codesandbox.io/s/9zjo5yx8po)|
+|[Nerv](https://github.com/NervJS/nerv)|supports down to IE8, React-like API|[https://codesandbox.io/s/o4vkwmw7y](https://codesandbox.io/s/o4vkwmw7y)|
+|[Svelte](https://github.com/sveltejs/svelte)|compiles template to vanilla JS, [small size](https://medium.freecodecamp.org/a-realworld-comparison-of-front-end-frameworks-with-benchmarks-2019-update-4be0d3c78075)|[https://github.com/brucou/movie-search-app-svelte](https://github.com/brucou/movie-search-app-svelte)|
 
 Using state machines for modelization thus fits both monolithic and [micro-front-end architectures](https://micro-frontends.org/), the latter which encourages dividing an application into non-overlapping features, and using the more adapted technological stack for each feature.
 
